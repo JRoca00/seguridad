@@ -16,5 +16,12 @@ namespace Capa_vista
         {
             InitializeComponent();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Navegador_seg b = new Navegador_seg();
+            b.Show();
+            this.Hide();
+        }
     }
 }

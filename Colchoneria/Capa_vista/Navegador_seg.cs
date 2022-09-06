@@ -21,7 +21,49 @@ namespace Capa_vista
         {
             Usuario b = new Usuario();
             b.Show();
-            //this.Hide();
+            this.Hide();
+        }
+
+        private void aplicacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Aplicacion b = new Aplicacion();
+            b.Show();
+            this.Hide();
+        }
+
+        private void perfilesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Perfiles b = new Perfiles();
+            b.Show();
+            this.Hide();
+        }
+
+        private void módulosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Modulos b = new Modulos();
+            b.Show();
+            this.Hide();
+        }
+
+        private void asignacionesDeAplicacionesAUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AsignacionAplicacion b = new AsignacionAplicacion();
+            b.Show();
+            this.Hide();
+        }
+
+        private void asignaciónDePerfilesAUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AsignacionPerfiles b = new AsignacionPerfiles();
+            b.Show();
+            this.Hide();
+        }
+
+        private void asignaciónDeAplicacionesAPerfilesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AsignacionAplicacionesPerfiles b = new AsignacionAplicacionesPerfiles();
+            b.Show();
+            this.Hide();
         }
     }
 }
