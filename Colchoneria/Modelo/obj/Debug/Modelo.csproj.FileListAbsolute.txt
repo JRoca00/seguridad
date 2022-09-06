@@ -1,0 +1,12 @@
+C:\Users\marro\source\repos\Colchoneria\Modelo\bin\Debug\Modelo.dll
+C:\Users\marro\source\repos\Colchoneria\Modelo\bin\Debug\Modelo.pdb
+C:\Users\marro\source\repos\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\marro\source\repos\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\marro\source\repos\Colchoneria\Modelo\obj\Debug\Modelo.dll
+C:\Users\marro\source\repos\Colchoneria\Modelo\obj\Debug\Modelo.pdb
+C:\Users\marro\OneDrive\Desktop\Colchoneria\Modelo\bin\Debug\Modelo.dll
+C:\Users\marro\OneDrive\Desktop\Colchoneria\Modelo\bin\Debug\Modelo.pdb
+C:\Users\marro\OneDrive\Desktop\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\marro\OneDrive\Desktop\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\marro\OneDrive\Desktop\Colchoneria\Modelo\obj\Debug\Modelo.dll
+C:\Users\marro\OneDrive\Desktop\Colchoneria\Modelo\obj\Debug\Modelo.pdb
