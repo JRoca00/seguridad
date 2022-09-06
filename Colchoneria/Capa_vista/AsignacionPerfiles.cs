@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace Capa_vista
 {
-    public partial class Navegador_seg : Form
+    public partial class AsignacionPerfiles : Form
     {
-        public Navegador_seg()
+        public AsignacionPerfiles()
         {
             InitializeComponent();
         }
 
-        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            Usuario b = new Usuario();
-            b.Show();
-            //this.Hide();
+
         }
     }
 }
