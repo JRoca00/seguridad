@@ -54,3 +54,5 @@ C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.csproj.CopyComplete
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.dll
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\bin\Debug\Modelo.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\bin\Debug\Modelo.pdb

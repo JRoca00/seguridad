@@ -32,12 +32,12 @@ namespace Capa_vista
             this.panel1 = new System.Windows.Forms.Panel();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.TBcontraseña = new System.Windows.Forms.TextBox();
-            this.TBusuario = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.TBcontrasena = new System.Windows.Forms.TextBox();
+            this.TBusuario = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -53,7 +53,7 @@ namespace Capa_vista
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.TBcontraseña);
+            this.panel1.Controls.Add(this.TBcontrasena);
             this.panel1.Controls.Add(this.TBusuario);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -90,46 +90,6 @@ namespace Capa_vista
             this.button2.Text = "¿Olvidaste tu Contraseña?";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Perpetua Titling MT", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.button1.Location = new System.Drawing.Point(139, 340);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 37);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "INGRESAR";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // TBcontraseña
-            // 
-            this.TBcontraseña.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.TBcontraseña.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.TBcontraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TBcontraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBcontraseña.Location = new System.Drawing.Point(126, 257);
-            this.TBcontraseña.Margin = new System.Windows.Forms.Padding(0);
-            this.TBcontraseña.Name = "TBcontraseña";
-            this.TBcontraseña.PasswordChar = '*';
-            this.TBcontraseña.Size = new System.Drawing.Size(193, 23);
-            this.TBcontraseña.TabIndex = 1;
-            // 
-            // TBusuario
-            // 
-            this.TBusuario.AccessibleName = "";
-            this.TBusuario.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.TBusuario.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.TBusuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TBusuario.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TBusuario.Location = new System.Drawing.Point(126, 192);
-            this.TBusuario.Margin = new System.Windows.Forms.Padding(0);
-            this.TBusuario.Name = "TBusuario";
-            this.TBusuario.Size = new System.Drawing.Size(193, 27);
-            this.TBusuario.TabIndex = 0;
-            // 
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -163,6 +123,46 @@ namespace Capa_vista
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Perpetua Titling MT", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.button1.Location = new System.Drawing.Point(139, 340);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(141, 37);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "INGRESAR";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // TBcontrasena
+            // 
+            this.TBcontrasena.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.TBcontrasena.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.TBcontrasena.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TBcontrasena.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TBcontrasena.Location = new System.Drawing.Point(126, 257);
+            this.TBcontrasena.Margin = new System.Windows.Forms.Padding(0);
+            this.TBcontrasena.Name = "TBcontrasena";
+            this.TBcontrasena.PasswordChar = '*';
+            this.TBcontrasena.Size = new System.Drawing.Size(193, 23);
+            this.TBcontrasena.TabIndex = 1;
+            // 
+            // TBusuario
+            // 
+            this.TBusuario.AccessibleName = "";
+            this.TBusuario.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.TBusuario.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.TBusuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TBusuario.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TBusuario.Location = new System.Drawing.Point(126, 192);
+            this.TBusuario.Margin = new System.Windows.Forms.Padding(0);
+            this.TBusuario.Name = "TBusuario";
+            this.TBusuario.Size = new System.Drawing.Size(193, 27);
+            this.TBusuario.TabIndex = 0;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -189,7 +189,7 @@ namespace Capa_vista
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox TBcontraseña;
+        private System.Windows.Forms.TextBox TBcontrasena;
         private System.Windows.Forms.TextBox TBusuario;
     }
 }

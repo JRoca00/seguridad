@@ -22,3 +22,7 @@ C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucio
 C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
 C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
 C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
