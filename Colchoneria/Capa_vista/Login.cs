@@ -36,19 +36,17 @@ namespace Capa_vista
             c.Show();
             this.Hide();
             }
-
-
-             
-
         }
-
 
 
 
         private void button1_Click(object sender, EventArgs e)
         {
 
-            login();
+            //login();
+            Navegador_seg c = new Navegador_seg();
+            c.Show();
+            this.Hide();
            
         }
 

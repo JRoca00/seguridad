@@ -16,3 +16,9 @@ C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.cs
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.dll
+C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
+C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
