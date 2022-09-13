@@ -27,14 +27,12 @@ namespace Capa_vista
 
         public void login()
         {
-           
-
-            if(da1.Equals(TBusuario) && da2.Equals(TBcontrasena))
+            if (cn.validarLogin(TBusuario.Text, Controlador.SetHash(TBcontrasena.Text)))
             {
-                DataTable dt = cn.buscarlogin(tab, da1, da2);
+                Controlador.Username = Controlador.SetHash(TBusuario.Text);
                 Navegador_seg c = new Navegador_seg();
-            c.Show();
-            this.Hide();
+                c.Show();
+                this.Hide();
             }
         }
 
@@ -42,12 +40,7 @@ namespace Capa_vista
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-            //login();
-            Navegador_seg c = new Navegador_seg();
-            c.Show();
-            this.Hide();
-           
+            login();  
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
