@@ -138,6 +138,14 @@ namespace Capa_controlador
             //MessageBox.Show("Regristro Eliminado");
         }
 
+        public void llenartablaa(string ntabla, DataGridView tabla)//Funcion para llenar tabla
+        {
+            OdbcDataAdapter dt = sn.llenartabla(ntabla);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            tabla.DataSource = table;
+        }
+
 
 
     }
