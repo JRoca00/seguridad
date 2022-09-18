@@ -22,3 +22,15 @@ C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Modelo\obj\Debug\Mode
 C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
 C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
+C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Modelo\bin\Debug\Modelo.dll
+C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Modelo\bin\Debug\Modelo.pdb
+C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Modelo\obj\Debug\Modelo.dll
+C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.dll
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb

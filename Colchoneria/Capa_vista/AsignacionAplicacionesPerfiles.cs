@@ -7,29 +7,54 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Capa_controlador;
+
 
 namespace Capa_vista
 {
     public partial class AsignacionAplicacionesPerfiles : Form
     {
+        string table = "PermisosAplicacionPerfil";
+
+        Controlador cn = new Controlador();
+
         public AsignacionAplicacionesPerfiles()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        public void checks()
         {
-
+            if (chBoxGuardar.Checked) { txtGuardar.Text = "1"; } else { txtGuardar.Text = "0"; }
+            if (chBoxEliminar.Checked) { txtEliminar.Text = "1"; } else { txtEliminar.Text = "0"; }
+            if (chBoxModificar.Checked) { txtModificar.Text = "1"; } else { txtModificar.Text = "0"; }
+            if (chBoxBuscar.Checked) { txtBuscar.Text = "1"; } else { txtBuscar.Text = "0"; }
+            if (chBoxImprimir.Checked) { txtImprimir.Text = "1"; } else { txtImprimir.Text = "0"; }
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        public void limpiar()
         {
-
+            chBoxGuardar.Checked = false;
+            chBoxModificar.Checked = false;
+            chBoxEliminar.Checked = false;
+            chBoxBuscar.Checked = false;
+            chBoxImprimir.Checked = false;
+            txtBuscar.Text = "";
+            txtEliminar.Text = "";
+            txtGuardar.Text = "";
+            txtIdAplicacion.Text = "";
+            txtIdPerfil.Text = "";
+            txtImprimir.Text = "";
+            txtModificar.Text = "";
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        public void desabilitar()
         {
-
+            txtBuscar.Visible = false;
+            txtEliminar.Visible = false;
+            txtGuardar.Visible = false;
+            txtImprimir.Visible = false;
+            txtModificar.Visible = false;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -37,6 +62,36 @@ namespace Capa_vista
             Navegador_seg b = new Navegador_seg();
             b.Show();
             this.Hide();
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            checks();
+            TextBox[] textbox = { txtIdPerfil, txtIdAplicacion, txtGuardar, txtEliminar, txtModificar, txtBuscar, txtImprimir };
+            cn.ingresar(textbox, table);
+            string message = "Registro Guardado";
+            limpiar();
+            MessageBox.Show(message);
+        }
+
+        private void AsignacionAplicacionesPerfiles_Load(object sender, EventArgs e)
+        {
+            cn.llenartablaa(listAplicacionPerfil.Tag.ToString(), listAplicacionPerfil);
+            //desabilitar();
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            limpiar();
+        }
+
+        private void btnAll_Click(object sender, EventArgs e)
+        {
+            chBoxGuardar.Checked = true;
+            chBoxModificar.Checked = true;
+            chBoxEliminar.Checked = true;
+            chBoxBuscar.Checked = true;
+            chBoxImprimir.Checked = true;
         }
     }
 }

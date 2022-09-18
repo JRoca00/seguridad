@@ -7,6 +7,7 @@ using System.Data;
 using System.Data.Odbc;
 using Modelo;
 using System.Windows.Forms;
+using System.Security.Cryptography;
 
 namespace Capa_controlador
 {
@@ -15,7 +16,51 @@ namespace Capa_controlador
 
         Sentencias sn = new Sentencias();
 
+        public static string Username { get; set; }
+        public static string idUser { get; set; }
 
+        public static string SetHash(string inputString)
+        {
+            string hash = "x2";
+            byte[] bytes = UTF8Encoding.UTF8.GetBytes(inputString);
+            MD5 mD5 = MD5.Create();
+            TripleDES tripleDES = TripleDES.Create();
+            tripleDES.Key = mD5.ComputeHash(UTF8Encoding.UTF8.GetBytes(hash));
+            tripleDES.Mode = CipherMode.ECB;
+            ICryptoTransform transform = tripleDES.CreateEncryptor();
+            byte[] output = transform.TransformFinalBlock(bytes, 0, bytes.Length);
+            return Convert.ToBase64String(output);
+        }
+        public static string GetHash(string inputString)
+        {
+            string hash = "x2";
+            byte[] bytes = Convert.FromBase64String(inputString);
+            MD5 mD5 = MD5.Create();
+            TripleDES tripleDES = TripleDES.Create();
+            tripleDES.Key = mD5.ComputeHash(UTF8Encoding.UTF8.GetBytes(hash));
+            tripleDES.Mode = CipherMode.ECB;
+            ICryptoTransform transform = tripleDES.CreateDecryptor();
+            byte[] output = transform.TransformFinalBlock(bytes, 0, bytes.Length);
+            return UTF8Encoding.UTF8.GetString(output);
+        }
+
+
+        public Boolean validarLogin(string username, string password)
+        {
+            string[] datos = sn.queryLogin(username);
+            for (int i = 0; i < datos.Length; i=i+3)
+            {
+                if (datos[i+1] == username)
+                {
+                    if(datos[i+2] == password)
+                    {
+                        idUser = SetHash(datos[i]);
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
         public DataTable buscarlogin(string tabla, string dato1, string dato2)
         {
             OdbcDataAdapter dt = sn.buscarlogin(tabla,dato1,dato2);
@@ -91,6 +136,14 @@ namespace Capa_controlador
         {
             sn.eliminar(tabla,condicion,campo);
             //MessageBox.Show("Regristro Eliminado");
+        }
+
+        public void llenartablaa(string ntabla, DataGridView tabla)//Funcion para llenar tabla
+        {
+            OdbcDataAdapter dt = sn.llenartabla(ntabla);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            tabla.DataSource = table;
         }
 
 

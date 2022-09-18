@@ -12,6 +12,27 @@ namespace Modelo
     {
         Conexion con = new Conexion();
 
+        public string[] queryLogin(string user)
+        {
+
+            string[] Campos = new string[300];
+            string[] auto = new string[300];
+            int i = 0;
+            string sql = "SELECT pk_id_usuario, username_usuario, password_usuario FROM Usuarios where username_usuario='" + user + "';";
+            try
+            {
+                OdbcCommand command = new OdbcCommand(sql, con.conexion());
+                OdbcDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    Campos[i] = reader.GetValue(0).ToString();
+                    Campos[(i + 1)] = reader.GetValue(1).ToString();
+                    Campos[(i + 2)] = reader.GetValue(2).ToString();
+                }
+            }
+            catch (Exception ex) { Console.WriteLine(ex.Message.ToString() + " \nError en query hacia la tabla de usuarios"); }
+            return Campos;
+        }
 
 
         public OdbcDataAdapter buscarlogin(string tabla, string dato1, string dato2)
@@ -67,6 +88,13 @@ namespace Modelo
             string sql = "delete from " + tabla + " where " + condicion + " " + campo + " ;";
             OdbcCommand cmd = new OdbcCommand(sql, con.conexion());
             cmd.ExecuteNonQuery();
+        }
+
+        public OdbcDataAdapter llenartabla(string tabla)
+        {
+            string sql = "select * from " + tabla + ";";
+            OdbcDataAdapter datatable = new OdbcDataAdapter(sql, con.conexion());
+            return datatable;
         }
 
     }
