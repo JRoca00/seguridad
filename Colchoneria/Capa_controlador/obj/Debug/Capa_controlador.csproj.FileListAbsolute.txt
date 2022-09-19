@@ -70,3 +70,15 @@ F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seg
 F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
 F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
 F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
