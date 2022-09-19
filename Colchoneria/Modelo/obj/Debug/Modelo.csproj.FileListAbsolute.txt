@@ -34,3 +34,9 @@ C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Mo
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Modelo\bin\Debug\Modelo.dll
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Modelo\bin\Debug\Modelo.pdb
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Modelo\obj\Debug\Modelo.dll
+C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Modelo\obj\Debug\Modelo.pdb

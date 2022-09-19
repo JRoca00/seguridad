@@ -29,7 +29,8 @@ namespace Capa_vista
         {
             if (cn.validarLogin(TBusuario.Text, Controlador.SetHash(TBcontrasena.Text)))
             {
-                Controlador.Username = Controlador.SetHash(TBusuario.Text);
+                Controlador.Username = Controlador.SetHash(TBusuario.Text); 
+                cn.setBtitacora("0001", "login");
                 Navegador_seg c = new Navegador_seg();
                 c.Show();
                 this.Hide();

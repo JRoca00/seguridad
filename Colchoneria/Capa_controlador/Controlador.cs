@@ -8,6 +8,7 @@ using System.Data.Odbc;
 using Modelo;
 using System.Windows.Forms;
 using System.Security.Cryptography;
+using System.Net;
 
 namespace Capa_controlador
 {
@@ -44,6 +45,17 @@ namespace Capa_controlador
             return UTF8Encoding.UTF8.GetString(output);
         }
 
+        public void setBtitacora(string aplicacion, string accion)
+        {
+            string fechaActual = DateTime.Now.ToString("yyyy/MM/dd");
+            string horaActual = DateTime.Now.ToString("HH:mm:ss");
+            string nombreHost = System.Net.Dns.GetHostName().ToUpper();
+            IPHostEntry ipEntry = Dns.GetHostEntry(Dns.GetHostName());
+            IPAddress[] addr = ipEntry.AddressList;
+            string direccionIP = addr[1].ToString();
+            string datos = "" + GetHash(idUser) + "," + aplicacion + ",'" + fechaActual + "','" + horaActual + "','" + nombreHost + "','" + direccionIP + "','" + accion + "'";
+            sn.insertBitacora(datos);
+        }
 
         public Boolean validarLogin(string username, string password)
         {
