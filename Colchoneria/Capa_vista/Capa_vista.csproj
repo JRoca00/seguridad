@@ -34,6 +34,9 @@
     <Reference Include="Capa_controlador">
       <HintPath>..\Capa_controlador\bin\Debug\Capa_controlador.dll</HintPath>
     </Reference>
+    <Reference Include="eCryptography, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Eramake.eCryptography.1.1.6\lib\net45\eCryptography.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -141,6 +144,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Resources\Imagen3.png" />
   </ItemGroup>
   <ItemGroup>

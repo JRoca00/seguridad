@@ -39,18 +39,21 @@ namespace Capa_vista
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtContrasenia = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtusername = new System.Windows.Forms.TextBox();
+            this.txtcontraseña = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.txtApellido = new System.Windows.Forms.TextBox();
+            this.txtemail = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtapellido = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtnombre = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.txtestado = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button7 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -80,14 +83,14 @@ namespace Capa_vista
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(192, 23);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(399, 82);
+            this.groupBox1.Size = new System.Drawing.Size(409, 82);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Modificar";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(308, 35);
+            this.button1.Location = new System.Drawing.Point(320, 33);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -97,7 +100,7 @@ namespace Capa_vista
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(226, 120);
+            this.button2.Location = new System.Drawing.Point(192, 120);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(77, 35);
             this.button2.TabIndex = 3;
@@ -107,7 +110,7 @@ namespace Capa_vista
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(309, 120);
+            this.button3.Location = new System.Drawing.Point(275, 120);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(77, 35);
             this.button3.TabIndex = 4;
@@ -117,7 +120,7 @@ namespace Capa_vista
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(392, 120);
+            this.button4.Location = new System.Drawing.Point(358, 120);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(77, 35);
             this.button4.TabIndex = 5;
@@ -127,7 +130,7 @@ namespace Capa_vista
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(475, 120);
+            this.button5.Location = new System.Drawing.Point(524, 120);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(77, 35);
             this.button5.TabIndex = 6;
@@ -146,93 +149,112 @@ namespace Capa_vista
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.txtContrasenia);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.txtusername);
+            this.groupBox2.Controls.Add(this.txtcontraseña);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.txtUsuario);
-            this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Location = new System.Drawing.Point(44, 176);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(342, 151);
+            this.groupBox2.Size = new System.Drawing.Size(342, 100);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos Usuario";
             // 
-            // txtContrasenia
+            // label6
             // 
-            this.txtContrasenia.Location = new System.Drawing.Point(105, 92);
-            this.txtContrasenia.Name = "txtContrasenia";
-            this.txtContrasenia.Size = new System.Drawing.Size(177, 20);
-            this.txtContrasenia.TabIndex = 5;
-            this.txtContrasenia.Tag = "contrasenia";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(34, 33);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(55, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Username";
+            // 
+            // txtusername
+            // 
+            this.txtusername.Location = new System.Drawing.Point(105, 33);
+            this.txtusername.Name = "txtusername";
+            this.txtusername.Size = new System.Drawing.Size(220, 20);
+            this.txtusername.TabIndex = 7;
+            this.txtusername.Tag = "username_usuario";
+            // 
+            // txtcontraseña
+            // 
+            this.txtcontraseña.Location = new System.Drawing.Point(105, 64);
+            this.txtcontraseña.Name = "txtcontraseña";
+            this.txtcontraseña.Size = new System.Drawing.Size(220, 20);
+            this.txtcontraseña.TabIndex = 5;
+            this.txtcontraseña.Tag = "password_usuario";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(34, 99);
+            this.label3.Location = new System.Drawing.Point(34, 67);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Contraseña";
             // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Location = new System.Drawing.Point(105, 42);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(177, 20);
-            this.txtUsuario.TabIndex = 3;
-            this.txtUsuario.Tag = "idUsuario";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(34, 49);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "ID Usuario";
-            // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.txtApellido);
+            this.groupBox3.Controls.Add(this.txtemail);
+            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Controls.Add(this.txtapellido);
             this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.txtNombre);
+            this.groupBox3.Controls.Add(this.txtnombre);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Location = new System.Drawing.Point(407, 176);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(342, 151);
+            this.groupBox3.Size = new System.Drawing.Size(342, 137);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Datos Personales";
             // 
-            // txtApellido
+            // txtemail
             // 
-            this.txtApellido.Location = new System.Drawing.Point(105, 92);
-            this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(177, 20);
-            this.txtApellido.TabIndex = 5;
-            this.txtApellido.Tag = "apellido";
+            this.txtemail.Location = new System.Drawing.Point(105, 98);
+            this.txtemail.Name = "txtemail";
+            this.txtemail.Size = new System.Drawing.Size(215, 20);
+            this.txtemail.TabIndex = 7;
+            this.txtemail.Tag = "email_usuario";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(34, 101);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(31, 13);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "email";
+            // 
+            // txtapellido
+            // 
+            this.txtapellido.Location = new System.Drawing.Point(105, 64);
+            this.txtapellido.Name = "txtapellido";
+            this.txtapellido.Size = new System.Drawing.Size(215, 20);
+            this.txtapellido.TabIndex = 5;
+            this.txtapellido.Tag = "apellido_usuario";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 99);
+            this.label4.Location = new System.Drawing.Point(34, 71);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 13);
             this.label4.TabIndex = 4;
             this.label4.Text = "Apellido";
             // 
-            // txtNombre
+            // txtnombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(105, 42);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(177, 20);
-            this.txtNombre.TabIndex = 3;
-            this.txtNombre.Tag = "nombre";
+            this.txtnombre.Location = new System.Drawing.Point(105, 30);
+            this.txtnombre.Name = "txtnombre";
+            this.txtnombre.Size = new System.Drawing.Size(215, 20);
+            this.txtnombre.TabIndex = 3;
+            this.txtnombre.Tag = "nombre_usuario";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(34, 49);
+            this.label5.Location = new System.Drawing.Point(34, 33);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 2;
@@ -240,24 +262,22 @@ namespace Capa_vista
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.checkBox2);
+            this.groupBox4.Controls.Add(this.txtestado);
             this.groupBox4.Controls.Add(this.checkBox1);
-            this.groupBox4.Location = new System.Drawing.Point(264, 346);
+            this.groupBox4.Location = new System.Drawing.Point(81, 282);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(288, 77);
             this.groupBox4.TabIndex = 6;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Estado";
             // 
-            // checkBox2
+            // txtestado
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(149, 34);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(64, 17);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "Inactivo";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.txtestado.Location = new System.Drawing.Point(165, 31);
+            this.txtestado.Name = "txtestado";
+            this.txtestado.Size = new System.Drawing.Size(40, 20);
+            this.txtestado.TabIndex = 8;
+            this.txtestado.Tag = "estado_usuario";
             // 
             // checkBox1
             // 
@@ -269,11 +289,22 @@ namespace Capa_vista
             this.checkBox1.Text = "Activo";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(441, 120);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(77, 35);
+            this.button7.TabIndex = 8;
+            this.button7.Text = "Eliminar";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 378);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -310,17 +341,20 @@ namespace Capa_vista
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox txtContrasenia;
+        private System.Windows.Forms.TextBox txtcontraseña;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox txtApellido;
+        private System.Windows.Forms.TextBox txtapellido;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtnombre;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox txtusername;
+        private System.Windows.Forms.TextBox txtemail;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtestado;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label6;
     }
 }

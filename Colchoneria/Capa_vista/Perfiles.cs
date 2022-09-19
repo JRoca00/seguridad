@@ -7,14 +7,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Capa_controlador;
 
 namespace Capa_vista
 {
     public partial class Perfiles : Form
     {
+
+        string table = "perfiles";
+        Controlador cn = new Controlador();
+
         public Perfiles()
         {
             InitializeComponent();
+        }
+
+        public void limpiar()
+        {
+            txtbuscar.Text = "";
+            txtdescripcion.Text = "";
+            txtestado.Text = "";
+            txtnombre.Text = "";
+        }
+
+        public void checkbox()
+        {
+            if (checkBox1.Checked)
+            {
+                txtestado.Text = "1";
+            }
+            else
+            {
+                txtestado.Text = "0";
+            }
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -22,6 +47,59 @@ namespace Capa_vista
             Navegador_seg b = new Navegador_seg();
             b.Show();
             this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e) //Boton Nuevo
+        {
+            limpiar();
+        }
+
+        private void button3_Click(object sender, EventArgs e) //Boton Ingresar
+        {
+            checkbox();
+            TextBox[] textbox = {  txtdescripcion, txtestado, txtnombre };
+            cn.ingresar(textbox, table);
+            string message = "Registro Guardado";
+            limpiar();
+            MessageBox.Show(message);
+
+        }
+
+        private void Perfiles_Load(object sender, EventArgs e)
+        {
+            txtestado.Visible = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e) //Boton Actualizar
+        {
+            TextBox[] textbox = { txtdescripcion, txtestado, txtnombre };
+            int valor1 = int.Parse(txtbuscar.Text);
+            string campo = "pk_id_perfil = ";
+            cn.actualizar(textbox, table, campo, valor1);
+            string message2 = "Registro actualizado";
+            limpiar();
+            MessageBox.Show(message2);
+        }
+
+        private void button7_Click(object sender, EventArgs e) //Boton Eliminar
+        {
+            string message = "Deseas Eliminar el Registro?";
+            string title = "Eliminar Registro";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            if (result == DialogResult.Yes)
+            {
+                int campo = int.Parse(txtbuscar.Text);
+                string condicion = "pk_id_perfil = ";
+                cn.eliminar(table, condicion, campo);
+                string message1 = "Registro eliminado";
+                limpiar();
+                MessageBox.Show(message1);
+            }
+            else
+            {
+                limpiar();
+            }
         }
     }
 }
