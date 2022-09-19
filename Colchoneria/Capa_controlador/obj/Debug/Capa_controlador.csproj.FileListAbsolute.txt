@@ -58,3 +58,15 @@ C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\ob
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll

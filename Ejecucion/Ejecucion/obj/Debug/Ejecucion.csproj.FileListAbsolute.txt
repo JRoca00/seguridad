@@ -75,3 +75,19 @@ C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\obj\Debug\E
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
+F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
