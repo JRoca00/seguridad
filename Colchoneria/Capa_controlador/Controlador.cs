@@ -8,6 +8,8 @@ using System.Data.Odbc;
 using Modelo;
 using System.Windows.Forms;
 using System.Security.Cryptography;
+using System.Reflection.Emit;
+using System.Net;
 
 namespace Capa_controlador
 {
@@ -18,6 +20,7 @@ namespace Capa_controlador
 
         public static string Username { get; set; }
         public static string idUser { get; set; }
+
 
         public static string SetHash(string inputString)
         {
@@ -42,6 +45,18 @@ namespace Capa_controlador
             ICryptoTransform transform = tripleDES.CreateDecryptor();
             byte[] output = transform.TransformFinalBlock(bytes, 0, bytes.Length);
             return UTF8Encoding.UTF8.GetString(output);
+        }
+
+        public void setBtitacora(string aplicacion, string accion)
+        {
+            string fechaActual = DateTime.Now.ToString("yyyy/MM/dd");
+            string horaActual = DateTime.Now.ToString("HH:mm:ss");
+            string nombreHost = System.Net.Dns.GetHostName().ToUpper();
+            IPHostEntry ipEntry = Dns.GetHostEntry(Dns.GetHostName());
+            IPAddress[] addr = ipEntry.AddressList;
+            string direccionIP = addr[1].ToString();
+            string datos = ""+ GetHash(idUser) + "," + aplicacion + ",'" + fechaActual + "','" + horaActual + "','" + nombreHost + "','" + direccionIP + "','" + accion+"'";
+            sn.insertBitacora(datos);
         }
 
 

@@ -34,6 +34,13 @@ namespace Modelo
             return Campos;
         }
 
+        public void insertBitacora(string values)
+        {
+            string campos = "fk_id_usuario, fk_id_aplicacion, fecha_bitacora, hora_bitacora, host_bitacora, ip_bitacora, accion_bitacora";
+            string sql = "INSERT INTO BitacoraDeEventos (" + campos + ") values (" + values + ");";
+            OdbcCommand cmd = new OdbcCommand(sql, con.conexion());
+            cmd.ExecuteNonQuery();
+        }
 
         public OdbcDataAdapter buscarlogin(string tabla, string dato1, string dato2)
         {
