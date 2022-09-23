@@ -9,6 +9,7 @@ using Modelo;
 using System.Windows.Forms;
 using System.Security.Cryptography;
 using System.Net;
+using Capa_vista;
 
 namespace Capa_controlador
 {
@@ -17,8 +18,9 @@ namespace Capa_controlador
 
         Sentencias sn = new Sentencias();
 
-        public static string Username { get; set; }
-        public static string idUser { get; set; }
+        public static string Username;
+
+        public static string idUser;
 
         public static string SetHash(string inputString)
         {
@@ -32,6 +34,7 @@ namespace Capa_controlador
             byte[] output = transform.TransformFinalBlock(bytes, 0, bytes.Length);
             return Convert.ToBase64String(output);
         }
+
         public static string GetHash(string inputString)
         {
             string hash = "x2";
@@ -57,14 +60,116 @@ namespace Capa_controlador
             sn.insertBitacora(datos);
         }
 
+        public string getNombreAplicacion(string codigoApp)
+        {
+            return sn.queryNombreApp(codigoApp);
+        }
+
+        public Boolean getAccesoModulos(int moduloSolicitado)
+        {
+            string idUsuario = GetHash(idUser);
+            Boolean respuestAcceso= false;
+            int[] perfiles = sn.getPerfilesUsuario(idUsuario);
+            for (int i = 0; i < perfiles.Length; i++)
+            {
+                if (perfiles[i] != 0 && perfiles[i] != null)
+                {
+                    int[] aplicaciones = sn.getPerfilAplicacion(perfiles[i]);
+                    for (int j = 0; j < aplicaciones.Length; j++)
+                    {
+                        if (aplicaciones[j] != 0 && aplicaciones != null)
+                        {
+                            int idModulo = sn.getModuloAplicacion(aplicaciones[j]);
+                            if (idModulo == 1000 && moduloSolicitado == 1000)
+                            {
+                                respuestAcceso = true;
+                            }
+                            if (idModulo == 2000 && moduloSolicitado == 2000)
+                            {
+                                respuestAcceso = true;
+                            }
+                            if (idModulo == 3000 && moduloSolicitado == 3000)
+                            {
+                                respuestAcceso = true;
+                            }
+                            if (idModulo == 4000 && moduloSolicitado == 4000)
+                            {
+                                respuestAcceso = true;
+                            }
+                            if (idModulo == 5000 && moduloSolicitado == 5000)
+                            {
+                                respuestAcceso = true;
+                            }
+                            if (idModulo == 6000 && moduloSolicitado == 6000)
+                            {
+                                respuestAcceso = true;
+                            }
+                            if (idModulo == 7000 && moduloSolicitado == 7000)
+                            {
+                                respuestAcceso = true;
+                            }
+                            if (idModulo == 8000 && moduloSolicitado == 8000)
+                            {
+                                respuestAcceso = true;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            return respuestAcceso;
+        }
+
+        public int[] getPermisosAplicaion(string App)
+        {
+            int[] result = new int[5];
+            int[] permisos = new int[5];
+            string idUsuario = GetHash(idUser);
+            int[] perfiles = sn.getPerfilesUsuario(idUsuario);
+            for (int i = 0; i < perfiles.Length; i++)
+            {
+                if (perfiles[i] != 0 && perfiles[i] != null)
+                {
+                    result = sn.getPermisos(perfiles[i], int.Parse(App));
+                    if (result[0] == 1)
+                    {
+                        permisos[0] = result[0];
+                        Console.WriteLine("Guardar");
+                    }
+                    if (result[1] == 1)
+                    {
+                        permisos[1] = result[1];
+                        Console.WriteLine("Modificar");
+                    }
+                    if (result[2] == 1)
+                    {
+                        permisos[2] = result[2];
+                        Console.WriteLine("Eliminar");
+                    }
+                    if (result[3] == 1)
+                    {
+                        permisos[3] = result[3];
+                        Console.WriteLine("Buscar");
+                    }
+                    if (result[4] == 1)
+                    {
+                        permisos[4] = result[4];
+                        Console.WriteLine("Imprimir");
+                    }
+                }
+            }
+            return permisos;
+        }
+
         public Boolean validarLogin(string username, string password)
         {
             string[] datos = sn.queryLogin(username);
-            for (int i = 0; i < datos.Length; i=i+3)
+            for (int i = 0; i < datos.Length; i = i + 3)
             {
-                if (datos[i+1] == username)
+                if (datos[i + 1] == username)
                 {
-                    if(datos[i+2] == password)
+                    if (datos[i + 2] == password)
                     {
                         idUser = SetHash(datos[i]);
                         return true;
@@ -73,13 +178,15 @@ namespace Capa_controlador
             }
             return false;
         }
+
         public DataTable buscarlogin(string tabla, string dato1, string dato2)
         {
-            OdbcDataAdapter dt = sn.buscarlogin(tabla,dato1,dato2);
+            OdbcDataAdapter dt = sn.buscarlogin(tabla, dato1, dato2);
             DataTable table = new DataTable();
             dt.Fill(table);
             return table;
         }
+
 
         public void ingresar(TextBox[] textbox, string tabla)//Crea cadenas de datos para la insercion
         {
