@@ -65,5 +65,11 @@ namespace Capa_vista
             b.Show();
             this.Hide();
         }
+
+        private void cambiarContraseñaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Contrase b = new Contrase();
+            b.Show();
+        }
     }
 }

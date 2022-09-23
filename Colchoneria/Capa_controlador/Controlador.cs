@@ -9,7 +9,7 @@ using Modelo;
 using System.Windows.Forms;
 using System.Security.Cryptography;
 using System.Net;
-using Capa_vista;
+
 
 namespace Capa_controlador
 {
@@ -219,6 +219,21 @@ namespace Capa_controlador
             sn.busqueda(textbox,tabla, num, campo);
         }
 
+        public void actualizarcontra(TextBox[] textbox, string tabla, string campo, int num)
+        {
+            string dato = " ";
+
+            string condicion = campo;
+
+
+            dato += "set  " + textbox[0].Tag.ToString() + " = '" + textbox[0].Text + "' ";
+
+
+
+            sn.actualizarcontra(dato, condicion, tabla, num);
+            MessageBox.Show("Dato actualizado");
+        }
+
         public void actualizar(TextBox[] textbox, string tabla,string campo, int num)
         {
             string dato = " ";
@@ -250,6 +265,15 @@ namespace Capa_controlador
             MessageBox.Show("Dato actualizado");
         }
 
+        public DataTable llenarTbl(string tabla)
+        {
+            OdbcDataAdapter dt = sn.llenarTbl(tabla);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            return table;
+        }
+
+
 
         public void eliminar(string tabla, string condicion,int campo)
         {
@@ -257,12 +281,14 @@ namespace Capa_controlador
             //MessageBox.Show("Regristro Eliminado");
         }
 
-        public void llenartablaa(string ntabla, DataGridView tabla)//Funcion para llenar tabla
+        
+
+        public DataTable llenarTbl(string tabla)
         {
-            OdbcDataAdapter dt = sn.llenartabla(ntabla);
+            OdbcDataAdapter dt = sn.llenarTbl(tabla);
             DataTable table = new DataTable();
             dt.Fill(table);
-            tabla.DataSource = table;
+            return table;
         }
 
 

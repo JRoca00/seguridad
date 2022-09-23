@@ -13,7 +13,7 @@ namespace Modelo
         public OdbcConnection conexion()
         {
 
-            OdbcConnection conn = new OdbcConnection("Dsn=segpreliminar");
+            OdbcConnection conn = new OdbcConnection("Dsn=colchoneria");
             try
             {
                 conn.Open();

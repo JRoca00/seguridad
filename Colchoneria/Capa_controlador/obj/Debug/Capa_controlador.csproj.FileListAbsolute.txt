@@ -82,3 +82,6 @@ C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\
 C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
 C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
 C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb

@@ -194,6 +194,15 @@ namespace Modelo
             }
         }
 
+        public OdbcDataAdapter llenarTbl(string tabla)// metodo  que obtinene el contenio de una tabla
+        {
+            //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
+            string sql = "SELECT * FROM " + tabla + "  ;";
+            OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, con.conexion());
+            return dataTable;
+        }
+
+
         public void actualizar(string dato, string condicion, string tabla,int num)
         {
 
@@ -210,12 +219,21 @@ namespace Modelo
             cmd.ExecuteNonQuery();
         }
 
-        public OdbcDataAdapter llenartabla(string tabla)
+        
+
+        public void actualizarcontra(string dato, string condicion, string tabla, int num)
         {
-            string sql = "select * from " + tabla + ";";
-            OdbcDataAdapter datatable = new OdbcDataAdapter(sql, con.conexion());
-            return datatable;
+
+            string sql = "Update " + tabla + " " + dato + " where " + condicion + " " + num + "; ";
+            OdbcCommand cmd = new OdbcCommand(sql, con.conexion());
+            cmd.ExecuteNonQuery();
+
         }
+
+      
+
+
+
 
     }
 }

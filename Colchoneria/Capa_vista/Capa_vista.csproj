@@ -73,6 +73,24 @@
     <Compile Include="AsignacionPerfiles.Designer.cs">
       <DependentUpon>AsignacionPerfiles.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bitacora.Designer.cs">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cambio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cambio.Designer.cs">
+      <DependentUpon>Cambio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contrase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contrase.Designer.cs">
+      <DependentUpon>Contrase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +140,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AsignacionPerfiles.resx">
       <DependentUpon>AsignacionPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bitacora.resx">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cambio.resx">
+      <DependentUpon>Cambio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrase.resx">
+      <DependentUpon>Contrase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
