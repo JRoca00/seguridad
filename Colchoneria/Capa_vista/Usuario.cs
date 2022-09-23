@@ -14,7 +14,7 @@ namespace Capa_vista
 {
     public partial class Usuario : Form
     {
-        string table = "usuarios";
+        string table = "tbl_usuarios";
         Controlador cn = new Controlador();
 
         public Usuario()

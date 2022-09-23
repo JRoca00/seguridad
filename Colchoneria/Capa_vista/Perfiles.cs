@@ -14,7 +14,7 @@ namespace Capa_vista
     public partial class Perfiles : Form
     {
 
-        string table = "perfiles";
+        string table = "tbl_perfiles";
         Controlador cn = new Controlador();
 
         public Perfiles()

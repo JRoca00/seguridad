@@ -13,7 +13,7 @@ namespace Capa_vista
 {
     public partial class AsignacionPerfiles : Form
     {
-        string table = "AsignacionesPerfilsUsuario";
+        string table = "tbl_asignacionesperfilsusuario";
 
         Controlador cn = new Controlador();
 
@@ -57,7 +57,7 @@ namespace Capa_vista
 
         private void AsignacionPerfiles_Load(object sender, EventArgs e)
         {
-            cn.llenartablaa(listPerfilUsuario.Tag.ToString(), listPerfilUsuario);
+           cn.llenartablaa(listPerfilUsuario.Tag.ToString(), listPerfilUsuario);
         }
     }
 }

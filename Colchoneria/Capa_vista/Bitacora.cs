@@ -13,7 +13,6 @@ namespace Capa_vista
 {
     public partial class Bitacora : Form
     {
-
         string emp = "tbl_bitacoradeeventos";
         Controlador cn = new Controlador();
 
@@ -28,7 +27,6 @@ namespace Capa_vista
             datag.DataSource = dt;
 
         }
-
 
 
 

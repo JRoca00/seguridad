@@ -71,5 +71,12 @@ namespace Capa_vista
             Contrase b = new Contrase();
             b.Show();
         }
+
+        private void bitacoraIngresosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Bitacora b = new Bitacora();
+            b.MdiParent = this;
+            b.Show();
+        }
     }
 }

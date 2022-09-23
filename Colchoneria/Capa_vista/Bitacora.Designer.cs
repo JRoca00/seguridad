@@ -37,20 +37,19 @@ namespace Capa_vista
             // datag
             // 
             this.datag.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datag.Location = new System.Drawing.Point(5, 46);
+            this.datag.Location = new System.Drawing.Point(3, 68);
             this.datag.Name = "datag";
             this.datag.RowHeadersWidth = 51;
             this.datag.RowTemplate.Height = 24;
-            this.datag.Size = new System.Drawing.Size(709, 320);
-            this.datag.TabIndex = 1;
+            this.datag.Size = new System.Drawing.Size(650, 304);
+            this.datag.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(5, 3);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 36);
-            this.button1.TabIndex = 3;
+            this.button1.Size = new System.Drawing.Size(84, 34);
+            this.button1.TabIndex = 1;
             this.button1.Text = "Visualizar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -59,7 +58,7 @@ namespace Capa_vista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(723, 372);
+            this.ClientSize = new System.Drawing.Size(656, 374);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.datag);
             this.Name = "Bitacora";

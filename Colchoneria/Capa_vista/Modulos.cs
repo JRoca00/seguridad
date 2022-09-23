@@ -13,7 +13,7 @@ namespace Capa_vista
 {
     public partial class Modulos : Form
     {
-        string table = "Modulos2";
+        string table = "tbl_modulos";
 
         Controlador cn = new Controlador();
 

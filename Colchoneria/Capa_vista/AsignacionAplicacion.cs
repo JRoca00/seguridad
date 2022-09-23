@@ -13,7 +13,7 @@ namespace Capa_vista
 {
     public partial class AsignacionAplicacion : Form
     {
-        string table = "PermisosAplicacionesUsuario";
+        string table = "tbl_permisosaplicacionesusuario";
 
         Controlador cn = new Controlador();
 

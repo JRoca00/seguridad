@@ -14,7 +14,7 @@ namespace Capa_vista
 {
     public partial class AsignacionAplicacionesPerfiles : Form
     {
-        string table = "PermisosAplicacionPerfil";
+        string table = "tbl_permisosaplicacionperfil";
 
         Controlador cn = new Controlador();
 
@@ -76,7 +76,7 @@ namespace Capa_vista
 
         private void AsignacionAplicacionesPerfiles_Load(object sender, EventArgs e)
         {
-            cn.llenartablaa(listAplicacionPerfil.Tag.ToString(), listAplicacionPerfil);
+           cn.llenartablaa(listAplicacionPerfil.Tag.ToString(), listAplicacionPerfil);
             //desabilitar();
         }
 

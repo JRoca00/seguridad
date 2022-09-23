@@ -272,7 +272,7 @@ namespace Capa_controlador
             dt.Fill(table);
             return table;
         }
-
+        
 
 
         public void eliminar(string tabla, string condicion,int campo)
@@ -281,17 +281,13 @@ namespace Capa_controlador
             //MessageBox.Show("Regristro Eliminado");
         }
 
-        
-
-        public DataTable llenarTbl(string tabla)
+        public void llenartablaa(string ntabla, DataGridView tabla)//Funcion para llenar tabla
         {
-            OdbcDataAdapter dt = sn.llenarTbl(tabla);
+            OdbcDataAdapter dt = sn.llenartabla(ntabla);
             DataTable table = new DataTable();
             dt.Fill(table);
-            return table;
+            tabla.DataSource = table;
         }
-
-
 
     }
 }

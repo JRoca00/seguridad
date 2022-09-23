@@ -13,7 +13,7 @@ namespace Capa_vista
 {
     public partial class Aplicacion : Form
     {
-        string table = "Aplicacion2";
+        string table = "tbl_Aplicaciones";
         Controlador cn = new Controlador();
 
         public Aplicacion()

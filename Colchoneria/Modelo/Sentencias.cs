@@ -201,7 +201,7 @@ namespace Modelo
             OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, con.conexion());
             return dataTable;
         }
-
+       
 
         public void actualizar(string dato, string condicion, string tabla,int num)
         {
@@ -230,8 +230,13 @@ namespace Modelo
 
         }
 
-      
 
+        public OdbcDataAdapter llenartabla(string tabla)
+        {
+            string sql = "select * from " + tabla + ";";
+            OdbcDataAdapter datatable = new OdbcDataAdapter(sql, con.conexion());
+            return datatable;
+        }
 
 
 

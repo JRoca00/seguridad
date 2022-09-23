@@ -44,6 +44,7 @@ namespace Capa_vista
             this.cambiarContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bITACORAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aYUDAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bitacoraIngresosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +61,7 @@ namespace Capa_vista
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(749, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(749, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -157,6 +158,8 @@ namespace Capa_vista
             // 
             // bITACORAToolStripMenuItem
             // 
+            this.bITACORAToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bitacoraIngresosToolStripMenuItem});
             this.bITACORAToolStripMenuItem.Name = "bITACORAToolStripMenuItem";
             this.bITACORAToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
             this.bITACORAToolStripMenuItem.Text = "BITACORA";
@@ -166,6 +169,13 @@ namespace Capa_vista
             this.aYUDAToolStripMenuItem.Name = "aYUDAToolStripMenuItem";
             this.aYUDAToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
             this.aYUDAToolStripMenuItem.Text = "AYUDA";
+            // 
+            // bitacoraIngresosToolStripMenuItem
+            // 
+            this.bitacoraIngresosToolStripMenuItem.Name = "bitacoraIngresosToolStripMenuItem";
+            this.bitacoraIngresosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bitacoraIngresosToolStripMenuItem.Text = "Bitacora Ingresos";
+            this.bitacoraIngresosToolStripMenuItem.Click += new System.EventHandler(this.bitacoraIngresosToolStripMenuItem_Click);
             // 
             // Navegador_seg
             // 
@@ -202,5 +212,6 @@ namespace Capa_vista
         private System.Windows.Forms.ToolStripMenuItem bITACORAToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aYUDAToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cambiarContraseñaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bitacoraIngresosToolStripMenuItem;
     }
 }
