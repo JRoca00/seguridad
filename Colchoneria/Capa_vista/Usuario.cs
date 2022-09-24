@@ -31,6 +31,9 @@ namespace Capa_vista
             txtapellido.Text = "";
             txtemail.Text = "";
             txtestado.Text = "";
+            CmbPA.Text = "";
+            TxtPA.Text = "";
+            TxtPAA.Text = "";
         }
 
         public void checkbox()
@@ -51,10 +54,20 @@ namespace Capa_vista
             this.Hide();
         }
 
+        public void checks()
+        {
+            string pregunta;
+            pregunta = CmbPA.Text;
+
+            TxtPAA.Text = pregunta;
+
+        }
+
         private void button3_Click(object sender, EventArgs e)//boton guardar
         {
+            checks();
             checkbox();
-            TextBox[] textbox = { txtnombre, txtapellido, txtcontraseña, txtusername, txtemail, txtestado };
+            TextBox[] textbox = { txtnombre, txtapellido, txtcontraseña, txtusername, txtemail, txtestado, TxtPAA, TxtPA };
             txtcontraseña.Text = Capa_controlador.Controlador.SetHash(txtcontraseña.Text);
             cn.ingresar(textbox, table);
             string message = "Registro Guardado";

@@ -53,7 +53,7 @@ namespace Capa_vista
         {
             TextBox[] textbox = { txtNombre, txtIdModulo, txtDescripcion };
             int valor1 = int.Parse(txtBusacar.Text);
-            string campo = "pk_id_aplicacion = ";
+            string campo = "idAplicacion = ";
             //string num = txtBusacar.Tag.ToString();
             cn.buscar(textbox, table, valor1, campo);
         }

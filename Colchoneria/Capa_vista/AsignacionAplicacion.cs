@@ -24,13 +24,13 @@ namespace Capa_vista
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            
             this.Hide();
         }
 
         public void checks()
         {
-            if (chBoxGuardar.Checked) { txtGuardar.Text = "1"; } else { txtGuardar.Text = "0"; }
+            if (chBoxGuardar.Checked){txtGuardar.Text = "1";}else{txtGuardar.Text = "0";}
             if (chBoxEliminar.Checked) { txtEliminar.Text = "1"; } else { txtEliminar.Text = "0"; }
             if (chBoxModificar.Checked) { txtModificar.Text = "1"; } else { txtModificar.Text = "0"; }
             if (chBoxBuscar.Checked) { txtBuscar.Text = "1"; } else { txtBuscar.Text = "0"; }
@@ -51,7 +51,6 @@ namespace Capa_vista
             txtIdUsuario.Text = "";
             txtImprimir.Text = "";
             txtModificar.Text = "";
-            txtCadenas.Text = "";
         }
 
         public void desabilitar()
@@ -61,55 +60,15 @@ namespace Capa_vista
             txtGuardar.Visible = false;
             txtImprimir.Visible = false;
             txtModificar.Visible = false;
-            txtIdAplicacion.Visible = false;
         }
-        public void actualizardatagriew()
-        {
-            string cadena = txtIdUsuario.Text;
-            DataTable dt = cn.SelectList("tbl_permisosaplicacionperfil", cadena);
-            dataGridView1.DataSource = dt;
-        }
-
-        public void getIds()
-        {
-            try
-            {
-                string dato;
-                dato = listAplicacionesDB.CurrentCell.Value.ToString();
-                if (txtCadenas.Text == "")
-                {
-                    txtCadenas.Text = dato;
-                }
-                else
-                {
-                    string valor = txtCadenas.Text;
-                    txtCadenas.Text = valor + "," + dato;
-                }
-
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
-
 
         private void button1_Click(object sender, EventArgs e)
         {
             checks();
-            char[] delimiterChars = { ',' };
-            string text = txtCadenas.Text;
-            string[] words = text.Split(delimiterChars);
-
-            foreach (var word in words)
-            {
-                txtIdAplicacion.Text = word;
-                TextBox[] textbox = { txtIdUsuario, txtIdAplicacion, txtGuardar, txtEliminar, txtModificar, txtBuscar, txtImprimir };
-                cn.ingresar(textbox, table);
-            }
+            TextBox[] textbox = { txtIdUsuario,txtIdAplicacion,txtGuardar,txtEliminar,txtModificar,txtBuscar,txtImprimir };
+            cn.ingresar(textbox, table);
             string message = "Registro Guardado";
-            //limpiar();
-            actualizardatagriew();
+            limpiar();
             MessageBox.Show(message);
         }
 
@@ -122,12 +81,14 @@ namespace Capa_vista
             chBoxImprimir.Checked = true;
         }
 
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
 
         private void AsignacionAplicacion_Load(object sender, EventArgs e)
         {
-            cn.llenarListAplicaciones(listAplicacionesDB.Tag.ToString(), listAplicacionesDB);
-            listAplicacionesDB.Visible = false;
-            Size = new Size(672,466);
+          //  cn.llenartablaa(dataGridView1.Tag.ToString(), dataGridView1);
             desabilitar();
         }
 
@@ -135,27 +96,5 @@ namespace Capa_vista
         {
             limpiar();
         }
-
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-            /*1062; 466*/
-            if (listAplicacionesDB.Visible == false)
-            {
-                listAplicacionesDB.Visible = true;
-                Size = new Size(1062, 466);
-            }
-            else
-            {
-                listAplicacionesDB.Visible = false;
-                Size = new Size(672, 466);
-            }
-            
-        }
-
-        private void listAplicacionesDB_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            getIds();
-        }
-
     }
 }

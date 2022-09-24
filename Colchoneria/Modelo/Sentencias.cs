@@ -208,13 +208,12 @@ namespace Modelo
             if (leer.Read()  == true)
             {
                 //MessageBox.Show("Ingreso");
-                
-                string dato1 = leer["descripcion_aplicacion"].ToString();
-                /*string dato2 = leer[txtCamps[1].ToString()].ToString();
+                //
+                /*string dato1 = leer[txtCamps[0].ToString()].ToString();
+                string dato2 = leer[txtCamps[1].ToString()].ToString();
                 string dato3 = leer[txtCamps[2].ToString()].ToString();
                 string dato4 = leer[txtCamps[3].ToString()].ToString();*/
-                MessageBox.Show("Encontrado " + dato1);
-                //return dato2;
+                MessageBox.Show("Encontrado ");
             }
             else
             {
@@ -286,19 +285,7 @@ namespace Modelo
             return datatable;
         }
 
-        public OdbcDataAdapter selectList(string tabla, string campo)
-        {
-            string sql = "select *from tbl_permisosaplicacionesusuario where fk_id_usuario = " +campo+ ";";
-            OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, con.conexion());
-            return dataTable;
-        }
 
-        public OdbcDataAdapter llenarListaAplicaciones(string tabla)
-        {
-            string sql = "Select pk_id_aplicacion as ID, nombre_aplicacion as Nombre, descripcion_aplicacion as Descripcion from  " + tabla + ";";
-            OdbcDataAdapter datatable = new OdbcDataAdapter(sql, con.conexion());
-            return datatable;
-        }
 
     }
 }
