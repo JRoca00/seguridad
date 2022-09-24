@@ -199,3 +199,5 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\C
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.csproj.CopyComplete
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.dll
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.recuperacion.resources
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.splash.resources
