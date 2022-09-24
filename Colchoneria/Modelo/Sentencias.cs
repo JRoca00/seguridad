@@ -221,6 +221,26 @@ namespace Modelo
             }
         }
 
+        public string getPregunta(string username)
+        {
+            string pregunta = "";
+            string sql = "SELECT pregunta FROM tbl_usuarios WHERE username_usuario='" + username + "';";
+            try
+            {
+                OdbcCommand command = new OdbcCommand(sql, con.conexion());
+                OdbcDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    pregunta = reader.GetValue(0).ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message.ToString() + " \nError en obtener");
+            }
+            return pregunta;
+        }
+
         public OdbcDataAdapter llenarTbl(string tabla)// metodo  que obtinene el contenio de una tabla
         {
             //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro

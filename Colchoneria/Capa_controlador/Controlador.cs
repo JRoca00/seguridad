@@ -309,5 +309,10 @@ namespace Capa_controlador
             tabla.DataSource = table;
         }
 
+        public string llenarPregunta(string username)
+        {
+            return sn.getPregunta(username);
+        }
+
     }
 }
