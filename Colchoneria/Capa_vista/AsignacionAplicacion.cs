@@ -24,8 +24,7 @@ namespace Capa_vista
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Navegador_seg b = new Navegador_seg();
-            b.Show();
+            
             this.Hide();
         }
 
@@ -89,7 +88,7 @@ namespace Capa_vista
 
         private void AsignacionAplicacion_Load(object sender, EventArgs e)
         {
-            cn.llenartablaa(dataGridView1.Tag.ToString(), dataGridView1);
+          //  cn.llenartablaa(dataGridView1.Tag.ToString(), dataGridView1);
             desabilitar();
         }
 

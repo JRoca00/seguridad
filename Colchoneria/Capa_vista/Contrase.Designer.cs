@@ -45,11 +45,11 @@ namespace Capa_vista
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.TBusuario);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(8, 7);
+            this.groupBox1.Location = new System.Drawing.Point(9, 5);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(555, 141);
+            this.groupBox1.Size = new System.Drawing.Size(469, 289);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Validacion";
@@ -57,7 +57,7 @@ namespace Capa_vista
             // 
             // TBcontrasena
             // 
-            this.TBcontrasena.Location = new System.Drawing.Point(147, 102);
+            this.TBcontrasena.Location = new System.Drawing.Point(159, 126);
             this.TBcontrasena.Margin = new System.Windows.Forms.Padding(4);
             this.TBcontrasena.Name = "TBcontrasena";
             this.TBcontrasena.Size = new System.Drawing.Size(235, 22);
@@ -67,7 +67,7 @@ namespace Capa_vista
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 107);
+            this.label2.Location = new System.Drawing.Point(27, 131);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(124, 17);
@@ -77,7 +77,7 @@ namespace Capa_vista
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(432, 76);
+            this.button1.Location = new System.Drawing.Point(170, 208);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
@@ -89,7 +89,7 @@ namespace Capa_vista
             // 
             // TBusuario
             // 
-            this.TBusuario.Location = new System.Drawing.Point(147, 49);
+            this.TBusuario.Location = new System.Drawing.Point(159, 73);
             this.TBusuario.Margin = new System.Windows.Forms.Padding(4);
             this.TBusuario.Name = "TBusuario";
             this.TBusuario.Size = new System.Drawing.Size(235, 22);
@@ -99,7 +99,7 @@ namespace Capa_vista
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(52, 49);
+            this.label1.Location = new System.Drawing.Point(64, 73);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 17);
@@ -111,7 +111,7 @@ namespace Capa_vista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(573, 548);
+            this.ClientSize = new System.Drawing.Size(491, 307);
             this.Controls.Add(this.groupBox1);
             this.IsMdiContainer = true;
             this.Name = "Contrase";

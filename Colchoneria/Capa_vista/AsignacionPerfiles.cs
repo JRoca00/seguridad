@@ -36,8 +36,7 @@ namespace Capa_vista
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Navegador_seg b = new Navegador_seg();
-            b.Show();
+            
             this.Hide();
         }
 
@@ -48,7 +47,7 @@ namespace Capa_vista
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            TextBox[] textbox = { txtIdPerfil, txtIdUsuario};
+            TextBox[] textbox = { txtIdPerfil, txtIdUsuario };
             cn.ingresar(textbox, table);
             string message = "Registro Guardado";
             limpiar();
@@ -57,7 +56,12 @@ namespace Capa_vista
 
         private void AsignacionPerfiles_Load(object sender, EventArgs e)
         {
-           cn.llenartablaa(listPerfilUsuario.Tag.ToString(), listPerfilUsuario);
+         //  cn.llenartablaa(listPerfilUsuario.Tag.ToString(), listPerfilUsuario);
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

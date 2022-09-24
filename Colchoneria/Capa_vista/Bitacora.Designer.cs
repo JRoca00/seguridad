@@ -41,12 +41,12 @@ namespace Capa_vista
             this.datag.Name = "datag";
             this.datag.RowHeadersWidth = 51;
             this.datag.RowTemplate.Height = 24;
-            this.datag.Size = new System.Drawing.Size(650, 304);
+            this.datag.Size = new System.Drawing.Size(841, 429);
             this.datag.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(384, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 34);
             this.button1.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace Capa_vista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(656, 374);
+            this.ClientSize = new System.Drawing.Size(847, 504);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.datag);
             this.Name = "Bitacora";

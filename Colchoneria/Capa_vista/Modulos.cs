@@ -32,8 +32,7 @@ namespace Capa_vista
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Navegador_seg b = new Navegador_seg();
-            b.Show();
+            
             this.Hide();
         }
 
@@ -49,7 +48,7 @@ namespace Capa_vista
 
         private void BtnIngresar_Click(object sender, EventArgs e)
         {
-            TextBox[] textbox = { txtDescripcion, txtNombre };
+            TextBox[] textbox = { txtIdModulo, txtDescripcion, txtNombre };
             cn.ingresar(textbox, table);
             string message = "Registro Guardado";
             Limpiar();

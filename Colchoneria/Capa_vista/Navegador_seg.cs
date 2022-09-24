@@ -20,55 +20,56 @@ namespace Capa_vista
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Usuario b = new Usuario();
+            b.MdiParent = this;
             b.Show();
-            this.Hide();
         }
 
         private void aplicacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Aplicacion b = new Aplicacion();
+            b.MdiParent = this;
             b.Show();
-            this.Hide();
         }
 
         private void perfilesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Perfiles b = new Perfiles();
+            b.MdiParent = this;
             b.Show();
-            this.Hide();
         }
 
         private void módulosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Modulos b = new Modulos();
+            b.MdiParent = this;
             b.Show();
-            this.Hide();
         }
 
         private void asignacionesDeAplicacionesAUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AsignacionAplicacion b = new AsignacionAplicacion();
+            b.MdiParent = this;
             b.Show();
-            this.Hide();
         }
 
         private void asignaciónDePerfilesAUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AsignacionPerfiles b = new AsignacionPerfiles();
+            b.MdiParent = this;
             b.Show();
-            this.Hide();
         }
 
         private void asignaciónDeAplicacionesAPerfilesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AsignacionAplicacionesPerfiles b = new AsignacionAplicacionesPerfiles();
+            b.MdiParent = this;
             b.Show();
-            this.Hide();
         }
 
         private void cambiarContraseñaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Contrase b = new Contrase();
+         
             b.Show();
         }
 
@@ -77,6 +78,11 @@ namespace Capa_vista
             Bitacora b = new Bitacora();
             b.MdiParent = this;
             b.Show();
+        }
+
+        private void bITACORAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

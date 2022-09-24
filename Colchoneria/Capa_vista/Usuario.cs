@@ -47,8 +47,7 @@ namespace Capa_vista
 
         private void button5_Click(object sender, EventArgs e)// boton salir
         {
-            Navegador_seg b = new Navegador_seg();
-            b.Show();
+            
             this.Hide();
         }
 
@@ -108,6 +107,11 @@ namespace Capa_vista
             {
                 limpiar();
             }
+        }
+
+        private void txtestado_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

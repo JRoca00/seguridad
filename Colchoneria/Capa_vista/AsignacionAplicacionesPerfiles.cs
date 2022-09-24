@@ -59,8 +59,7 @@ namespace Capa_vista
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Navegador_seg b = new Navegador_seg();
-            b.Show();
+            
             this.Hide();
         }
 
@@ -76,7 +75,7 @@ namespace Capa_vista
 
         private void AsignacionAplicacionesPerfiles_Load(object sender, EventArgs e)
         {
-           cn.llenartablaa(listAplicacionPerfil.Tag.ToString(), listAplicacionPerfil);
+         //  cn.llenartablaa(listAplicacionPerfil.Tag.ToString(), listAplicacionPerfil);
             //desabilitar();
         }
 
