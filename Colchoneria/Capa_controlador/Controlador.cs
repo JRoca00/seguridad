@@ -179,6 +179,26 @@ namespace Capa_controlador
             return false;
         }
 
+        public Boolean validarRecuperacion(string username, string respuesta)
+        {
+            string[] datos = sn.queryRecuperacion(username);
+            for (int i = 0; i < datos.Length; i = i + 3)
+            {
+                if (datos[i + 1] == username)
+                {
+                    if (datos[i + 2] == respuesta)
+                    {
+                        idUser = SetHash(datos[i]);
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+
+
+
         public DataTable buscarlogin(string tabla, string dato1, string dato2)
         {
             OdbcDataAdapter dt = sn.buscarlogin(tabla, dato1, dato2);

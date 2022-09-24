@@ -34,6 +34,33 @@ namespace Modelo
             return Campos;
         }
 
+        public string[] queryRecuperacion(string user)
+        {
+            string[] Campos = new string[300];
+            string[] auto = new string[300];
+            int i = 0;
+            string datos = "pk_id_usuario, username_usuario, respuesta";
+            string sql = "SELECT " + datos + " FROM tbl_usuarios where username_usuario='" + user + "';";
+            try
+            {
+                OdbcCommand command = new OdbcCommand(sql, con.conexion());
+                OdbcDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    Campos[i] = reader.GetValue(0).ToString();
+                    Campos[(i + 1)] = reader.GetValue(1).ToString();
+                    Campos[(i + 2)] = reader.GetValue(2).ToString();
+                }
+            }
+            catch (Exception ex) { Console.WriteLine(ex.Message.ToString() + " \nError en query hacia la tabla de usuarios"); }
+            return Campos;
+        }
+
+
+
+
+
+
         public void insertBitacora(string values)
         {
             string campos = "fk_id_usuario, fk_id_aplicacion, fecha_bitacora, hora_bitacora, host_bitacora, ip_bitacora, accion_bitacora";
