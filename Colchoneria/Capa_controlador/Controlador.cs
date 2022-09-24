@@ -301,7 +301,7 @@ namespace Capa_controlador
             //MessageBox.Show("Regristro Eliminado");
         }
 
-        public void llenartablaa(string ntabla, DataGridView tabla)//Funcion para llenar tabla
+        public void llenartablaa(string ntabla, DataGridView tabla)
         {
             OdbcDataAdapter dt = sn.llenartabla(ntabla);
             DataTable table = new DataTable();
@@ -309,10 +309,30 @@ namespace Capa_controlador
             tabla.DataSource = table;
         }
 
+
+        public DataTable SelectList(string tabla,string campo)
+        {
+            OdbcDataAdapter dt = sn.selectList(tabla, campo);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            return table;
+        }
+
+        public void llenarListAplicaciones(string ntabla, DataGridView tabla)
+        {
+            OdbcDataAdapter dt = sn.llenarListaAplicaciones(ntabla);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            tabla.DataSource = table;
+        }
+
+
+
         public string llenarPregunta(string username)
         {
             return sn.getPregunta(username);
         }
+
 
     }
 }

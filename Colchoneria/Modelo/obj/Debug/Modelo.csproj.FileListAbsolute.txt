@@ -12,7 +12,6 @@ C:\Users\marro\OneDrive\Desktop\Colchoneria\Modelo\obj\Debug\Modelo.dll
 C:\Users\marro\OneDrive\Desktop\Colchoneria\Modelo\obj\Debug\Modelo.pdb
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.dll
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.pdb
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
@@ -30,7 +29,6 @@ C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Modelo\obj\Debug\Mod
 C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Modelo\obj\Debug\Modelo.pdb
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.dll
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.pdb
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
@@ -46,3 +44,4 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\M
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
