@@ -98,3 +98,15 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\C
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
