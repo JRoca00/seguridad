@@ -201,3 +201,10 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\C
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.pdb
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.recuperacion.resources
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.splash.resources
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\bin\Debug\eCryptography.dll
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Bitacora.resources
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Cambio.resources
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Contrase.resources
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.recuperacion.resources
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.splash.resources
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.ListAplicaciones.resources
