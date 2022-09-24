@@ -59,6 +59,7 @@ namespace Capa_vista
             // 
             // TxtPa
             // 
+            this.TxtPa.Enabled = false;
             this.TxtPa.Location = new System.Drawing.Point(110, 87);
             this.TxtPa.Name = "TxtPa";
             this.TxtPa.Size = new System.Drawing.Size(177, 20);
@@ -114,6 +115,7 @@ namespace Capa_vista
             this.TBusuario.TabIndex = 1;
             this.TBusuario.Tag = "username_usuario";
             this.TBusuario.UseWaitCursor = true;
+            this.TBusuario.Leave += new System.EventHandler(this.TBusuario_Leave);
             // 
             // label1
             // 
@@ -129,11 +131,13 @@ namespace Capa_vista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(434, 369);
+            this.ClientSize = new System.Drawing.Size(437, 257);
             this.Controls.Add(this.groupBox1);
             this.IsMdiContainer = true;
             this.Name = "recuperacion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "recuperacion";
+            this.Load += new System.EventHandler(this.recuperacion_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

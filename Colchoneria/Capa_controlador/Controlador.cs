@@ -309,6 +309,7 @@ namespace Capa_controlador
             tabla.DataSource = table;
         }
 
+<<<<<<< HEAD
         public DataTable SelectList(string tabla,string campo)
         {
             OdbcDataAdapter dt = sn.selectList(tabla, campo);
@@ -326,5 +327,12 @@ namespace Capa_controlador
         }
 
 
+=======
+        public string llenarPregunta(string username)
+        {
+            return sn.getPregunta(username);
+        }
+
+>>>>>>> 6490de501a7cea7f0d355859cf62aa1ebd0efe86
     }
 }

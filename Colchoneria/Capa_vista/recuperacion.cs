@@ -30,13 +30,33 @@ namespace Capa_vista
                 Cambio b = new Cambio();
                 b.MdiParent = this;
                 b.Show();
+            } else
+            {
+                MessageBox.Show("No conciden los datos");
             }
         }
 
+        public string llenap()
+        {
+            return cn.llenarPregunta(TBusuario.Text);
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
             autenticar();
+            groupBox1.Visible = false;
+        }
+
+        private void recuperacion_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TBusuario_Leave(object sender, EventArgs e)
+        {
+            string res;
+            res = llenap();
+            TxtPa.Text = res;
         }
     }
 }
