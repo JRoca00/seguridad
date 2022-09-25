@@ -22,6 +22,59 @@ namespace Capa_vista
             InitializeComponent();
         }
 
+        public void validaringre()
+        {
+            checks();
+            checkbox();
+            if (txtusername.Text == "" || txtcontraseña.Text == "" || txtnombre.Text == "" || txtapellido.Text == "" || txtemail.Text == "" || TxtPAA.Text == "" || TxtPA.Text == "")
+            {
+
+                MessageBox.Show("Debe completar la informacion");
+
+
+
+            }
+            else
+            {
+                checks();
+                checkbox();
+                TextBox[] textbox = { txtnombre, txtapellido, txtcontraseña, txtusername, txtemail, txtestado, TxtPAA, TxtPA };
+                txtcontraseña.Text = Capa_controlador.Controlador.SetHash(txtcontraseña.Text);
+                cn.ingresar(textbox, table);
+                string message = "Registro Guardado";
+                limpiar();
+                MessageBox.Show(message);
+            }
+
+        }
+
+        public void validaractua()
+        {
+            checks();
+            checkbox();
+            if (txtusername.Text == "" || txtcontraseña.Text == "" || txtnombre.Text == "" || txtapellido.Text == "" || txtemail.Text == "" || TxtPAA.Text == "" || TxtPA.Text == "")
+            {
+
+                MessageBox.Show("Debe completar la informacion");
+
+
+
+            }
+            else
+            {
+                checks();
+                checkbox();
+                TextBox[] textbox = { txtnombre, txtapellido, txtcontraseña, txtusername, txtemail, txtestado, TxtPAA, TxtPA };
+                txtcontraseña.Text = Capa_controlador.Controlador.SetHash(txtcontraseña.Text);
+                int valor1 = int.Parse(txtBusqueda.Text);
+                string campo = "pk_id_usuario = ";
+                cn.actualizar(textbox, table, campo, valor1);
+            }
+
+        }
+
+
+
         public void limpiar()
         {
             txtBusqueda.Text = "";
@@ -76,14 +129,7 @@ namespace Capa_vista
 
         private void button3_Click(object sender, EventArgs e)//boton guardar
         {
-            checks();
-            checkbox();
-            TextBox[] textbox = { txtnombre, txtapellido, txtcontraseña, txtusername, txtemail, txtestado, TxtPAA, TxtPA };
-            txtcontraseña.Text = Capa_controlador.Controlador.SetHash(txtcontraseña.Text);
-            cn.ingresar(textbox, table);
-            string message = "Registro Guardado";
-            limpiar();
-            MessageBox.Show(message);
+            validaringre();
         }
 
         private void button1_Click(object sender, EventArgs e) //Boton Buscar
@@ -96,13 +142,7 @@ namespace Capa_vista
 
         private void button4_Click(object sender, EventArgs e) //boton modificar
         {
-            checks();
-            checkbox();
-            TextBox[] textbox = { txtnombre, txtapellido, txtcontraseña, txtusername, txtemail, txtestado, TxtPAA, TxtPA };
-            txtcontraseña.Text = Capa_controlador.Controlador.SetHash(txtcontraseña.Text);
-            int valor1 = int.Parse(txtBusqueda.Text);
-            string campo = "pk_id_usuario = ";
-            cn.actualizar(textbox,table,campo, valor1);
+            validaractua();
         }
 
         private void button2_Click(object sender, EventArgs e)// boton nuevo
@@ -156,6 +196,9 @@ namespace Capa_vista
         private void button8_Click(object sender, EventArgs e)
         {
             llenap();
+
         }
+
+
     }
 }

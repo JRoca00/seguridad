@@ -52,3 +52,9 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchone
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
 C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb

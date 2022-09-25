@@ -55,12 +55,19 @@ namespace Capa_vista
 
         private void button3_Click(object sender, EventArgs e) //Boton Ingresar
         {
-            checkbox();
-            TextBox[] textbox = {  txtdescripcion, txtestado, txtnombre };
-            cn.ingresar(textbox, table);
-            string message = "Registro Guardado";
-            limpiar();
-            MessageBox.Show(message);
+            if (txtdescripcion.Text == "" || txtnombre.Text == "")
+            {
+                MessageBox.Show("COMPLETAR INFORMACION");
+            }
+            else
+            {
+                checkbox();
+                TextBox[] textbox = { txtdescripcion, txtestado, txtnombre };
+                cn.ingresar(textbox, table);
+                string message = "Registro Guardado";
+                limpiar();
+                MessageBox.Show(message);
+            }
 
         }
 
@@ -71,13 +78,21 @@ namespace Capa_vista
 
         private void button4_Click(object sender, EventArgs e) //Boton Actualizar
         {
-            TextBox[] textbox = { txtdescripcion, txtestado, txtnombre };
-            int valor1 = int.Parse(txtbuscar.Text);
-            string campo = "pk_id_perfil = ";
-            cn.actualizar(textbox, table, campo, valor1);
-            string message2 = "Registro actualizado";
-            limpiar();
-            MessageBox.Show(message2);
+            if (txtdescripcion.Text == "" || txtnombre.Text == "")
+            {
+                MessageBox.Show("COMPLETAR INFORMACION");
+            }
+            else
+            {
+                checkbox();
+                TextBox[] textbox = { txtdescripcion, txtestado, txtnombre };
+                int valor1 = int.Parse(txtbuscar.Text);
+                string campo = "pk_id_perfil = ";
+                cn.actualizar(textbox, table, campo, valor1);
+                string message2 = "Registro actualizado";
+                limpiar();
+                MessageBox.Show(message2);
+            }
         }
 
         private void button7_Click(object sender, EventArgs e) //Boton Eliminar

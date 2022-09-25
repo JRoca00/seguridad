@@ -21,12 +21,25 @@ namespace Capa_vista
             InitializeComponent();
         }
 
+        public void checkbox()
+        {
+            if (checkBox1.Checked)
+            {
+                txtact.Text = "1";
+            }
+            else
+            {
+                txtact.Text = "0";
+            }
+        }
+
         public void limpiar()
         {
-            txtIdAplicacion.Text = "";
+           
             txtNombre.Text = "";
-            txtIdModulo.Text = "";
+            
             txtDescripcion.Text = "";
+            txtact.Text = "";
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -37,21 +50,34 @@ namespace Capa_vista
 
         private void button3_Click(object sender, EventArgs e)
         {
+            txtact.Text = "";
+            txtBusacar.Text = "";
+            txtDescripcion.Text = "";
+            txtNombre.Text = "";
 
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            TextBox[] textbox = { txtNombre, txtIdModulo, txtDescripcion };
+            if (txtDescripcion.Text == "" || txtNombre.Text == "")
+            {
+                MessageBox.Show("COMPLETAR INFORMACION");
+            }
+            else { 
+                checkbox();
+            TextBox[] textbox = { txtNombre, txtDescripcion, txtact };
             cn.ingresar(textbox, table);
             string message = "Registro Guardado";
             limpiar();
             MessageBox.Show(message);
         }
+        
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TextBox[] textbox = { txtNombre, txtIdModulo, txtDescripcion };
+            checkbox();
+            TextBox[] textbox = { txtNombre, txtDescripcion, txtact };
             int valor1 = int.Parse(txtBusacar.Text);
             string campo = "pk_id_aplicacion = ";
             //string num = txtBusacar.Tag.ToString();
@@ -60,15 +86,23 @@ namespace Capa_vista
 
         private void button4_Click(object sender, EventArgs e)
         {
-            TextBox[] textbox = { txtIdAplicacion , txtNombre, txtIdModulo, txtDescripcion };
-            int valor1 = int.Parse(txtBusacar.Text);
-            string campo = "idAplicacion = ";
-            cn.actualizar(textbox, table, campo, valor1);
+            if (txtDescripcion.Text == "" || txtNombre.Text == "")
+            {
+                MessageBox.Show("COMPLETAR INFORMACION");
+            }
+            else
+            {
+                checkbox();
+                TextBox[] textbox = { txtNombre, txtDescripcion, txtact };
+                int valor1 = int.Parse(txtBusacar.Text);
+                string campo = "pk_id_aplicacion = ";
+                cn.actualizar(textbox, table, campo, valor1);
+            }
         }
 
         private void Aplicacion_Load(object sender, EventArgs e)
         {
-            txtIdAplicacion.Enabled = false;
+            
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -80,7 +114,7 @@ namespace Capa_vista
             if (result == DialogResult.Yes)
             {
                 int campo = int.Parse(txtBusacar.Text);
-                string condicion = "idAplicacion = ";
+                string condicion = "pk_id_aplicacion = ";
                 cn.eliminar(table, condicion, campo);
                 //this.Close();
             }

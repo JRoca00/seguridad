@@ -30,6 +30,20 @@ namespace Capa_vista
             txtNombre.Text = "";
         }
 
+        public void checkbox()
+        {
+            if (checkBox1.Checked)
+            {
+                txtact.Text = "1";
+            }
+            else
+            {
+                txtact.Text = "0";
+            }
+        }
+
+
+
         private void button8_Click(object sender, EventArgs e)
         {
             
@@ -48,12 +62,20 @@ namespace Capa_vista
 
         private void BtnIngresar_Click(object sender, EventArgs e)
         {
-            TextBox[] textbox = { txtIdModulo, txtDescripcion, txtNombre };
-            cn.ingresar(textbox, table);
-            string message = "Registro Guardado";
-            Limpiar();
-            MessageBox.Show(message);
-            //actualizardatagriew();
+            if (txtIdModulo.Text == "" || txtDescripcion.Text == "" || txtNombre.Text == "")
+            {
+                MessageBox.Show("COMPLETAR INFORMACION");
+            }
+            else
+            {
+                checkbox();
+                TextBox[] textbox = { txtIdModulo, txtDescripcion, txtNombre, txtact };
+                cn.ingresar(textbox, table);
+                string message = "Registro Guardado";
+                Limpiar();
+                MessageBox.Show(message);
+                //actualizardatagriew();
+            }
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -67,10 +89,18 @@ namespace Capa_vista
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            TextBox[] textbox = { txtBuscar, txtDescripcion, txtNombre };
-            int valor1 = int.Parse(txtBuscar.Text);
-            string campo = "idModulo = ";
-            cn.actualizar(textbox, table, campo, valor1);
+            if (txtIdModulo.Text == "" || txtDescripcion.Text == "" || txtNombre.Text == "")
+            {
+                MessageBox.Show("COMPLETAR INFORMACION");
+            }
+            else
+            {
+                checkbox();
+                TextBox[] textbox = { txtBuscar, txtDescripcion, txtNombre, txtact };
+                int valor1 = int.Parse(txtBuscar.Text);
+                string campo = "pk_id_modulos = ";
+                cn.actualizar(textbox, table, campo, valor1);
+            }
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -82,7 +112,7 @@ namespace Capa_vista
             if (result == DialogResult.Yes)
             {
                 int campo = int.Parse(txtBuscar.Text);
-                string condicion = "idModulo = ";
+                string condicion = "pk_id_modulos = ";
                 cn.eliminar(table, condicion, campo);
                 //this.Close();
             }
