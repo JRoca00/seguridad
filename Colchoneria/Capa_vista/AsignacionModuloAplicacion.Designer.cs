@@ -1,0 +1,218 @@
+﻿
+namespace Capa_vista
+{
+    partial class AsignacionModuloAplicacion
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.listAplicacionesDB = new System.Windows.Forms.DataGridView();
+            this.listAplicacionPerfil = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.txtCadenas = new System.Windows.Forms.TextBox();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.txtIdAplicacion = new System.Windows.Forms.TextBox();
+            this.txtIdPerfil = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.listAplicacionesDB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listAplicacionPerfil)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // listAplicacionesDB
+            // 
+            this.listAplicacionesDB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.listAplicacionesDB.Location = new System.Drawing.Point(583, 26);
+            this.listAplicacionesDB.Name = "listAplicacionesDB";
+            this.listAplicacionesDB.RowHeadersWidth = 51;
+            this.listAplicacionesDB.Size = new System.Drawing.Size(350, 300);
+            this.listAplicacionesDB.TabIndex = 49;
+            this.listAplicacionesDB.Tag = "tbl_aplicaciones";
+            this.listAplicacionesDB.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.listAplicacionesDB_CellClick);
+            // 
+            // listAplicacionPerfil
+            // 
+            this.listAplicacionPerfil.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.listAplicacionPerfil.Location = new System.Drawing.Point(9, 183);
+            this.listAplicacionPerfil.Name = "listAplicacionPerfil";
+            this.listAplicacionPerfil.RowHeadersWidth = 51;
+            this.listAplicacionPerfil.Size = new System.Drawing.Size(558, 143);
+            this.listAplicacionPerfil.TabIndex = 48;
+            this.listAplicacionPerfil.Tag = "PermisosAplicacionPerfil";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.txtCadenas);
+            this.groupBox1.Controls.Add(this.btnNuevo);
+            this.groupBox1.Controls.Add(this.txtIdAplicacion);
+            this.groupBox1.Controls.Add(this.txtIdPerfil);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.btnAgregar);
+            this.groupBox1.Location = new System.Drawing.Point(9, 89);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(558, 88);
+            this.groupBox1.TabIndex = 46;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Datos";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(216, 42);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(25, 24);
+            this.button2.TabIndex = 44;
+            this.button2.Text = "?";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // txtCadenas
+            // 
+            this.txtCadenas.Location = new System.Drawing.Point(247, 46);
+            this.txtCadenas.Name = "txtCadenas";
+            this.txtCadenas.Size = new System.Drawing.Size(150, 20);
+            this.txtCadenas.TabIndex = 43;
+            this.txtCadenas.Tag = "imprimir_permiso";
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(481, 14);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(71, 29);
+            this.btnNuevo.TabIndex = 41;
+            this.btnNuevo.Text = "Nuevo";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            // 
+            // txtIdAplicacion
+            // 
+            this.txtIdAplicacion.Location = new System.Drawing.Point(403, 46);
+            this.txtIdAplicacion.Name = "txtIdAplicacion";
+            this.txtIdAplicacion.Size = new System.Drawing.Size(50, 20);
+            this.txtIdAplicacion.TabIndex = 40;
+            this.txtIdAplicacion.Tag = "fk_id_aplicacion";
+            // 
+            // txtIdPerfil
+            // 
+            this.txtIdPerfil.Location = new System.Drawing.Point(32, 46);
+            this.txtIdPerfil.Name = "txtIdPerfil";
+            this.txtIdPerfil.Size = new System.Drawing.Size(159, 20);
+            this.txtIdPerfil.TabIndex = 39;
+            this.txtIdPerfil.Tag = "fk_id_modulos";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(278, 23);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(81, 20);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Aplicacion";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(71, 23);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Modulo";
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(481, 53);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(71, 29);
+            this.btnAgregar.TabIndex = 2;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(485, 26);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(82, 35);
+            this.button6.TabIndex = 45;
+            this.button6.Text = "Ayuda";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(46, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(388, 29);
+            this.label1.TabIndex = 44;
+            this.label1.Text = "Asignacion de Modulo a Aplicacion\r\n";
+            // 
+            // AsignacionModuloAplicacion
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(942, 340);
+            this.Controls.Add(this.listAplicacionesDB);
+            this.Controls.Add(this.listAplicacionPerfil);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.label1);
+            this.Name = "AsignacionModuloAplicacion";
+            this.Text = "AsignacionModuloAplicacion";
+            this.Load += new System.EventHandler(this.AsignacionModuloAplicacion_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.listAplicacionesDB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listAplicacionPerfil)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView listAplicacionesDB;
+        private System.Windows.Forms.DataGridView listAplicacionPerfil;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtCadenas;
+        private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.TextBox txtIdAplicacion;
+        private System.Windows.Forms.TextBox txtIdPerfil;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label1;
+    }
+}

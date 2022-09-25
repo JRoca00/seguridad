@@ -45,6 +45,7 @@ namespace Capa_vista
             this.bITACORAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bitacoraIngresosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aYUDAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.asignacionDeModuloAAplicacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -115,7 +116,8 @@ namespace Capa_vista
             this.aSIGNACIONESToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.asignacionesDeAplicacionesAUsuariosToolStripMenuItem,
             this.asignaciónDePerfilesAUsuariosToolStripMenuItem,
-            this.asignaciónDeAplicacionesAPerfilesToolStripMenuItem});
+            this.asignaciónDeAplicacionesAPerfilesToolStripMenuItem,
+            this.asignacionDeModuloAAplicacionesToolStripMenuItem});
             this.aSIGNACIONESToolStripMenuItem.Name = "aSIGNACIONESToolStripMenuItem";
             this.aSIGNACIONESToolStripMenuItem.Size = new System.Drawing.Size(102, 20);
             this.aSIGNACIONESToolStripMenuItem.Text = "ASIGNACIONES";
@@ -178,6 +180,13 @@ namespace Capa_vista
             this.aYUDAToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.aYUDAToolStripMenuItem.Text = "AYUDA";
             // 
+            // asignacionDeModuloAAplicacionesToolStripMenuItem
+            // 
+            this.asignacionDeModuloAAplicacionesToolStripMenuItem.Name = "asignacionDeModuloAAplicacionesToolStripMenuItem";
+            this.asignacionDeModuloAAplicacionesToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.asignacionDeModuloAAplicacionesToolStripMenuItem.Text = "Asignacion de Modulo a Aplicaciones";
+            this.asignacionDeModuloAAplicacionesToolStripMenuItem.Click += new System.EventHandler(this.asignacionDeModuloAAplicacionesToolStripMenuItem_Click);
+            // 
             // Navegador_seg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -185,7 +194,7 @@ namespace Capa_vista
             this.ClientSize = new System.Drawing.Size(1154, 672);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Navegador_seg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Navegador_seg";
@@ -214,5 +223,6 @@ namespace Capa_vista
         private System.Windows.Forms.ToolStripMenuItem aYUDAToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cambiarContraseñaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bitacoraIngresosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem asignacionDeModuloAAplicacionesToolStripMenuItem;
     }
 }

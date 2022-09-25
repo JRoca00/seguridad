@@ -299,7 +299,14 @@ namespace Modelo
 
         public OdbcDataAdapter selectList(string tabla, string campo)
         {
-            string sql = "select *from tbl_permisosaplicacionesusuario where fk_id_usuario = " +campo+ ";";
+            string sql = "select *from " + tabla + " where fk_id_usuario = " +campo+ ";";
+            OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, con.conexion());
+            return dataTable;
+        }
+
+        public OdbcDataAdapter selectPerfilUsuario(string tabla, string campo)
+        {
+            string sql = "select *from tbl_permisosaplicacionesusuario where fk_id_usuario = " + campo + ";";
             OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, con.conexion());
             return dataTable;
         }
@@ -307,6 +314,13 @@ namespace Modelo
         public OdbcDataAdapter llenarListaAplicaciones(string tabla)
         {
             string sql = "Select pk_id_aplicacion as ID, nombre_aplicacion as Nombre, descripcion_aplicacion as Descripcion from  " + tabla + ";";
+            OdbcDataAdapter datatable = new OdbcDataAdapter(sql, con.conexion());
+            return datatable;
+        }
+
+        public OdbcDataAdapter llenarListaPerfiles(string tabla)
+        {
+            string sql = "Select pk_id_perfil as ID, nombre_perfil as Nombre, descripcion_perfil as Descripcion from  " + tabla + ";";
             OdbcDataAdapter datatable = new OdbcDataAdapter(sql, con.conexion());
             return datatable;
         }

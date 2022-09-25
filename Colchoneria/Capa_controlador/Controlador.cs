@@ -326,6 +326,14 @@ namespace Capa_controlador
             tabla.DataSource = table;
         }
 
+        public void llenarListPerfiles(string ntabla, DataGridView tabla)
+        {
+            OdbcDataAdapter dt = sn.llenarListaPerfiles(ntabla);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            tabla.DataSource = table;
+        }
+
 
 
         public string llenarPregunta(string username)

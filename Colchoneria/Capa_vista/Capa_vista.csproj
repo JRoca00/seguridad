@@ -67,6 +67,12 @@
     <Compile Include="AsignacionAplicacionesPerfiles.Designer.cs">
       <DependentUpon>AsignacionAplicacionesPerfiles.cs</DependentUpon>
     </Compile>
+    <Compile Include="AsignacionModuloAplicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsignacionModuloAplicacion.Designer.cs">
+      <DependentUpon>AsignacionModuloAplicacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="AsignacionPerfiles.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AsignacionAplicacionesPerfiles.resx">
       <DependentUpon>AsignacionAplicacionesPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsignacionModuloAplicacion.resx">
+      <DependentUpon>AsignacionModuloAplicacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AsignacionPerfiles.resx">
       <DependentUpon>AsignacionPerfiles.cs</DependentUpon>

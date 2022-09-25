@@ -108,9 +108,11 @@ namespace Capa_vista
                 cn.ingresar(textbox, table);
             }
             string message = "Registro Guardado";
-            //limpiar();
-            actualizardatagriew();
+            limpiar();
+            //actualizardatagriew();
             MessageBox.Show(message);
+            listAplicacionesDB.Visible = false;
+            Size = new Size(672, 466);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -156,6 +158,5 @@ namespace Capa_vista
         {
             getIds();
         }
-
     }
 }

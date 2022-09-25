@@ -242,3 +242,4 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchone
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.csproj.CopyComplete
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.dll
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.pdb
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AsignacionModuloAplicacion.resources

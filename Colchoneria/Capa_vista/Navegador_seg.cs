@@ -84,5 +84,12 @@ namespace Capa_vista
         {
 
         }
+
+        private void asignacionDeModuloAAplicacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AsignacionModuloAplicacion b = new AsignacionModuloAplicacion();
+            b.MdiParent = this;
+            b.Show();
+        }
     }
 }

@@ -46,6 +46,7 @@ namespace Capa_vista
             txtIdPerfil.Text = "";
             txtImprimir.Text = "";
             txtModificar.Text = "";
+            txtCadenas.Text = "";
         }
 
         public void desabilitar()
@@ -55,6 +56,30 @@ namespace Capa_vista
             txtGuardar.Visible = false;
             txtImprimir.Visible = false;
             txtModificar.Visible = false;
+            txtIdAplicacion.Visible = false;
+        }
+
+        public void getIds()
+        {
+            try
+            {
+                string dato;
+                dato = listAplicacionesDB.CurrentCell.Value.ToString();
+                if (txtCadenas.Text == "")
+                {
+                    txtCadenas.Text = dato;
+                }
+                else
+                {
+                    string valor = txtCadenas.Text;
+                    txtCadenas.Text = valor + "," + dato;
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -66,17 +91,27 @@ namespace Capa_vista
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             checks();
-            TextBox[] textbox = { txtIdPerfil, txtIdAplicacion, txtGuardar, txtEliminar, txtModificar, txtBuscar, txtImprimir };
-            cn.ingresar(textbox, table);
+            char[] delimiterChars = { ',' };
+            string text = txtCadenas.Text;
+            string[] words = text.Split(delimiterChars);
+
+            foreach (var word in words)
+            {
+                txtIdAplicacion.Text = word;
+                TextBox[] textbox = { txtIdPerfil, txtIdAplicacion, txtGuardar, txtEliminar, txtModificar, txtBuscar, txtImprimir };
+                cn.ingresar(textbox, table);
+            }
             string message = "Registro Guardado";
             limpiar();
             MessageBox.Show(message);
+            Size = new Size(623, 455);
         }
 
         private void AsignacionAplicacionesPerfiles_Load(object sender, EventArgs e)
         {
-         //  cn.llenartablaa(listAplicacionPerfil.Tag.ToString(), listAplicacionPerfil);
-            //desabilitar();
+            cn.llenarListAplicaciones(listAplicacionesDB.Tag.ToString(), listAplicacionesDB);
+            Size = new Size(623, 455);
+            desabilitar();
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -91,6 +126,27 @@ namespace Capa_vista
             chBoxEliminar.Checked = true;
             chBoxBuscar.Checked = true;
             chBoxImprimir.Checked = true;
+        }
+
+        private void listAplicacionesDB_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            getIds();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            /*994; 455*/
+            if (listAplicacionesDB.Visible == false)
+            {
+                listAplicacionesDB.Visible = true;
+                Size = new Size(994, 455);
+            }
+            else
+            {
+                //623; 455
+                listAplicacionesDB.Visible = false;
+                Size = new Size(623, 455);
+            }
         }
     }
 }
