@@ -31,6 +31,7 @@ namespace Capa_vista
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.txtCadenas = new System.Windows.Forms.TextBox();
             this.btnNuevo = new System.Windows.Forms.Button();
@@ -41,7 +42,7 @@ namespace Capa_vista
             this.button1 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.btnAll = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ListaAsiganacion = new System.Windows.Forms.DataGridView();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.txtImprimir = new System.Windows.Forms.TextBox();
             this.chBoxImprimir = new System.Windows.Forms.CheckBox();
@@ -54,10 +55,12 @@ namespace Capa_vista
             this.txtGuardar = new System.Windows.Forms.TextBox();
             this.chBoxGuardar = new System.Windows.Forms.CheckBox();
             this.listAplicacionesDB = new System.Windows.Forms.DataGridView();
+            this.ListUsuarios = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ListaAsiganacion)).BeginInit();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.listAplicacionesDB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ListUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -72,6 +75,7 @@ namespace Capa_vista
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.txtCadenas);
             this.groupBox1.Controls.Add(this.btnNuevo);
@@ -86,6 +90,16 @@ namespace Capa_vista
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(11, 42);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(25, 24);
+            this.button3.TabIndex = 44;
+            this.button3.Text = "?";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -180,15 +194,15 @@ namespace Capa_vista
             this.btnAll.UseVisualStyleBackColor = true;
             this.btnAll.Click += new System.EventHandler(this.button2_Click);
             // 
-            // dataGridView1
+            // ListaAsiganacion
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 260);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(627, 155);
-            this.dataGridView1.TabIndex = 36;
-            this.dataGridView1.Tag = "PermisosAplicacionesUsuario";
+            this.ListaAsiganacion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ListaAsiganacion.Location = new System.Drawing.Point(12, 260);
+            this.ListaAsiganacion.Name = "ListaAsiganacion";
+            this.ListaAsiganacion.RowHeadersWidth = 51;
+            this.ListaAsiganacion.Size = new System.Drawing.Size(627, 155);
+            this.ListaAsiganacion.TabIndex = 36;
+            this.ListaAsiganacion.Tag = "vista_AplicacionUsuario";
             // 
             // groupBox4
             // 
@@ -316,14 +330,26 @@ namespace Capa_vista
             this.listAplicacionesDB.Tag = "tbl_aplicaciones";
             this.listAplicacionesDB.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.listAplicacionesDB_CellClick);
             // 
+            // ListUsuarios
+            // 
+            this.ListUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ListUsuarios.Location = new System.Drawing.Point(666, 33);
+            this.ListUsuarios.Name = "ListUsuarios";
+            this.ListUsuarios.RowHeadersWidth = 51;
+            this.ListUsuarios.Size = new System.Drawing.Size(350, 382);
+            this.ListUsuarios.TabIndex = 39;
+            this.ListUsuarios.Tag = "tbl_usuarios";
+            this.ListUsuarios.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ListUsuarios_CellClick);
+            // 
             // AsignacionAplicacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1042, 427);
+            this.Controls.Add(this.ListUsuarios);
             this.Controls.Add(this.listAplicacionesDB);
             this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.ListaAsiganacion);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
@@ -333,10 +359,11 @@ namespace Capa_vista
             this.Load += new System.EventHandler(this.AsignacionAplicacion_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ListaAsiganacion)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.listAplicacionesDB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ListUsuarios)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -351,7 +378,7 @@ namespace Capa_vista
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnAll;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView ListaAsiganacion;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.CheckBox chBoxImprimir;
         private System.Windows.Forms.CheckBox chBoxBuscar;
@@ -369,5 +396,7 @@ namespace Capa_vista
         private System.Windows.Forms.TextBox txtCadenas;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView listAplicacionesDB;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DataGridView ListUsuarios;
     }
 }

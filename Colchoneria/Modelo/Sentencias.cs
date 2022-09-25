@@ -357,6 +357,27 @@ namespace Modelo
             return datatable;
         }
 
+        public OdbcDataAdapter llenarListaModulos(string tabla)
+        {
+            string sql = "select pk_id_modulos as Modulo, nombre_modulo as Nombre, descripcion_modulo as Descripcion from " + tabla + ";";
+            OdbcDataAdapter datatable = new OdbcDataAdapter(sql, con.conexion());
+            return datatable;
+        }
+
+        public OdbcDataAdapter llenarListaUsuarios(string tabla)
+        {
+            string sql = "Select pk_id_usuario as ID, nombre_usuario as nombre, username_usuario as Usuario from " + tabla + ";";
+            OdbcDataAdapter datatable = new OdbcDataAdapter(sql, con.conexion());
+            return datatable;
+        }
+
+        public OdbcDataAdapter llenarListaApliUsuario(string tabla,string id)
+        {
+            string sql = "Select *from "+ tabla + " where ID = "+ id + " ;";
+            OdbcDataAdapter datatable = new OdbcDataAdapter(sql, con.conexion());
+            return datatable;
+        }
+
         public OdbcDataAdapter llenarListaPerfiles(string tabla)
         {
             string sql = "Select pk_id_perfil as ID, nombre_perfil as Nombre, descripcion_perfil as Descripcion from  " + tabla + ";";

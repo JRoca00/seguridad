@@ -55,9 +55,30 @@ namespace Capa_vista
             }
         }
 
+        public void getId()
+        {
+            try
+            {
+                string dato;
+                dato = ListModulo.CurrentCell.Value.ToString();
+                txtIdPerfil.Text = dato;
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        public void actualizardatagriew()
+        {
+            string id = txtIdPerfil.Text;
+            cn.llenarListApliUsuariosstring(listAplicacionPerfil.Tag.ToString(), listAplicacionPerfil, id);
+        }
+
         private void AsignacionModuloAplicacion_Load(object sender, EventArgs e)
         {
             cn.llenarListAplicaciones(listAplicacionesDB.Tag.ToString(), listAplicacionesDB);
+            cn.llenarListModulo(ListModulo.Tag.ToString(), ListModulo);
             Size = new Size(593, 379);
             ocultar();
         }
@@ -80,6 +101,7 @@ namespace Capa_vista
                 cn.ingresar(textbox, table);
             }
             string message = "Registro Guardado";
+            actualizardatagriew();
             limpiar();
             MessageBox.Show(message);
             //593; 379
@@ -88,6 +110,7 @@ namespace Capa_vista
 
         private void button2_Click(object sender, EventArgs e)
         {
+            ListModulo.Visible = false;
             /*958; 379*/
             if (listAplicacionesDB.Visible == false)
             {
@@ -100,6 +123,28 @@ namespace Capa_vista
                 listAplicacionesDB.Visible = false;
                 Size = new Size(593, 379);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listAplicacionesDB.Visible = false;
+            /*958; 379*/
+            if (ListModulo.Visible == false)
+            {
+                ListModulo.Visible = true;
+                Size = new Size(958, 379);
+            }
+            else
+            {
+                //623; 455
+                ListModulo.Visible = false;
+                Size = new Size(593, 379);
+            }
+        }
+
+        private void ListModulo_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            getId();
         }
     }
 }

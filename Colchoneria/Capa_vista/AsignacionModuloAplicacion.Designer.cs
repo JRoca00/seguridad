@@ -42,9 +42,12 @@ namespace Capa_vista
             this.btnAgregar = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.ListModulo = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.listAplicacionesDB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.listAplicacionPerfil)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ListModulo)).BeginInit();
             this.SuspendLayout();
             // 
             // listAplicacionesDB
@@ -66,10 +69,11 @@ namespace Capa_vista
             this.listAplicacionPerfil.RowHeadersWidth = 51;
             this.listAplicacionPerfil.Size = new System.Drawing.Size(558, 143);
             this.listAplicacionPerfil.TabIndex = 48;
-            this.listAplicacionPerfil.Tag = "PermisosAplicacionPerfil";
+            this.listAplicacionPerfil.Tag = "vista_Modulo_Aplicacion";
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.txtCadenas);
             this.groupBox1.Controls.Add(this.btnNuevo);
@@ -87,7 +91,7 @@ namespace Capa_vista
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(216, 42);
+            this.button2.Location = new System.Drawing.Point(237, 49);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(25, 24);
             this.button2.TabIndex = 44;
@@ -97,7 +101,7 @@ namespace Capa_vista
             // 
             // txtCadenas
             // 
-            this.txtCadenas.Location = new System.Drawing.Point(247, 46);
+            this.txtCadenas.Location = new System.Drawing.Point(268, 53);
             this.txtCadenas.Name = "txtCadenas";
             this.txtCadenas.Size = new System.Drawing.Size(150, 20);
             this.txtCadenas.TabIndex = 43;
@@ -114,7 +118,7 @@ namespace Capa_vista
             // 
             // txtIdAplicacion
             // 
-            this.txtIdAplicacion.Location = new System.Drawing.Point(403, 46);
+            this.txtIdAplicacion.Location = new System.Drawing.Point(424, 53);
             this.txtIdAplicacion.Name = "txtIdAplicacion";
             this.txtIdAplicacion.Size = new System.Drawing.Size(50, 20);
             this.txtIdAplicacion.TabIndex = 40;
@@ -122,7 +126,7 @@ namespace Capa_vista
             // 
             // txtIdPerfil
             // 
-            this.txtIdPerfil.Location = new System.Drawing.Point(32, 46);
+            this.txtIdPerfil.Location = new System.Drawing.Point(53, 53);
             this.txtIdPerfil.Name = "txtIdPerfil";
             this.txtIdPerfil.Size = new System.Drawing.Size(159, 20);
             this.txtIdPerfil.TabIndex = 39;
@@ -132,7 +136,7 @@ namespace Capa_vista
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(278, 23);
+            this.label4.Location = new System.Drawing.Point(299, 30);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 20);
             this.label4.TabIndex = 7;
@@ -142,7 +146,7 @@ namespace Capa_vista
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(71, 23);
+            this.label2.Location = new System.Drawing.Point(92, 30);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 20);
             this.label2.TabIndex = 3;
@@ -177,11 +181,33 @@ namespace Capa_vista
             this.label1.TabIndex = 44;
             this.label1.Text = "Asignacion de Modulo a Aplicacion\r\n";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(22, 50);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(25, 24);
+            this.button1.TabIndex = 45;
+            this.button1.Text = "?";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // ListModulo
+            // 
+            this.ListModulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ListModulo.Location = new System.Drawing.Point(583, 26);
+            this.ListModulo.Name = "ListModulo";
+            this.ListModulo.RowHeadersWidth = 51;
+            this.ListModulo.Size = new System.Drawing.Size(350, 300);
+            this.ListModulo.TabIndex = 50;
+            this.ListModulo.Tag = "tbl_modulos";
+            this.ListModulo.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ListModulo_CellClick);
+            // 
             // AsignacionModuloAplicacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(942, 340);
+            this.Controls.Add(this.ListModulo);
             this.Controls.Add(this.listAplicacionesDB);
             this.Controls.Add(this.listAplicacionPerfil);
             this.Controls.Add(this.groupBox1);
@@ -194,6 +220,7 @@ namespace Capa_vista
             ((System.ComponentModel.ISupportInitialize)(this.listAplicacionPerfil)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ListModulo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,5 +241,7 @@ namespace Capa_vista
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView ListModulo;
     }
 }

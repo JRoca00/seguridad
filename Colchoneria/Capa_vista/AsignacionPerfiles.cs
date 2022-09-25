@@ -57,11 +57,24 @@ namespace Capa_vista
             }
         }
 
+        public void getId()
+        {
+            try
+            {
+                string dato;
+                dato = ListUsuario.CurrentCell.Value.ToString();
+                txtIdUsuario.Text = dato;
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
         public void actualizardatagriew()
         {
-            string cadena = txtIdUsuario.Text;
-            DataTable dt = cn.SelectList(table, cadena);
-            listPerfilUsuario.DataSource = dt;
+            string id = txtIdUsuario.Text;
+            cn.llenarListApliUsuariosstring(listPerfilUsuario.Tag.ToString(), listPerfilUsuario, id);
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -85,9 +98,9 @@ namespace Capa_vista
                 cn.ingresar(textbox, table);
             }
             string message = "Registro Guardado";
+            actualizardatagriew();
             limpiar();
             MessageBox.Show(message);
-            //actualizardatagriew();
             listPerfilesDB.Visible = false;
             //663; 369
             Size = new Size(663, 369);
@@ -96,6 +109,7 @@ namespace Capa_vista
         private void AsignacionPerfiles_Load(object sender, EventArgs e)
         {
             cn.llenarListPerfiles(listPerfilesDB.Tag.ToString(), listPerfilesDB);
+            cn.llenarListUsuarios(ListUsuario.Tag.ToString(), ListUsuario);
             Size = new Size(663, 369);
             ocultar();
         }
@@ -112,6 +126,7 @@ namespace Capa_vista
 
         private void button2_Click(object sender, EventArgs e)
         {
+            ListUsuario.Visible = false;
             //1040; 369
             if (listPerfilesDB.Visible == false)
             {
@@ -123,6 +138,27 @@ namespace Capa_vista
                 listPerfilesDB.Visible = false;
                 Size = new Size(663, 369);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listPerfilesDB.Visible = false;
+                //1040; 369
+            if (ListUsuario.Visible == false)
+            {
+                ListUsuario.Visible = true;
+                Size = new Size(1040, 369);
+            }
+            else
+            {
+                ListUsuario.Visible = false;
+                Size = new Size(663, 369);
+            }
+        }
+
+        private void ListUsuario_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            getId();
         }
     }
 }

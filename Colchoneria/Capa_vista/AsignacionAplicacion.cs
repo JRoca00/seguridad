@@ -62,12 +62,12 @@ namespace Capa_vista
             txtImprimir.Visible = false;
             txtModificar.Visible = false;
             txtIdAplicacion.Visible = false;
+            ListUsuarios.Visible = false;
         }
         public void actualizardatagriew()
         {
-            string cadena = txtIdUsuario.Text;
-            DataTable dt = cn.SelectList("tbl_permisosaplicacionperfil", cadena);
-            dataGridView1.DataSource = dt;
+            string idUsuario = txtIdUsuario.Text;
+            cn.llenarListApliUsuariosstring(ListaAsiganacion.Tag.ToString(), ListaAsiganacion,idUsuario);
         }
 
         public void getIds()
@@ -93,6 +93,19 @@ namespace Capa_vista
             }
         }
 
+        public void getIds2()
+        {
+            try
+            {
+                string dato;
+                dato = ListUsuarios.CurrentCell.Value.ToString();
+                txtIdUsuario.Text = dato;
+                            }
+            catch (Exception ex)
+            {
+
+            }
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -108,11 +121,11 @@ namespace Capa_vista
                 cn.ingresar(textbox, table);
             }
             string message = "Registro Guardado";
-            limpiar();
-            //actualizardatagriew();
+            actualizardatagriew();
             MessageBox.Show(message);
             listAplicacionesDB.Visible = false;
             Size = new Size(672, 466);
+            limpiar();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -128,6 +141,8 @@ namespace Capa_vista
         private void AsignacionAplicacion_Load(object sender, EventArgs e)
         {
             cn.llenarListAplicaciones(listAplicacionesDB.Tag.ToString(), listAplicacionesDB);
+            cn.llenarListUsuarios(ListUsuarios.Tag.ToString(), ListUsuarios);
+            ListUsuarios.Visible = false;
             listAplicacionesDB.Visible = false;
             Size = new Size(672,466);
             desabilitar();
@@ -140,6 +155,7 @@ namespace Capa_vista
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            ListUsuarios.Visible = false;
             /*1062; 466*/
             if (listAplicacionesDB.Visible == false)
             {
@@ -158,5 +174,26 @@ namespace Capa_vista
         {
             getIds();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            listAplicacionesDB.Visible = false;
+            if (ListUsuarios.Visible == false)
+            {
+                ListUsuarios.Visible = true;
+                Size = new Size(1062, 466);
+            }
+            else
+            {
+                ListUsuarios.Visible = false;
+                Size = new Size(672, 466);
+            }
+        }
+
+        private void ListUsuarios_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            getIds2();
+        }
+
     }
 }

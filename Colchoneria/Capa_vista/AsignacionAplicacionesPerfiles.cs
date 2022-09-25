@@ -82,6 +82,26 @@ namespace Capa_vista
             }
         }
 
+        public void getId()
+        {
+            try
+            {
+                string dato;
+                dato = ListaPerfil.CurrentCell.Value.ToString();
+                txtIdPerfil.Text = dato;
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        public void actualizardatagriew()
+        {
+            string id = txtIdPerfil.Text;
+            cn.llenarListApliUsuariosstring(listAplicacionPerfil.Tag.ToString(), listAplicacionPerfil, id);
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
             
@@ -102,6 +122,7 @@ namespace Capa_vista
                 cn.ingresar(textbox, table);
             }
             string message = "Registro Guardado";
+            actualizardatagriew();
             limpiar();
             MessageBox.Show(message);
             Size = new Size(623, 455);
@@ -110,6 +131,7 @@ namespace Capa_vista
         private void AsignacionAplicacionesPerfiles_Load(object sender, EventArgs e)
         {
             cn.llenarListAplicaciones(listAplicacionesDB.Tag.ToString(), listAplicacionesDB);
+            cn.llenarListPerfiles(ListaPerfil.Tag.ToString(), ListaPerfil);
             Size = new Size(623, 455);
             desabilitar();
         }
@@ -135,6 +157,7 @@ namespace Capa_vista
 
         private void button2_Click(object sender, EventArgs e)
         {
+            ListaPerfil.Visible = false;
             /*994; 455*/
             if (listAplicacionesDB.Visible == false)
             {
@@ -148,5 +171,28 @@ namespace Capa_vista
                 Size = new Size(623, 455);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listAplicacionesDB.Visible = false;
+            /*994; 455*/
+            if (ListaPerfil.Visible == false)
+            {
+                ListaPerfil.Visible = true;
+                Size = new Size(994, 455);
+            }
+            else
+            {
+                //623; 455
+                ListaPerfil.Visible = false;
+                Size = new Size(623, 455);
+            }
+        }
+
+        private void ListaPerfil_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            getId();
+        }
+
     }
 }

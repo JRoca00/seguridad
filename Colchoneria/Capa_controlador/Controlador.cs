@@ -339,6 +339,30 @@ namespace Capa_controlador
             tabla.DataSource = table;
         }
 
+        public void llenarListModulo(string ntabla, DataGridView tabla)
+        {
+            OdbcDataAdapter dt = sn.llenarListaModulos(ntabla);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            tabla.DataSource = table;
+        }
+
+        public void llenarListUsuarios(string ntabla, DataGridView tabla)
+        {
+            OdbcDataAdapter dt = sn.llenarListaUsuarios(ntabla);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            tabla.DataSource = table;
+        }
+
+        public void llenarListApliUsuariosstring(string ntabla, DataGridView tabla,string id)
+        {
+            OdbcDataAdapter dt = sn.llenarListaApliUsuario(ntabla, id);
+            DataTable table = new DataTable();
+            dt.Fill(table);
+            tabla.DataSource = table;
+        }
+
         public void llenarListPerfiles(string ntabla, DataGridView tabla)
         {
             OdbcDataAdapter dt = sn.llenarListaPerfiles(ntabla);
