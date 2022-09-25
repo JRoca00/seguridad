@@ -233,10 +233,14 @@ namespace Capa_controlador
 
         public void buscar(TextBox[] textbox, string tabla,int num,string condicion)
         {
-            //string message = "Registro de text Nombre " + tabla + " id " +  num + " ";
+            // string message = "Registro de text Nombre " + tabla + " id " +  num + " ";
             //MessageBox.Show(message);
+
+           
+
             string campo = condicion;
             sn.busqueda(textbox,tabla, num, campo);
+           // MessageBox.Show("Dato Encontrado");
         }
 
         public void actualizarcontra(TextBox[] textbox, string tabla, string campo, int num)
@@ -297,9 +301,18 @@ namespace Capa_controlador
 
         public void eliminar(string tabla, string condicion,int campo)
         {
+            try
+            {
             sn.eliminar(tabla,condicion,campo);
-            //MessageBox.Show("Regristro Eliminado");
-        }
+            }catch (Exception ex)
+            {
+
+                MessageBox.Show("No se puede eliminar por permisos asignados");
+                Console.WriteLine(ex.Message.ToString() + " \nNo se puede eliminar por permisos asignados");
+            }
+
+            
+            }
 
         public void llenartablaa(string ntabla, DataGridView tabla)
         {
@@ -341,6 +354,12 @@ namespace Capa_controlador
             return sn.getPregunta(username);
         }
 
+        public string[] buscarusu(string username)
+        {
+            return sn.buscarusua(username);
 
+            string[] men = sn.buscarusua(username);
+            MessageBox.Show(" hola " + men[0]);
+        }
     }
 }

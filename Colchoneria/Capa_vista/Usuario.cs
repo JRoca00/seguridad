@@ -63,6 +63,17 @@ namespace Capa_vista
 
         }
 
+        private void llenap()
+        {
+            string[] permisos = new string[10];
+            
+            //MessageBox.Show(message);
+            string[] dato = cn.buscarusu(txtBusqueda.Text);
+            MessageBox.Show(" hola "+ dato[0]);
+
+        }
+
+
         private void button3_Click(object sender, EventArgs e)//boton guardar
         {
             checks();
@@ -85,7 +96,10 @@ namespace Capa_vista
 
         private void button4_Click(object sender, EventArgs e) //boton modificar
         {
-            TextBox[] textbox = { txtnombre, txtapellido, txtcontraseña, txtusername, txtemail, txtestado };
+            checks();
+            checkbox();
+            TextBox[] textbox = { txtnombre, txtapellido, txtcontraseña, txtusername, txtemail, txtestado, TxtPAA, TxtPA };
+            txtcontraseña.Text = Capa_controlador.Controlador.SetHash(txtcontraseña.Text);
             int valor1 = int.Parse(txtBusqueda.Text);
             string campo = "pk_id_usuario = ";
             cn.actualizar(textbox,table,campo, valor1);
@@ -107,24 +121,41 @@ namespace Capa_vista
             string title = "Eliminar Registro";
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
             DialogResult result = MessageBox.Show(message, title, buttons);
-            if (result == DialogResult.Yes)
+            try
             {
-                int campo = int.Parse(txtBusqueda.Text);
-                string condicion = "pk_id_usuario = ";
-                cn.eliminar(table, condicion, campo);
-                string message1 = "Registro eliminado";
-                limpiar();
-                MessageBox.Show(message1);
+
+
+                if (result == DialogResult.Yes)
+                {
+
+                    int campo = int.Parse(txtBusqueda.Text);
+                    string condicion = "pk_id_usuario = ";
+                    cn.eliminar(table, condicion, campo);
+                    string message1 = "Registro eliminado / Estado de usuario deshabilitado";
+                    limpiar();
+                    MessageBox.Show(message1);
+                }
+                else
+                {
+                    limpiar();
+                }
             }
-            else
+            catch (Exception ex)
             {
-                limpiar();
+
+                MessageBox.Show("No se puede eliminar por permisos asignados");
+                Console.WriteLine(ex.Message.ToString() + " \nNo se puede eliminar por permisos asignados");
             }
         }
 
         private void txtestado_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            llenap();
         }
     }
 }

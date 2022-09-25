@@ -214,23 +214,8 @@ namespace Modelo
             string sql = "Select *from " + tabla + " where "+ condicion +" " + num+ ";" ;
             OdbcCommand cmd = new OdbcCommand(sql, con.conexion());
             cmd.ExecuteNonQuery();
+            
 
-            OdbcDataReader leer = cmd.ExecuteReader();
-            if (leer.Read()  == true)
-            {
-                //MessageBox.Show("Ingreso");
-                
-                string dato1 = leer["descripcion_aplicacion"].ToString();
-                /*string dato2 = leer[txtCamps[1].ToString()].ToString();
-                string dato3 = leer[txtCamps[2].ToString()].ToString();
-                string dato4 = leer[txtCamps[3].ToString()].ToString();*/
-                MessageBox.Show("Encontrado " + dato1);
-                //return dato2;
-            }
-            else
-            {
-                MessageBox.Show("No encontrado");
-            }
         }
 
         public string getPregunta(string username)
@@ -253,6 +238,51 @@ namespace Modelo
             return pregunta;
         }
 
+
+        public string[] buscarusua(string username)
+        {
+            string[] permisos = new string[10];
+            int i = 0;
+
+            
+            string sql = "SELECT pregunta FROM tbl_usuarios WHERE username_usuario='" + username + "';";
+
+            try
+            {
+                OdbcCommand command = new OdbcCommand(sql, con.conexion());
+                OdbcDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    permisos[i] = reader["username_usuario"].ToString();
+                    /*permisos[i + 1] = int.Parse(reader.GetValue(1).ToString());
+                    permisos[i + 2] = int.Parse(reader.GetValue(2).ToString());
+                    permisos[i + 3] = int.Parse(reader.GetValue(3).ToString());
+                    permisos[i + 4] = int.Parse(reader.GetValue(4).ToString());
+                    permisos[i + 5] = int.Parse(reader.GetValue(5).ToString());
+                    permisos[i + 6] = int.Parse(reader.GetValue(6).ToString());*/
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message.ToString() + " \nError en obtener las aplicaciones del perfil");
+            }
+            return permisos;
+
+
+        }
+
+
+        /*permisos[i] = int.Parse(reader.GetValue(0).ToString());
+                    permisos[i + 1] = int.Parse(reader.GetValue(1).ToString());
+                    permisos[i + 2] = int.Parse(reader.GetValue(2).ToString());
+                    permisos[i + 3] = int.Parse(reader.GetValue(3).ToString());
+                    permisos[i + 4] = int.Parse(reader.GetValue(4).ToString());
+                    permisos[i + 5] = int.Parse(reader.GetValue(5).ToString());
+                    permisos[i + 6] = int.Parse(reader.GetValue(6).ToString());*/
+
+
+
+
         public OdbcDataAdapter llenarTbl(string tabla)// metodo  que obtinene el contenio de una tabla
         {
             //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
@@ -273,9 +303,18 @@ namespace Modelo
 
         public void eliminar(string tabla,string condicion,int campo)
         {
-            string sql = "delete from " + tabla + " where " + condicion + " " + campo + " ;";
+
+            try{
+                
+                string sql = "delete from " + tabla + " where " + condicion + " " + campo + " ;";
             OdbcCommand cmd = new OdbcCommand(sql, con.conexion());
-            cmd.ExecuteNonQuery();
+            cmd.ExecuteNonQuery(); }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message.ToString() + " \nNo se puede eliminar por permisos asignados");
+            }
+
+
         }
 
         
