@@ -178,3 +178,5 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\obj\
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\vistalogis.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\vistalogis.pdb

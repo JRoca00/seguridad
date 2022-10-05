@@ -274,3 +274,9 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_vista\o
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.csproj.CopyComplete
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.dll
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.prueba.resources
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Menu.resources
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\bin\Debug\vista.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\bin\Debug\vista.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\bin\Debug\vistalogis.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_vista\bin\Debug\vistalogis.pdb

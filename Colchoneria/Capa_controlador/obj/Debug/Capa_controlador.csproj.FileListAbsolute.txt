@@ -122,3 +122,5 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_control
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
 D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\vistalogis.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\vistalogis.pdb

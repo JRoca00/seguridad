@@ -91,5 +91,10 @@ namespace Capa_vista
             b.MdiParent = this;
             b.Show();
         }
+
+        private void mANTENIMIENTOSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
