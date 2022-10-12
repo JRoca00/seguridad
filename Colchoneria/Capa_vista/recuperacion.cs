@@ -27,6 +27,7 @@ namespace Capa_vista
             {
                 Controlador.Username = Controlador.SetHash(TBusuario.Text);
                 //cn.setBtitacora("0001", "login");
+                //cn.setBtitacora("8000", "Recuperacion Contraseña");
                 Cambio b = new Cambio();
                 b.MdiParent = this;
                 b.Show();

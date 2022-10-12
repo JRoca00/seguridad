@@ -37,16 +37,16 @@ namespace Capa_vista
             // datag
             // 
             this.datag.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datag.Location = new System.Drawing.Point(3, 68);
+            this.datag.Location = new System.Drawing.Point(3, 41);
             this.datag.Name = "datag";
             this.datag.RowHeadersWidth = 51;
             this.datag.RowTemplate.Height = 24;
-            this.datag.Size = new System.Drawing.Size(841, 429);
+            this.datag.Size = new System.Drawing.Size(1172, 548);
             this.datag.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(384, 12);
+            this.button1.Location = new System.Drawing.Point(531, 1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 34);
             this.button1.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace Capa_vista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(847, 504);
+            this.ClientSize = new System.Drawing.Size(1176, 593);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.datag);
             this.Name = "Bitacora";

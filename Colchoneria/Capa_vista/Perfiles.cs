@@ -64,6 +64,7 @@ namespace Capa_vista
                 checkbox();
                 TextBox[] textbox = { txtdescripcion, txtestado, txtnombre };
                 cn.ingresar(textbox, table);
+                cn.setBtitacora("104", "Crea un perfil");
                 string message = "Registro Guardado";
                 limpiar();
                 MessageBox.Show(message);
@@ -89,6 +90,7 @@ namespace Capa_vista
                 int valor1 = int.Parse(txtbuscar.Text);
                 string campo = "pk_id_perfil = ";
                 cn.actualizar(textbox, table, campo, valor1);
+                cn.setBtitacora("104", "Modifico un perfil");
                 string message2 = "Registro actualizado";
                 limpiar();
                 MessageBox.Show(message2);
@@ -106,6 +108,7 @@ namespace Capa_vista
                 int campo = int.Parse(txtbuscar.Text);
                 string condicion = "pk_id_perfil = ";
                 cn.eliminar(table, condicion, campo);
+                cn.setBtitacora("104", "Elimino un perfil");
                 string message1 = "Registro eliminado";
                 limpiar();
                 MessageBox.Show(message1);

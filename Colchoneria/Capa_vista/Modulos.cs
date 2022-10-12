@@ -71,6 +71,7 @@ namespace Capa_vista
                 checkbox();
                 TextBox[] textbox = { txtIdModulo, txtDescripcion, txtNombre, txtact };
                 cn.ingresar(textbox, table);
+                cn.setBtitacora("103", "Creo Modulo");
                 string message = "Registro Guardado";
                 Limpiar();
                 MessageBox.Show(message);
@@ -100,6 +101,7 @@ namespace Capa_vista
                 int valor1 = int.Parse(txtBuscar.Text);
                 string campo = "pk_id_modulos = ";
                 cn.actualizar(textbox, table, campo, valor1);
+                cn.setBtitacora("103", "Modifico Modulo");
             }
         }
 
@@ -114,6 +116,7 @@ namespace Capa_vista
                 int campo = int.Parse(txtBuscar.Text);
                 string condicion = "pk_id_modulos = ";
                 cn.eliminar(table, condicion, campo);
+                cn.setBtitacora("103", "Elimino Modulo");
                 //this.Close();
             }
             else

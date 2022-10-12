@@ -7,14 +7,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Capa_controlador;
 
 namespace Capa_vista
 {
     public partial class MenuSeguridad : Form
     {
+
+        Controlador cn = new Controlador();
+
         public MenuSeguridad()
         {
             InitializeComponent();
+            Button[] apps = { btnusuarios, btnaplicaciones, btnmodulos, button1, btnmodaplicacion, btnappperfil, btnperfilusuario, btncambiarcontra, btbitacor };
+            cn.deshabilitarApps(apps);
+
+            cn.getAccesoApp(101, apps[0]);
+            cn.getAccesoApp(102, apps[1]);
+            cn.getAccesoApp(103, apps[2]);
+            cn.getAccesoApp(104, apps[3]);
+
+            cn.getAccesoApp(201, apps[4]);
+            cn.getAccesoApp(202, apps[5]);
+            cn.getAccesoApp(203, apps[6]);
+
+
+            cn.getAccesoApp(301, apps[7]);
+
+
+            cn.getAccesoApp(401, apps[8]);
+
+
         }
 
         private void customizeDesing()
@@ -156,6 +179,11 @@ namespace Capa_vista
         {
             AyudaMenuSeguridad b = new AyudaMenuSeguridad();
             b.Show();
+        }
+
+        private void MenuSeguridad_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
