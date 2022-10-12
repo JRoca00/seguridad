@@ -182,6 +182,7 @@ namespace Capa_vista
             this.button6.TabIndex = 45;
             this.button6.Text = "Ayuda";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label1
             // 

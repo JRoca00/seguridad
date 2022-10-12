@@ -151,5 +151,11 @@ namespace Capa_vista
         {
             this.Close();
         }
+
+        private void btnayuda_Click(object sender, EventArgs e)
+        {
+            AyudaMenuSeguridad b = new AyudaMenuSeguridad();
+            b.Show();
+        }
     }
 }

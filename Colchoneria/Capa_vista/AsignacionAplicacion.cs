@@ -198,8 +198,7 @@ namespace Capa_vista
 
         private void button6_Click(object sender, EventArgs e)
         {
-            ayudaasigancionperfilusuario b = new ayudaasigancionperfilusuario();
-            //b.MdiParent = this;
+            AyudaAsignacionAplicacionUsuarios b = new AyudaAsignacionAplicacionUsuarios();
             b.Show();
         }
     }

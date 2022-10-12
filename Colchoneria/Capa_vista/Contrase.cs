@@ -59,5 +59,11 @@ namespace Capa_vista
                 TBcontrasena.PasswordChar = '*';
             }
         }
+
+        private void btnAyuda_Click(object sender, EventArgs e)
+        {
+            AyudaContraseña b = new AyudaContraseña();
+            b.Show();
+        }
     }
 }

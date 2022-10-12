@@ -195,3 +195,10 @@ C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_vist
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.dll
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.pdb
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AyudaAsignacionAplicacionesPerfiles.resources
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AyudaAsignacionAplicacionUsuarios.resources
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AyudaAsignacionModuloAplicacion.resources
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AyudaAsignacionPerfilesUsuario.resources
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AyudaContraseña.resources
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AyudaMenuSeguridad.resources
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AyudaModulo.resources
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AyudaPerfiles.resources

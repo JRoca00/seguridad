@@ -231,5 +231,11 @@ namespace Capa_vista
                 limpiar();
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AyudaAsignacionAplicacionesPerfiles b = new AyudaAsignacionAplicacionesPerfiles();
+            b.Show();
+        }
     }
 }

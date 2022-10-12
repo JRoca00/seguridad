@@ -122,5 +122,11 @@ namespace Capa_vista
                 //this.Close();
             }
         }
+
+        private void btnAyuda_Click(object sender, EventArgs e)
+        {
+            AyudaModulo b = new AyudaModulo();
+            b.Show();
+        }
     }
 }
