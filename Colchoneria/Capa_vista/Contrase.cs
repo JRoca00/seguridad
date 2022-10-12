@@ -30,6 +30,9 @@ namespace Capa_vista
                 Cambio b = new Cambio();
                 b.MdiParent = this;
                 b.Show();
+            } else
+            {
+                MessageBox.Show("NO CONCIDEN LOS DATOS");
             }
         }
 

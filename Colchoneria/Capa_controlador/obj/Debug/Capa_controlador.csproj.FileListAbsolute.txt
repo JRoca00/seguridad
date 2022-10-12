@@ -18,3 +18,13 @@ C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofi
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
