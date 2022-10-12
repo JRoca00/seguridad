@@ -1,126 +1,20 @@
-C:\Users\marro\source\repos\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
-C:\Users\marro\source\repos\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
-C:\Users\marro\source\repos\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
-C:\Users\marro\source\repos\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
-C:\Users\marro\source\repos\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
-C:\Users\marro\source\repos\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
-C:\Users\marro\source\repos\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
-C:\Users\marro\source\repos\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
-C:\Users\marro\source\repos\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
-C:\Users\marro\OneDrive\Desktop\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
-C:\Users\marro\OneDrive\Desktop\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
-C:\Users\marro\OneDrive\Desktop\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
-C:\Users\marro\OneDrive\Desktop\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
-C:\Users\marro\OneDrive\Desktop\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
-C:\Users\marro\OneDrive\Desktop\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
-C:\Users\marro\OneDrive\Desktop\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
-C:\Users\marro\OneDrive\Desktop\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
-C:\Users\marro\OneDrive\Desktop\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_vista.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\vistalogis.dll
-C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\vistalogis.pdb
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb

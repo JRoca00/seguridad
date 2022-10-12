@@ -1,182 +1,41 @@
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
-C:\Users\marro\OneDrive\Desktop\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
-C:\Users\Alejandro\Desktop\Seguridad\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.SuggestedBindingRedirects.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
-C:\Users\leone\OneDrive\Escritorio\UNI\FAKE-PAS\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
-C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
-F:\UNIVERSIDAD\8vo semestre\Analisis de sistemas 2\Segundo Parcial\Prototipo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.SuggestedBindingRedirects.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
-C:\Users\leone\OneDrive\Escritorio\UNI\FORK-JM\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.SuggestedBindingRedirects.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Vista.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Vista.pdb
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Controlador.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\FontAwesome.Sharp.dll
-C:\Users\leone\OneDrive\Escritorio\UNI\TEST\proyectofinalasis222022\Codigo\Ejecucion\Ejecucion\bin\Debug\Controlador.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\Seguridad2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
-D:\UMG\8vo Semestre\Analisis sistemas 2\Proyecto2\SegOriginal\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
-D:\UMG\8vo Semestre\Analisis sistemas 2\PROY2\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\vistalogis.dll
-C:\Users\marro\OneDrive\Desktop\seguridad\Ejecucion\Ejecucion\bin\Debug\vistalogis.pdb
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
+C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\VistaLogistica.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\VistaLogistica.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorVista.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorControlador.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorModelo.dll
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorVista.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorControlador.pdb
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorModelo.pdb

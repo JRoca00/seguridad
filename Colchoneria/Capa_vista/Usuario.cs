@@ -40,6 +40,7 @@ namespace Capa_vista
                 checkbox();
                 TextBox[] textbox = { txtnombre, txtapellido, txtcontraseña, txtusername, txtemail, txtestado, TxtPAA, TxtPA };
                 txtcontraseña.Text = Capa_controlador.Controlador.SetHash(txtcontraseña.Text);
+                TxtPA.Text = Capa_controlador.Controlador.SetHash(TxtPA.Text);
                 cn.ingresar(textbox, table);
                 string message = "Registro Guardado";
                 limpiar();
@@ -199,6 +200,19 @@ namespace Capa_vista
 
         }
 
-
+        private void check_CheckedChanged(object sender, EventArgs e)
+        {
+            if (check.Checked == true)
+            {
+                // TBcontraseña.PasswordChar = '*';
+                txtcontraseña.PasswordChar = '\0';
+            }
+            else
+                      if (txtcontraseña.Text != "")
+            {
+                // TBcontraseña.PasswordChar = '\0';
+                txtcontraseña.PasswordChar = '*';
+            }
+        }
     }
 }

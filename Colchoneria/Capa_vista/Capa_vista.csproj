@@ -51,11 +51,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="vista">
-      <HintPath>..\..\probar\vista\bin\Debug\vista.dll</HintPath>
-    </Reference>
-    <Reference Include="vistalogis">
-      <HintPath>..\..\..\logis\Logistica\vistalogis\bin\Debug\vistalogis.dll</HintPath>
+    <Reference Include="VistaLogistica">
+      <HintPath>..\..\..\..\..\..\..\Logistica\Logistica\VistaLogistica\bin\Debug\VistaLogistica.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +121,12 @@
     </Compile>
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menup.Designer.cs">
+      <DependentUpon>Menup.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulos.cs">
       <SubType>Form</SubType>
@@ -208,6 +211,9 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Menup.resx">
+      <DependentUpon>Menup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modulos.resx">
       <DependentUpon>Modulos.cs</DependentUpon>
     </EmbeddedResource>
@@ -249,6 +255,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LOGISTICA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_3622.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_close_delete_exit_logout_remove_x_icon_123217.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

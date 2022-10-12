@@ -23,7 +23,7 @@ namespace Capa_vista
         public void autenticar()
         {
 
-            if (cn.validarRecuperacion(TBusuario.Text, TxtRe.Text))
+            if (cn.validarRecuperacion(TBusuario.Text, Controlador.SetHash(TxtRe.Text)))
             {
                 Controlador.Username = Controlador.SetHash(TBusuario.Text);
                 //cn.setBtitacora("0001", "login");
@@ -57,6 +57,11 @@ namespace Capa_vista
             string res;
             res = llenap();
             TxtPa.Text = res;
+        }
+
+        private void TxtRe_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

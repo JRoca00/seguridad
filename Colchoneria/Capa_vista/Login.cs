@@ -15,9 +15,9 @@ namespace Capa_vista
     public partial class Login : Form
     {
 
-        string tab = "usuario";
-        string da1 = "usuario";
-        string da2 = "contra";
+        //string tab = "usuario";
+      //  string da1 = "usuario";
+        //string da2 = "contra";
         Controlador cn = new Controlador();
         // prueba pr = new prueba();
         prueba b = new prueba();
@@ -38,68 +38,73 @@ namespace Capa_vista
                 Controlador.Username = Controlador.SetHash(TBusuario.Text);
 
                 // Navegador_seg b = new Navegador_seg();
-                Menu b = new Menu();
+                //splash sp = new splash();
+                //sp.Show();
+                Menup b = new Menup();
                 b.Show();
-
+                
                 if (cn.getAccesoModulos(1000))
                 {
-                    //Navegador_seg b = new Navegador_seg();
-                    b.Show();
+                    
 
-                   b.btlogistica.Enabled = true;
-                    //b.btndosmil.Enabled = true;
+                   b.btnseguridad.Enabled = true;
+                   
                     this.Hide();
-                    cn.setBtitacora("1000", "login");
+                    cn.setBtitacora("1000", "Seguridad");
                 };
                  if (cn.getAccesoModulos(2000))
                 {
-                   // prueba b = new prueba();
-                  //  b.Show();
+                   
 
-                    b.btnbancos.Enabled = true;
+                    b.btlogistica.Enabled = true;
 
                     this.Hide();
-                    cn.setBtitacora("2000", "login");
+                    cn.setBtitacora("2000", "Logistica");
                 };
                 if (cn.getAccesoModulos(3000))
                 {
-                    // prueba b = new prueba();
-                    //  b.Show();
+                    
 
                     b.btncompras.Enabled = true;
 
                     this.Hide();
-                    cn.setBtitacora("3000", "login");
-                };
-                if (cn.getAccesoModulos(4000))
-                {
-                    // prueba b = new prueba();
-                    //  b.Show();
-
-                    b.btncontabilidad.Enabled = true;
-
-                    this.Hide();
-                    cn.setBtitacora("4000", "login");
+                    cn.setBtitacora("3000", "Compra y Venta");
                 };
                 if (cn.getAccesoModulos(5000))
                 {
-                    // prueba b = new prueba();
-                    //  b.Show();
+                    
+
+                    b.btnProduccion.Enabled = true;
+
+                    this.Hide();
+                    cn.setBtitacora("5000", "Produccion");
+                };
+                if (cn.getAccesoModulos(6000))
+                {
+                    
 
                     b.btnnominas.Enabled = true;
 
                     this.Hide();
-                    cn.setBtitacora("5000", "login");
+                    cn.setBtitacora("6000", "Nominas");
                 };
-                if (cn.getAccesoModulos(6000))
+                if (cn.getAccesoModulos(7000))
                 {
-                    // prueba b = new prueba();
-                    //  b.Show();
+                    
 
-                    b.btnproduccion.Enabled = true;
+                    b.btnBancos.Enabled = true;
 
                     this.Hide();
-                    cn.setBtitacora("6000", "login");
+                    cn.setBtitacora("7000", "Bancos");
+                };
+                if (cn.getAccesoModulos(8000))
+                {
+                    
+
+                    b.btnContabilidad.Enabled = true;
+
+                    this.Hide();
+                    cn.setBtitacora("8000", "Contabilidad");
                 };
             }
         }
@@ -131,5 +136,12 @@ namespace Capa_vista
             recuperacion b = new recuperacion();
             b.Show();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+       
     }
 }

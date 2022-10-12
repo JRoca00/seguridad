@@ -21,6 +21,14 @@ namespace Capa_vista
         string table = "tbl_usuarios";
         Controlador cn = new Controlador();
 
+        private void limpiar()
+        {
+            txtBusqueda.Text = "";
+            txtcontraseña.Text = "";
+        }
+
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             
@@ -30,7 +38,22 @@ namespace Capa_vista
                 int valor1 = int.Parse(txtBusqueda.Text);
                 string campo = "pk_id_usuario = ";
                 cn.actualizarcontra(textbox, table, campo, valor1);
-            
+            limpiar();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                // TBcontraseña.PasswordChar = '*';
+                txtcontraseña.PasswordChar = '\0';
+            }
+            else
+                       if (txtcontraseña.Text != "")
+            {
+                // TBcontraseña.PasswordChar = '\0';
+                txtcontraseña.PasswordChar = '*';
+            }
         }
     }
 }

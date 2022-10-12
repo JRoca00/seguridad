@@ -19,9 +19,9 @@ namespace Capa_vista
 
         public void btlogistica_Click(object sender, EventArgs e)
         {
-            vistalogis.MenuLogistica b = new vistalogis.MenuLogistica();
+            VistaLogistica.Menu b = new VistaLogistica.Menu();
             b.Show();
-            this.Hide();
+            //this.Hide();
         }
 
         public void btncontabilidad_Click(object sender, EventArgs e)
@@ -49,6 +49,13 @@ namespace Capa_vista
         public void btnproduccion_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Login b = new Login();
+            b.Show();
+            this.Close();
         }
     }
 }

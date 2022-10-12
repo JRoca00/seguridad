@@ -41,5 +41,20 @@ namespace Capa_vista
             groupBox1.Visible = false;
 
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                // TBcontraseña.PasswordChar = '*';
+                TBcontrasena.PasswordChar = '\0';
+            }
+            else
+                       if (TBcontrasena.Text != "")
+            {
+                // TBcontraseña.PasswordChar = '\0';
+                TBcontrasena.PasswordChar = '*';
+            }
+        }
     }
 }

@@ -35,11 +35,13 @@ namespace Capa_vista
             this.button1 = new System.Windows.Forms.Button();
             this.TBusuario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.TBcontrasena);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.button1);
@@ -60,6 +62,7 @@ namespace Capa_vista
             this.TBcontrasena.Location = new System.Drawing.Point(159, 126);
             this.TBcontrasena.Margin = new System.Windows.Forms.Padding(4);
             this.TBcontrasena.Name = "TBcontrasena";
+            this.TBcontrasena.PasswordChar = '*';
             this.TBcontrasena.Size = new System.Drawing.Size(235, 22);
             this.TBcontrasena.TabIndex = 4;
             this.TBcontrasena.UseWaitCursor = true;
@@ -107,6 +110,17 @@ namespace Capa_vista
             this.label1.Text = "Usuario";
             this.label1.UseWaitCursor = true;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(39, 208);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(91, 21);
+            this.checkBox1.TabIndex = 5;
+            this.checkBox1.Text = "Visualizar";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // Contrase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -132,5 +146,6 @@ namespace Capa_vista
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox TBusuario;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

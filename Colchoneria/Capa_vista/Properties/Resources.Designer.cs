@@ -73,6 +73,16 @@ namespace Capa_vista.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cancel_close_delete_exit_logout_remove_x_icon_123217 {
+            get {
+                object obj = ResourceManager.GetObject("cancel_close_delete_exit_logout_remove_x_icon_123217", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Imagen3 {
             get {
                 object obj = ResourceManager.GetObject("Imagen3", resourceCulture);
@@ -86,6 +96,16 @@ namespace Capa_vista.Properties {
         internal static System.Drawing.Bitmap LOGISTICA {
             get {
                 object obj = ResourceManager.GetObject("LOGISTICA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logout_3622 {
+            get {
+                object obj = ResourceManager.GetObject("logout_3622", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

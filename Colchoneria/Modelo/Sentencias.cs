@@ -134,10 +134,33 @@ namespace Modelo
             return modulos;
         }
 
+        public Boolean getAuthPerfilAplicacion(int perfil, int idApp)
+        {
+            Boolean result = false;
+            string sql = "SELECT fk_id_aplicacion FROM tbl_permisosAplicacionPerfil WHERE fk_id_perfil='" + perfil + "' AND fk_id_aplicacion='" + idApp + "';";
+            try
+            {
+                OdbcCommand command = new OdbcCommand(sql, con.conexion());
+                OdbcDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    if (int.Parse(reader.GetValue(0).ToString()) == idApp)
+                    {
+                        return true;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message.ToString() + " \nError en obtener las aplicaciones del perfil");
+            }
+            return result;
+        }
+
         public int getModuloAplicacion(int aplicacion)
         {
             int idModulo = 0;
-            int i = 0;
+           // int i = 0;
             string sql = "SELECT fk_id_modulos FROM tbl_AsignacionModuloAplicacion where fk_id_aplicacion='" + aplicacion + "';";
             try
             {
@@ -161,7 +184,7 @@ namespace Modelo
             int[] permisos = new int[5];
             int i = 0;
             string campos = "guardar_permiso, modificar_permiso, eliminar_permiso, buscar_permiso, imprimir_permiso";
-            string sql = "SELECT " + campos + " FROM tbl_permisosAplicacionPerfil WHERE fk_id_perfil='" + perfil + "' AND " + aplicacion + ";";
+            string sql = "SELECT " + campos + " FROM tbl_permisosAplicacionPerfil WHERE fk_id_perfil='" + perfil + "' AND fk_id_aplicacion='" + aplicacion + "';";
             try
             {
                 OdbcCommand command = new OdbcCommand(sql, con.conexion());

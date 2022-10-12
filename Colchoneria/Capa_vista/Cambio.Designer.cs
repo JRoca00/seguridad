@@ -35,11 +35,13 @@ namespace Capa_vista
             this.button1 = new System.Windows.Forms.Button();
             this.txtBusqueda = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.checkBox1);
             this.groupBox1.Controls.Add(this.txtcontraseña);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.button1);
@@ -60,6 +62,7 @@ namespace Capa_vista
             this.txtcontraseña.Location = new System.Drawing.Point(169, 104);
             this.txtcontraseña.Margin = new System.Windows.Forms.Padding(4);
             this.txtcontraseña.Name = "txtcontraseña";
+            this.txtcontraseña.PasswordChar = '*';
             this.txtcontraseña.Size = new System.Drawing.Size(235, 22);
             this.txtcontraseña.TabIndex = 4;
             this.txtcontraseña.Tag = "password_usuario";
@@ -108,6 +111,17 @@ namespace Capa_vista
             this.label1.Text = "Nueva Contraseña";
             this.label1.UseWaitCursor = true;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(22, 143);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(91, 21);
+            this.checkBox1.TabIndex = 5;
+            this.checkBox1.Text = "Visualizar";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // Cambio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -131,5 +145,6 @@ namespace Capa_vista
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtBusqueda;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

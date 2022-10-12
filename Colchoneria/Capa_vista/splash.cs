@@ -26,8 +26,8 @@ namespace Capa_vista
             {
                 timer1.Stop();
                 this.Hide();
-                Login b = new Login();
-                b.ShowDialog();
+               Login b = new Login();
+               b.ShowDialog();
             }
         }
     }

@@ -121,6 +121,35 @@ namespace Capa_controlador
             return respuestAcceso;
         }
 
+        public void deshabilitarApps(Button[] paneles)
+        {
+            for (int i = 0; i < paneles.Length; i++)
+            {
+                paneles[i].Visible = false;
+            }
+        }
+        public void getAccesoApp(int idApp, Button boton)
+        {
+            string idUsuario = GetHash(idUser);
+            int[] perfiles = sn.getPerfilesUsuario(idUsuario);
+            for (int i = 0; i < perfiles.Length; i++)
+            {
+                if (perfiles[i] != 0 && perfiles[i] != null)
+                {
+                    Boolean aplicaciones = sn.getAuthPerfilAplicacion(perfiles[i], idApp);
+                    Console.WriteLine(aplicaciones);
+                    if (aplicaciones)
+                    {
+                        boton.Visible = true;
+                    }
+                    else
+                    {
+                        boton.Visible = false;
+                    }
+                }
+            }
+        }
+
         public int[] getPermisosAplicaion(string App)
         {
             int[] result = new int[5];
@@ -208,7 +237,7 @@ namespace Capa_controlador
         }
 
 
-        public void ingresar(TextBox[] textbox, string tabla)//Crea cadenas de datos para la insercion
+        public void ingresar(TextBox[] textbox, string tabla/*, string app*/)//Crea cadenas de datos para la insercion
         {
             string dato = " ";
             string tipo = " ";
@@ -229,6 +258,7 @@ namespace Capa_controlador
 
             }
             sn.insertar(dato, tipo, tabla);
+          //  setBtitacora(app, "Insertar");
         }
 
         public void buscar(TextBox[] textbox, string tabla,int num,string condicion)

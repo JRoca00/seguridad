@@ -40,6 +40,7 @@ namespace Capa_vista
             
             txtDescripcion.Text = "";
             txtact.Text = "";
+            idapp.Text = "";
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -59,13 +60,13 @@ namespace Capa_vista
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            if (txtDescripcion.Text == "" || txtNombre.Text == "")
+            if (txtDescripcion.Text == "" || txtNombre.Text == "" || idapp.Text=="")
             {
                 MessageBox.Show("COMPLETAR INFORMACION");
             }
             else { 
                 checkbox();
-            TextBox[] textbox = { txtNombre, txtDescripcion, txtact };
+            TextBox[] textbox = { idapp, txtNombre, txtDescripcion, txtact };
             cn.ingresar(textbox, table);
             string message = "Registro Guardado";
             limpiar();

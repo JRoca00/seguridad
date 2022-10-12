@@ -60,6 +60,7 @@ namespace Capa_vista
             this.TxtPA = new System.Windows.Forms.TextBox();
             this.TxtPAA = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.check = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -166,6 +167,7 @@ namespace Capa_vista
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.check);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.txtusername);
             this.groupBox2.Controls.Add(this.txtcontraseña);
@@ -174,7 +176,7 @@ namespace Capa_vista
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(456, 123);
+            this.groupBox2.Size = new System.Drawing.Size(456, 158);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos Usuario";
@@ -203,6 +205,7 @@ namespace Capa_vista
             this.txtcontraseña.Location = new System.Drawing.Point(140, 79);
             this.txtcontraseña.Margin = new System.Windows.Forms.Padding(4);
             this.txtcontraseña.Name = "txtcontraseña";
+            this.txtcontraseña.PasswordChar = '*';
             this.txtcontraseña.Size = new System.Drawing.Size(292, 22);
             this.txtcontraseña.TabIndex = 5;
             this.txtcontraseña.Tag = "password_usuario";
@@ -295,7 +298,7 @@ namespace Capa_vista
             // 
             this.groupBox4.Controls.Add(this.txtestado);
             this.groupBox4.Controls.Add(this.checkBox1);
-            this.groupBox4.Location = new System.Drawing.Point(108, 347);
+            this.groupBox4.Location = new System.Drawing.Point(107, 383);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
@@ -406,6 +409,17 @@ namespace Capa_vista
             this.label2.TabIndex = 10;
             this.label2.Text = "Pregunta de autentificacion";
             // 
+            // check
+            // 
+            this.check.AutoSize = true;
+            this.check.Location = new System.Drawing.Point(48, 119);
+            this.check.Name = "check";
+            this.check.Size = new System.Drawing.Size(91, 21);
+            this.check.TabIndex = 9;
+            this.check.Text = "Visualizar";
+            this.check.UseVisualStyleBackColor = true;
+            this.check.CheckedChanged += new System.EventHandler(this.check_CheckedChanged);
+            // 
             // Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -474,5 +488,6 @@ namespace Capa_vista
         private System.Windows.Forms.TextBox TxtPA;
         private System.Windows.Forms.TextBox TxtPAA;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox check;
     }
 }

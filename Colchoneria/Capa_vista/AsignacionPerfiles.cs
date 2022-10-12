@@ -53,7 +53,7 @@ namespace Capa_vista
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.Message.ToString() + " \nError en obtener las aplicaciones del perfil");
             }
         }
 
@@ -67,7 +67,7 @@ namespace Capa_vista
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.Message.ToString() + " \nError en obtener las aplicaciones del perfil");
             }
         }
 
