@@ -41,3 +41,13 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_con
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
 >>>>>>> ed60875f93f43ede49e0df8981498bdd12b68e48
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb

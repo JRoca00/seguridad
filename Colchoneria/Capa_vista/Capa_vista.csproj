@@ -92,11 +92,11 @@
     <Compile Include="ayudaaplicacion.Designer.cs">
       <DependentUpon>ayudaaplicacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="ayudaasigancionperfilusuario.cs">
+    <Compile Include="AyudaAsignacionAplicacionesPerfiles.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ayudaasigancionperfilusuario.Designer.cs">
-      <DependentUpon>ayudaasigancionperfilusuario.cs</DependentUpon>
+    <Compile Include="AyudaAsignacionAplicacionesPerfiles.Designer.cs">
+      <DependentUpon>AyudaAsignacionAplicacionesPerfiles.cs</DependentUpon>
     </Compile>
     <Compile Include="ayudausuario.cs">
       <SubType>Form</SubType>
@@ -220,8 +220,8 @@
     <EmbeddedResource Include="ayudaaplicacion.resx">
       <DependentUpon>ayudaaplicacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ayudaasigancionperfilusuario.resx">
-      <DependentUpon>ayudaasigancionperfilusuario.cs</DependentUpon>
+    <EmbeddedResource Include="AyudaAsignacionAplicacionesPerfiles.resx">
+      <DependentUpon>AyudaAsignacionAplicacionesPerfiles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ayudausuario.resx">
       <DependentUpon>ayudausuario.cs</DependentUpon>
@@ -306,6 +306,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Asignacion Aplicaciones a Usuarios.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asignacion de aplicaciones a Perfiles.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -91,3 +91,27 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Ejecucion\Ejecucion\
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
 >>>>>>> ed60875f93f43ede49e0df8981498bdd12b68e48
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe.config
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.exe
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\Ejecucion.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\VistaLogistica.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorVista.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorControlador.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorModelo.dll
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_vista.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\Capa_controlador.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\Modelo.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorVista.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorControlador.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\bin\Debug\NavegadorModelo.pdb
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.AssemblyReference.cache
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.Properties.Resources.resources
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.GenerateResource.cache
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CoreCompileInputs.cache
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.csproj.CopyComplete
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.exe
+C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Ejecucion\Ejecucion\obj\Debug\Ejecucion.pdb
