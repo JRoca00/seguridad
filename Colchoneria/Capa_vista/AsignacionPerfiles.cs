@@ -160,5 +160,11 @@ namespace Capa_vista
         {
             getId();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AyudaAsignacionPerfilesUsuario b = new AyudaAsignacionPerfilesUsuario();
+            b.Show();
+        }
     }
 }

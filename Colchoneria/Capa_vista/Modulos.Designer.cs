@@ -31,6 +31,7 @@ namespace Capa_vista
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.txtact = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
@@ -45,13 +46,12 @@ namespace Capa_vista
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.BtnIngresar = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
-            this.txtact = new System.Windows.Forms.TextBox();
             this.groupBox4.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -68,6 +68,15 @@ namespace Capa_vista
             this.groupBox4.TabIndex = 27;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Estado";
+            // 
+            // txtact
+            // 
+            this.txtact.Location = new System.Drawing.Point(151, 31);
+            this.txtact.Name = "txtact";
+            this.txtact.Size = new System.Drawing.Size(25, 20);
+            this.txtact.TabIndex = 2;
+            this.txtact.Tag = "estado_modulo";
+            this.txtact.Visible = false;
             // 
             // checkBox1
             // 
@@ -155,6 +164,7 @@ namespace Capa_vista
             this.btnAyuda.TabIndex = 26;
             this.btnAyuda.Text = "Ayuda";
             this.btnAyuda.UseVisualStyleBackColor = true;
+            this.btnAyuda.Click += new System.EventHandler(this.btnAyuda_Click);
             // 
             // groupBox1
             // 
@@ -205,6 +215,25 @@ namespace Capa_vista
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Opciones";
             // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(24, 220);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(84, 28);
+            this.btnSalir.TabIndex = 28;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Location = new System.Drawing.Point(24, 181);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(84, 28);
+            this.btnCancelar.TabIndex = 27;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            // 
             // btnModificar
             // 
             this.btnModificar.Location = new System.Drawing.Point(24, 143);
@@ -235,25 +264,6 @@ namespace Capa_vista
             this.BtnIngresar.UseVisualStyleBackColor = true;
             this.BtnIngresar.Click += new System.EventHandler(this.BtnIngresar_Click);
             // 
-            // btnSalir
-            // 
-            this.btnSalir.Location = new System.Drawing.Point(24, 220);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(84, 28);
-            this.btnSalir.TabIndex = 28;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.Location = new System.Drawing.Point(24, 181);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(84, 28);
-            this.btnCancelar.TabIndex = 27;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            // 
             // btnNuevo
             // 
             this.btnNuevo.Location = new System.Drawing.Point(24, 33);
@@ -263,15 +273,6 @@ namespace Capa_vista
             this.btnNuevo.Text = "Limpiar";
             this.btnNuevo.UseVisualStyleBackColor = true;
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
-            // 
-            // txtact
-            // 
-            this.txtact.Location = new System.Drawing.Point(151, 31);
-            this.txtact.Name = "txtact";
-            this.txtact.Size = new System.Drawing.Size(25, 20);
-            this.txtact.TabIndex = 2;
-            this.txtact.Tag = "estado_modulo";
-            this.txtact.Visible = false;
             // 
             // Modulos
             // 

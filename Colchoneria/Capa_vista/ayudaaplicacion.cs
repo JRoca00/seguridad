@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Capa_vista
 {
-    public partial class ayudaaplicacion : Form
+    public partial class AyudaAplicacion : Form
     {
-        public ayudaaplicacion()
+        public AyudaAplicacion()
         {
             InitializeComponent();
         }

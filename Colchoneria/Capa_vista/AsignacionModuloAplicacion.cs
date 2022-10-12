@@ -146,5 +146,11 @@ namespace Capa_vista
         {
             getId();
         }
+
+        private void button6_Click(object sender, EventArgs e) //Boton ayuda
+        {
+            AyudaAsignacionModuloAplicacion b = new AyudaAsignacionModuloAplicacion();
+            b.Show();
+        }
     }
 }

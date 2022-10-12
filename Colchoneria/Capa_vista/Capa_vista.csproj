@@ -86,17 +86,59 @@
     <Compile Include="AsignacionPerfiles.Designer.cs">
       <DependentUpon>AsignacionPerfiles.cs</DependentUpon>
     </Compile>
-    <Compile Include="ayudaaplicacion.cs">
+    <Compile Include="AyudaAplicacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ayudaaplicacion.Designer.cs">
-      <DependentUpon>ayudaaplicacion.cs</DependentUpon>
+    <Compile Include="AyudaAplicacion.Designer.cs">
+      <DependentUpon>AyudaAplicacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="ayudaasigancionperfilusuario.cs">
+    <Compile Include="AyudaAsignacionAplicacionesPerfiles.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ayudaasigancionperfilusuario.Designer.cs">
-      <DependentUpon>ayudaasigancionperfilusuario.cs</DependentUpon>
+    <Compile Include="AyudaAsignacionAplicacionesPerfiles.Designer.cs">
+      <DependentUpon>AyudaAsignacionAplicacionesPerfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AyudaAsignacionAplicacionUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyudaAsignacionAplicacionUsuarios.Designer.cs">
+      <DependentUpon>AyudaAsignacionAplicacionUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AyudaAsignacionModuloAplicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyudaAsignacionModuloAplicacion.Designer.cs">
+      <DependentUpon>AyudaAsignacionModuloAplicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AyudaAsignacionPerfilesUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyudaAsignacionPerfilesUsuario.Designer.cs">
+      <DependentUpon>AyudaAsignacionPerfilesUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AyudaContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyudaContraseña.Designer.cs">
+      <DependentUpon>AyudaContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AyudaMenuSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyudaMenuSeguridad.Designer.cs">
+      <DependentUpon>AyudaMenuSeguridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AyudaModulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyudaModulo.Designer.cs">
+      <DependentUpon>AyudaModulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AyudaPerfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AyudaPerfiles.Designer.cs">
+      <DependentUpon>AyudaPerfiles.cs</DependentUpon>
     </Compile>
     <Compile Include="ayudausuario.cs">
       <SubType>Form</SubType>
@@ -211,11 +253,32 @@
     <EmbeddedResource Include="AsignacionPerfiles.resx">
       <DependentUpon>AsignacionPerfiles.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ayudaaplicacion.resx">
-      <DependentUpon>ayudaaplicacion.cs</DependentUpon>
+    <EmbeddedResource Include="AyudaAplicacion.resx">
+      <DependentUpon>AyudaAplicacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ayudaasigancionperfilusuario.resx">
-      <DependentUpon>ayudaasigancionperfilusuario.cs</DependentUpon>
+    <EmbeddedResource Include="AyudaAsignacionAplicacionesPerfiles.resx">
+      <DependentUpon>AyudaAsignacionAplicacionesPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AyudaAsignacionAplicacionUsuarios.resx">
+      <DependentUpon>AyudaAsignacionAplicacionUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AyudaAsignacionModuloAplicacion.resx">
+      <DependentUpon>AyudaAsignacionModuloAplicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AyudaAsignacionPerfilesUsuario.resx">
+      <DependentUpon>AyudaAsignacionPerfilesUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AyudaContraseña.resx">
+      <DependentUpon>AyudaContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AyudaMenuSeguridad.resx">
+      <DependentUpon>AyudaMenuSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AyudaModulo.resx">
+      <DependentUpon>AyudaModulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AyudaPerfiles.resx">
+      <DependentUpon>AyudaPerfiles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ayudausuario.resx">
       <DependentUpon>ayudausuario.cs</DependentUpon>
@@ -297,6 +360,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Asignacion Aplicaciones a Usuarios.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asignacion de modulo a aplicaciones.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asignacion de aplicaciones a Perfiles.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asignacion Perfiles a Usuario.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perfiles.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulos.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contraseña.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menuseguridad.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -96,5 +96,11 @@ namespace Capa_vista
         {
 
         }
+
+        private void aYUDAToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AyudaMenuSeguridad b = new AyudaMenuSeguridad();
+            b.Show();
+        }
     }
 }

@@ -83,6 +83,36 @@ namespace Capa_vista.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Asignacion_de_aplicaciones_a_Perfiles {
+            get {
+                object obj = ResourceManager.GetObject("Asignacion de aplicaciones a Perfiles", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Asignacion_de_modulo_a_aplicaciones {
+            get {
+                object obj = ResourceManager.GetObject("Asignacion de modulo a aplicaciones", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Asignacion_Perfiles_a_Usuario {
+            get {
+                object obj = ResourceManager.GetObject("Asignacion Perfiles a Usuario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ayudausuario {
             get {
                 object obj = ResourceManager.GetObject("ayudausuario", resourceCulture);
@@ -113,6 +143,16 @@ namespace Capa_vista.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Contraseña {
+            get {
+                object obj = ResourceManager.GetObject("Contraseña", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Imagen3 {
             get {
                 object obj = ResourceManager.GetObject("Imagen3", resourceCulture);
@@ -136,6 +176,36 @@ namespace Capa_vista.Properties {
         internal static System.Drawing.Bitmap logout_3622 {
             get {
                 object obj = ResourceManager.GetObject("logout_3622", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Menuseguridad {
+            get {
+                object obj = ResourceManager.GetObject("Menuseguridad", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Modulos {
+            get {
+                object obj = ResourceManager.GetObject("Modulos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Perfiles {
+            get {
+                object obj = ResourceManager.GetObject("Perfiles", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

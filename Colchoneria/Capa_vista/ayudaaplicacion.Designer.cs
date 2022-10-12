@@ -1,7 +1,7 @@
 ﻿
 namespace Capa_vista
 {
-    partial class ayudaaplicacion
+    partial class AyudaAplicacion
     {
         /// <summary>
         /// Required designer variable.
@@ -36,22 +36,22 @@ namespace Capa_vista
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Capa_vista.Properties.Resources.Aplicacion;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(1, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(650, 660);
+            this.pictureBox1.Size = new System.Drawing.Size(606, 481);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // ayudaaplicacion
+            // AyudaAplicacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(655, 662);
+            this.ClientSize = new System.Drawing.Size(608, 482);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "ayudaaplicacion";
+            this.Name = "AyudaAplicacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ayudaaplicacion";
+            this.Text = "AyudaAplicacion";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

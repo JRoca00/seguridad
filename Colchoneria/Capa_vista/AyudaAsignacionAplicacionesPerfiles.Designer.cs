@@ -1,7 +1,7 @@
 ﻿
 namespace Capa_vista
 {
-    partial class ayudaasigancionperfilusuario
+    partial class AyudaAsignacionAplicacionesPerfiles
     {
         /// <summary>
         /// Required designer variable.
@@ -35,23 +35,23 @@ namespace Capa_vista
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Capa_vista.Properties.Resources.Asignacion_Aplicaciones_a_Usuarios;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 1);
+            this.pictureBox1.Image = global::Capa_vista.Properties.Resources.Asignacion_de_aplicaciones_a_Perfiles;
+            this.pictureBox1.Location = new System.Drawing.Point(1, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(720, 703);
+            this.pictureBox1.Size = new System.Drawing.Size(720, 534);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // ayudaasigancionperfilusuario
+            // AyudaAsignacionAplicacionesPerfiles
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(726, 709);
+            this.ClientSize = new System.Drawing.Size(725, 535);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "ayudaasigancionperfilusuario";
+            this.Name = "AyudaAsignacionAplicacionesPerfiles";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ayudaasigancionperfilusuario";
+            this.Text = "AyudaAsignacionAplicacionesPerfiles";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

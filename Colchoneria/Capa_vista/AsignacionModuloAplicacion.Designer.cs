@@ -32,6 +32,7 @@ namespace Capa_vista
             this.listAplicacionesDB = new System.Windows.Forms.DataGridView();
             this.listAplicacionPerfil = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.txtCadenas = new System.Windows.Forms.TextBox();
             this.btnNuevo = new System.Windows.Forms.Button();
@@ -42,7 +43,6 @@ namespace Capa_vista
             this.btnAgregar = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.ListModulo = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.listAplicacionesDB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.listAplicacionPerfil)).BeginInit();
@@ -88,6 +88,16 @@ namespace Capa_vista
             this.groupBox1.TabIndex = 46;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(22, 50);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(25, 24);
+            this.button1.TabIndex = 45;
+            this.button1.Text = "?";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -170,6 +180,7 @@ namespace Capa_vista
             this.button6.TabIndex = 45;
             this.button6.Text = "Ayuda";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label1
             // 
@@ -180,16 +191,6 @@ namespace Capa_vista
             this.label1.Size = new System.Drawing.Size(388, 29);
             this.label1.TabIndex = 44;
             this.label1.Text = "Asignacion de Modulo a Aplicacion\r\n";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(22, 50);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 24);
-            this.button1.TabIndex = 45;
-            this.button1.Text = "?";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ListModulo
             // 
