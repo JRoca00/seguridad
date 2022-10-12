@@ -31,13 +31,11 @@ namespace Capa_vista
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            
-                TextBox[] textbox = { txtcontraseña };
-                txtcontraseña.Text = Capa_controlador.Controlador.SetHash(txtcontraseña.Text);
-                int valor1 = int.Parse(txtBusqueda.Text);
-                string campo = "pk_id_usuario = ";
-                cn.actualizarcontra(textbox, table, campo, valor1);
+            TextBox[] textbox = { txtcontraseña };
+            txtcontraseña.Text = Capa_controlador.Controlador.SetHash(txtcontraseña.Text);
+            string valor1 = txtBusqueda.Text;
+            string campo = "username_usuario = ";
+            cn.actualizarcontra(textbox, table, campo, valor1);
             limpiar();
         }
 

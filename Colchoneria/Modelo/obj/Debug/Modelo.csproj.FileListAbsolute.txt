@@ -4,9 +4,18 @@ C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis
 C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
 C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
+<<<<<<< HEAD
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.dll
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.pdb
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+=======
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
+>>>>>>> ed60875f93f43ede49e0df8981498bdd12b68e48

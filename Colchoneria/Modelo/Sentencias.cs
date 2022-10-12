@@ -346,10 +346,10 @@ namespace Modelo
 
 
 
-        public void actualizarcontra(string dato, string condicion, string tabla, int num)
+        public void actualizarcontra(string dato, string condicion, string tabla, string usu)
         {
 
-            string sql = "Update " + tabla + " " + dato + " where " + condicion + " " + num + "; ";
+            string sql = "Update " + tabla + " " + dato + " where " + condicion + " " +"'"+ usu +"'"+ "; ";
             OdbcCommand cmd = new OdbcCommand(sql, con.conexion());
             cmd.ExecuteNonQuery();
 

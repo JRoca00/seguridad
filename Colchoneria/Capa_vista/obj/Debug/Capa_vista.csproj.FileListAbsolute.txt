@@ -74,6 +74,7 @@ C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofi
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.ayudausuario.resources
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.ayudaaplicacion.resources
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.ayudaasigancionperfilusuario.resources
+<<<<<<< HEAD
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\bin\Debug\Capa_vista.pdb
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\bin\Debug\Capa_controlador.dll
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\bin\Debug\eCryptography.dll
@@ -109,3 +110,51 @@ C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debu
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.csproj.CopyComplete
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.dll
 C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.pdb
+=======
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.MenuSeguridad.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.csproj.AssemblyReference.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Aplicacion.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AsignacionAplicacion.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AsignacionAplicacionesPerfiles.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AsignacionModuloAplicacion.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.AsignacionPerfiles.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.ayudaaplicacion.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.ayudaasigancionperfilusuario.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.ayudausuario.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Bitacora.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Cambio.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Contrase.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.ListAplicaciones.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Login.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Menu.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Menup.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.MenuSeguridad.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Modulos.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Navegador_seg.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Perfiles.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Properties.Resources.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.prueba.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.recuperacion.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.splash.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Usuario.resources
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.csproj.GenerateResource.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.csproj.CoreCompileInputs.cache
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\Capa_vista.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\Capa_controlador.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\eCryptography.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\Modelo.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\NavegadorVista.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\NavegadorControlador.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\FontAwesome.Sharp.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\NavegadorModelo.dll
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\Capa_controlador.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\VistaLogistica.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\Modelo.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\NavegadorVista.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\NavegadorControlador.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\bin\Debug\NavegadorModelo.pdb
+D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.csproj.CopyComplete
+>>>>>>> ed60875f93f43ede49e0df8981498bdd12b68e48
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.MenuSeguridad.resources

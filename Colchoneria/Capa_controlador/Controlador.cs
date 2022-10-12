@@ -273,7 +273,7 @@ namespace Capa_controlador
            // MessageBox.Show("Dato Encontrado");
         }
 
-        public void actualizarcontra(TextBox[] textbox, string tabla, string campo, int num)
+        public void actualizarcontra(TextBox[] textbox, string tabla, string campo, string usu)
         {
             string dato = " ";
 
@@ -284,7 +284,7 @@ namespace Capa_controlador
 
 
 
-            sn.actualizarcontra(dato, condicion, tabla, num);
+            sn.actualizarcontra(dato, condicion, tabla, usu);
             MessageBox.Show("Dato actualizado");
         }
 

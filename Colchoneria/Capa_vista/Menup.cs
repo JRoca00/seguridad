@@ -19,7 +19,7 @@ namespace Capa_vista
 
         public void btnlogout_Click(object sender, EventArgs e)
         {
-            Navegador_seg b = new Navegador_seg();
+            MenuSeguridad b = new MenuSeguridad();
             b.Show();
             //this.Close();
         }
