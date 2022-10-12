@@ -195,5 +195,11 @@ namespace Capa_vista
             getIds2();
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ayudaasigancionperfilusuario b = new ayudaasigancionperfilusuario();
+            //b.MdiParent = this;
+            b.Show();
+        }
     }
 }

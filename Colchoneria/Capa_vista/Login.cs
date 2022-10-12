@@ -20,7 +20,7 @@ namespace Capa_vista
         //string da2 = "contra";
         Controlador cn = new Controlador();
         // prueba pr = new prueba();
-        prueba b = new prueba();
+        //prueba b = new prueba();
 
         public Login()
         {
@@ -37,9 +37,7 @@ namespace Capa_vista
             {
                 Controlador.Username = Controlador.SetHash(TBusuario.Text);
 
-                // Navegador_seg b = new Navegador_seg();
-                //splash sp = new splash();
-                //sp.Show();
+                
                 Menup b = new Menup();
                 b.Show();
                 

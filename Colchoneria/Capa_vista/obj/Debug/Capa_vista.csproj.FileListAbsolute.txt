@@ -71,3 +71,6 @@ C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofi
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_vista\bin\Debug\NavegadorControlador.pdb
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_vista\bin\Debug\NavegadorModelo.pdb
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.Menup.resources
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.ayudausuario.resources
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.ayudaaplicacion.resources
+C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_vista\obj\Debug\Capa_vista.ayudaasigancionperfilusuario.resources

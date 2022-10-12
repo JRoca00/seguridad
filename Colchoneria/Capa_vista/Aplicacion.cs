@@ -127,5 +127,12 @@ namespace Capa_vista
 
             
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ayudaaplicacion b = new ayudaaplicacion();
+           // b.MdiParent = this;
+            b.Show();
+        }
     }
 }

@@ -30,7 +30,6 @@ namespace Capa_vista
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -40,7 +39,6 @@ namespace Capa_vista
             this.TBcontrasena = new System.Windows.Forms.TextBox();
             this.TBusuario = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -49,7 +47,6 @@ namespace Capa_vista
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.pictureBox3);
@@ -63,20 +60,6 @@ namespace Capa_vista
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(428, 449);
             this.panel1.TabIndex = 1;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.AccessibleName = "salir";
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Image = global::Capa_vista.Properties.Resources.cancel_close_delete_exit_logout_remove_x_icon_123217;
-            this.pictureBox4.Location = new System.Drawing.Point(382, 411);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(35, 28);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // checkBox1
             // 
@@ -200,7 +183,6 @@ namespace Capa_vista
             this.Text = "Login";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -219,6 +201,5 @@ namespace Capa_vista
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox TBcontrasena;
         private System.Windows.Forms.TextBox TBusuario;
-        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

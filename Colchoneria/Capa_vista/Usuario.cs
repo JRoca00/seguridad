@@ -214,5 +214,12 @@ namespace Capa_vista
                 txtcontraseña.PasswordChar = '*';
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ayudausuario b = new ayudausuario();
+            //b.MdiParent = this;
+            b.Show();
+        }
     }
 }

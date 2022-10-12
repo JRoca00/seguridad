@@ -39,6 +39,7 @@ namespace Capa_vista
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.check = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtusername = new System.Windows.Forms.TextBox();
             this.txtcontraseña = new System.Windows.Forms.TextBox();
@@ -60,7 +61,6 @@ namespace Capa_vista
             this.TxtPA = new System.Windows.Forms.TextBox();
             this.TxtPAA = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.check = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -164,6 +164,7 @@ namespace Capa_vista
             this.button6.TabIndex = 7;
             this.button6.Text = "Ayuda";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // groupBox2
             // 
@@ -180,6 +181,17 @@ namespace Capa_vista
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos Usuario";
+            // 
+            // check
+            // 
+            this.check.AutoSize = true;
+            this.check.Location = new System.Drawing.Point(48, 119);
+            this.check.Name = "check";
+            this.check.Size = new System.Drawing.Size(91, 21);
+            this.check.TabIndex = 9;
+            this.check.Text = "Visualizar";
+            this.check.UseVisualStyleBackColor = true;
+            this.check.CheckedChanged += new System.EventHandler(this.check_CheckedChanged);
             // 
             // label6
             // 
@@ -408,17 +420,6 @@ namespace Capa_vista
             this.label2.Size = new System.Drawing.Size(181, 17);
             this.label2.TabIndex = 10;
             this.label2.Text = "Pregunta de autentificacion";
-            // 
-            // check
-            // 
-            this.check.AutoSize = true;
-            this.check.Location = new System.Drawing.Point(48, 119);
-            this.check.Name = "check";
-            this.check.Size = new System.Drawing.Size(91, 21);
-            this.check.TabIndex = 9;
-            this.check.Text = "Visualizar";
-            this.check.UseVisualStyleBackColor = true;
-            this.check.CheckedChanged += new System.EventHandler(this.check_CheckedChanged);
             // 
             // Usuario
             // 

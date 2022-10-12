@@ -63,6 +63,36 @@ namespace Capa_vista.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Aplicacion {
+            get {
+                object obj = ResourceManager.GetObject("Aplicacion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Asignacion_Aplicaciones_a_Usuarios {
+            get {
+                object obj = ResourceManager.GetObject("Asignacion Aplicaciones a Usuarios", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ayudausuario {
+            get {
+                object obj = ResourceManager.GetObject("ayudausuario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bloquear {
             get {
                 object obj = ResourceManager.GetObject("bloquear", resourceCulture);

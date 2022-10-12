@@ -86,6 +86,24 @@
     <Compile Include="AsignacionPerfiles.Designer.cs">
       <DependentUpon>AsignacionPerfiles.cs</DependentUpon>
     </Compile>
+    <Compile Include="ayudaaplicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ayudaaplicacion.Designer.cs">
+      <DependentUpon>ayudaaplicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ayudaasigancionperfilusuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ayudaasigancionperfilusuario.Designer.cs">
+      <DependentUpon>ayudaasigancionperfilusuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ayudausuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ayudausuario.Designer.cs">
+      <DependentUpon>ayudausuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bitacora.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -193,6 +211,15 @@
     <EmbeddedResource Include="AsignacionPerfiles.resx">
       <DependentUpon>AsignacionPerfiles.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ayudaaplicacion.resx">
+      <DependentUpon>ayudaaplicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ayudaasigancionperfilusuario.resx">
+      <DependentUpon>ayudaasigancionperfilusuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ayudausuario.resx">
+      <DependentUpon>ayudausuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bitacora.resx">
       <DependentUpon>Bitacora.cs</DependentUpon>
     </EmbeddedResource>
@@ -261,6 +288,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cancel_close_delete_exit_logout_remove_x_icon_123217.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayudausuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aplicacion.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asignacion Aplicaciones a Usuarios.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
