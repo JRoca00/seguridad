@@ -51,3 +51,13 @@ C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_cont
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb

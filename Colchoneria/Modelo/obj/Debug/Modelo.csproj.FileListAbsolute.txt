@@ -25,3 +25,9 @@ C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Modelo\ob
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
 C:\Users\paolo\OneDrive\Escritorio\Nueva carpeta\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb

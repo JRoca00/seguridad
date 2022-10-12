@@ -30,6 +30,7 @@ namespace Capa_vista
                 Cambio b = new Cambio();
                 b.MdiParent = this;
                 b.Show();
+                groupBox1.Visible = false;
             } else
             {
                 MessageBox.Show("No conciden los datos");
@@ -44,7 +45,7 @@ namespace Capa_vista
         private void button1_Click(object sender, EventArgs e)
         {
             autenticar();
-            groupBox1.Visible = false;
+            
         }
 
         private void recuperacion_Load(object sender, EventArgs e)
