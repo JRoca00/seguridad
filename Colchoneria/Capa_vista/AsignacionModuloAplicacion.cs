@@ -24,7 +24,7 @@ namespace Capa_vista
         {
             txtCadenas.Text = "";
             txtIdAplicacion.Text = "";
-            txtIdPerfil.Text = "";
+            txtIdModulo.Text = "";
         }
 
         public void ocultar()
@@ -61,7 +61,7 @@ namespace Capa_vista
             {
                 string dato;
                 dato = ListModulo.CurrentCell.Value.ToString();
-                txtIdPerfil.Text = dato;
+                txtIdModulo.Text = dato;
             }
             catch (Exception ex)
             {
@@ -71,7 +71,7 @@ namespace Capa_vista
 
         public void actualizardatagriew()
         {
-            string id = txtIdPerfil.Text;
+            string id = txtIdModulo.Text; 
             cn.llenarListApliUsuariosstring(listAplicacionPerfil.Tag.ToString(), listAplicacionPerfil, id);
         }
 
@@ -97,7 +97,7 @@ namespace Capa_vista
             foreach (var word in words)
             {
                 txtIdAplicacion.Text = word;
-                TextBox[] textbox = { txtIdPerfil, txtIdAplicacion };
+                TextBox[] textbox = { txtIdModulo, txtIdAplicacion };
                 cn.ingresar(textbox, table);
             }
             string message = "Registro Guardado";
@@ -145,6 +145,48 @@ namespace Capa_vista
         private void ListModulo_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             getId();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            string texto = txtIdModulo.Text;
+            if(texto == "")
+            {
+                string message = "Debe Ingresar un ID Modulo";
+                MessageBox.Show(message);
+            }
+            else
+            {
+                actualizardatagriew();
+                limpiar();
+            }
+            
+        }
+
+        private void listAplicacionPerfil_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string message = "Deseas Eliminar el Registro?";
+            string title = "Eliminar Registro";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            if (result == DialogResult.Yes)
+            {
+                String dato1 = listAplicacionPerfil.CurrentRow.Cells[0].Value.ToString();
+                String dato2 = listAplicacionPerfil.CurrentRow.Cells[2].Value.ToString();
+
+                /*string message2= "Debe "+ dato1 + " "+ dato2 + "";
+                MessageBox.Show(message2);*/
+                int campo1 = int.Parse(dato1);
+                string condicion1 = txtIdModulo.Tag.ToString();
+                int campo2 = int.Parse(dato2);
+                string condicion2 = txtIdAplicacion.Tag.ToString();
+                cn.eliminarAsiganaciones(table, condicion1, campo1, condicion2, campo2);
+                listAplicacionPerfil.Columns.Clear();
+            }
+            else
+            {
+                limpiar();
+            }
         }
     }
 }

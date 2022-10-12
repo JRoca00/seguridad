@@ -295,17 +295,6 @@ namespace Modelo
         }
 
 
-        /*permisos[i] = int.Parse(reader.GetValue(0).ToString());
-                    permisos[i + 1] = int.Parse(reader.GetValue(1).ToString());
-                    permisos[i + 2] = int.Parse(reader.GetValue(2).ToString());
-                    permisos[i + 3] = int.Parse(reader.GetValue(3).ToString());
-                    permisos[i + 4] = int.Parse(reader.GetValue(4).ToString());
-                    permisos[i + 5] = int.Parse(reader.GetValue(5).ToString());
-                    permisos[i + 6] = int.Parse(reader.GetValue(6).ToString());*/
-
-
-
-
         public OdbcDataAdapter llenarTbl(string tabla)// metodo  que obtinene el contenio de una tabla
         {
             //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
@@ -330,8 +319,23 @@ namespace Modelo
             try{
                 
                 string sql = "delete from " + tabla + " where " + condicion + " " + campo + " ;";
-            OdbcCommand cmd = new OdbcCommand(sql, con.conexion());
-            cmd.ExecuteNonQuery(); }
+                OdbcCommand cmd = new OdbcCommand(sql, con.conexion());
+                cmd.ExecuteNonQuery(); }
+                catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message.ToString() + " \nNo se puede eliminar por permisos asignados");
+            }
+        }
+
+        public void eliminarAsiganaciones(string tabla, string condicion1, int campo1, string condicion2, int campo2)
+        {
+            try
+            {
+
+                string sql = "DELETE FROM " + tabla + " where (" + condicion1 + " = " + campo1 + ") and ("+ condicion2 + " =" + campo2 + ");";
+                OdbcCommand cmd = new OdbcCommand(sql, con.conexion());
+                cmd.ExecuteNonQuery();
+            }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message.ToString() + " \nNo se puede eliminar por permisos asignados");
@@ -340,7 +344,7 @@ namespace Modelo
 
         }
 
-        
+
 
         public void actualizarcontra(string dato, string condicion, string tabla, int num)
         {

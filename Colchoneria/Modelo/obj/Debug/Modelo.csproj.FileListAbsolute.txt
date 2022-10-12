@@ -4,3 +4,9 @@ C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis
 C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
 C:\Users\marro\Downloads\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.dll
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache

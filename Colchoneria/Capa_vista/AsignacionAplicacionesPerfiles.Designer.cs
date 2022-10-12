@@ -35,7 +35,7 @@ namespace Capa_vista
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.txtCadenas = new System.Windows.Forms.TextBox();
-            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.txtIdAplicacion = new System.Windows.Forms.TextBox();
             this.txtIdPerfil = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -87,7 +87,7 @@ namespace Capa_vista
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.txtCadenas);
-            this.groupBox1.Controls.Add(this.btnNuevo);
+            this.groupBox1.Controls.Add(this.btnBuscar);
             this.groupBox1.Controls.Add(this.txtIdAplicacion);
             this.groupBox1.Controls.Add(this.txtIdPerfil);
             this.groupBox1.Controls.Add(this.label4);
@@ -128,15 +128,15 @@ namespace Capa_vista
             this.txtCadenas.TabIndex = 43;
             this.txtCadenas.Tag = "imprimir_permiso";
             // 
-            // btnNuevo
+            // btnBuscar
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(481, 14);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(71, 29);
-            this.btnNuevo.TabIndex = 41;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            this.btnBuscar.Location = new System.Drawing.Point(481, 14);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(71, 29);
+            this.btnBuscar.TabIndex = 41;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // txtIdAplicacion
             // 
@@ -318,6 +318,7 @@ namespace Capa_vista
             this.listAplicacionPerfil.Size = new System.Drawing.Size(579, 143);
             this.listAplicacionPerfil.TabIndex = 42;
             this.listAplicacionPerfil.Tag = "vista_Aplicacion_Perfil";
+            this.listAplicacionPerfil.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.listAplicacionPerfil_CellDoubleClick);
             // 
             // listAplicacionesDB
             // 
@@ -374,7 +375,7 @@ namespace Capa_vista
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtIdAplicacion;
         private System.Windows.Forms.TextBox txtIdPerfil;
         private System.Windows.Forms.Label label4;

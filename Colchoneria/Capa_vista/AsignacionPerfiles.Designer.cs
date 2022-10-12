@@ -32,9 +32,10 @@ namespace Capa_vista
             this.label1 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.txtIdPerfil = new System.Windows.Forms.TextBox();
-            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.txtIdUsuario = new System.Windows.Forms.TextBox();
             this.txtCadenas = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -42,7 +43,6 @@ namespace Capa_vista
             this.btnAgregar = new System.Windows.Forms.Button();
             this.listPerfilUsuario = new System.Windows.Forms.DataGridView();
             this.listPerfilesDB = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.ListUsuario = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.listPerfilUsuario)).BeginInit();
@@ -74,7 +74,7 @@ namespace Capa_vista
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.txtIdPerfil);
-            this.groupBox1.Controls.Add(this.btnNuevo);
+            this.groupBox1.Controls.Add(this.btnBuscar);
             this.groupBox1.Controls.Add(this.txtIdUsuario);
             this.groupBox1.Controls.Add(this.txtCadenas);
             this.groupBox1.Controls.Add(this.label4);
@@ -86,6 +86,16 @@ namespace Capa_vista
             this.groupBox1.TabIndex = 41;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(17, 45);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(25, 24);
+            this.button1.TabIndex = 45;
+            this.button1.Text = "?";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -105,15 +115,15 @@ namespace Capa_vista
             this.txtIdPerfil.TabIndex = 42;
             this.txtIdPerfil.Tag = "fk_id_perfil";
             // 
-            // btnNuevo
+            // btnBuscar
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(532, 11);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(71, 29);
-            this.btnNuevo.TabIndex = 41;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.UseVisualStyleBackColor = true;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            this.btnBuscar.Location = new System.Drawing.Point(532, 11);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(71, 29);
+            this.btnBuscar.TabIndex = 41;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // txtIdUsuario
             // 
@@ -170,6 +180,7 @@ namespace Capa_vista
             this.listPerfilUsuario.Size = new System.Drawing.Size(614, 143);
             this.listPerfilUsuario.TabIndex = 43;
             this.listPerfilUsuario.Tag = "vista_Perfil_Usuario";
+            this.listPerfilUsuario.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.listPerfilUsuario_CellDoubleClick);
             // 
             // listPerfilesDB
             // 
@@ -181,16 +192,6 @@ namespace Capa_vista
             this.listPerfilesDB.TabIndex = 44;
             this.listPerfilesDB.Tag = "tbl_perfiles";
             this.listPerfilesDB.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.listAplicacionesDB_CellClick);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(17, 45);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 24);
-            this.button1.TabIndex = 45;
-            this.button1.Text = "?";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ListUsuario
             // 
@@ -233,7 +234,7 @@ namespace Capa_vista
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtIdUsuario;
         private System.Windows.Forms.TextBox txtCadenas;
         private System.Windows.Forms.Label label4;

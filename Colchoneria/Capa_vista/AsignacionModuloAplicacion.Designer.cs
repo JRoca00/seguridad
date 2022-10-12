@@ -32,17 +32,17 @@ namespace Capa_vista
             this.listAplicacionesDB = new System.Windows.Forms.DataGridView();
             this.listAplicacionPerfil = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.txtCadenas = new System.Windows.Forms.TextBox();
-            this.btnNuevo = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.txtIdAplicacion = new System.Windows.Forms.TextBox();
-            this.txtIdPerfil = new System.Windows.Forms.TextBox();
+            this.txtIdModulo = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.ListModulo = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.listAplicacionesDB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.listAplicacionPerfil)).BeginInit();
@@ -70,15 +70,16 @@ namespace Capa_vista
             this.listAplicacionPerfil.Size = new System.Drawing.Size(558, 143);
             this.listAplicacionPerfil.TabIndex = 48;
             this.listAplicacionPerfil.Tag = "vista_Modulo_Aplicacion";
+            this.listAplicacionPerfil.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.listAplicacionPerfil_CellDoubleClick);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.txtCadenas);
-            this.groupBox1.Controls.Add(this.btnNuevo);
+            this.groupBox1.Controls.Add(this.btnBuscar);
             this.groupBox1.Controls.Add(this.txtIdAplicacion);
-            this.groupBox1.Controls.Add(this.txtIdPerfil);
+            this.groupBox1.Controls.Add(this.txtIdModulo);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.btnAgregar);
@@ -88,6 +89,16 @@ namespace Capa_vista
             this.groupBox1.TabIndex = 46;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(22, 50);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(25, 24);
+            this.button1.TabIndex = 45;
+            this.button1.Text = "?";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -107,14 +118,15 @@ namespace Capa_vista
             this.txtCadenas.TabIndex = 43;
             this.txtCadenas.Tag = "imprimir_permiso";
             // 
-            // btnNuevo
+            // btnBuscar
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(481, 14);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(71, 29);
-            this.btnNuevo.TabIndex = 41;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnBuscar.Location = new System.Drawing.Point(481, 14);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(71, 29);
+            this.btnBuscar.TabIndex = 41;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // txtIdAplicacion
             // 
@@ -124,13 +136,13 @@ namespace Capa_vista
             this.txtIdAplicacion.TabIndex = 40;
             this.txtIdAplicacion.Tag = "fk_id_aplicacion";
             // 
-            // txtIdPerfil
+            // txtIdModulo
             // 
-            this.txtIdPerfil.Location = new System.Drawing.Point(53, 53);
-            this.txtIdPerfil.Name = "txtIdPerfil";
-            this.txtIdPerfil.Size = new System.Drawing.Size(159, 20);
-            this.txtIdPerfil.TabIndex = 39;
-            this.txtIdPerfil.Tag = "fk_id_modulos";
+            this.txtIdModulo.Location = new System.Drawing.Point(53, 53);
+            this.txtIdModulo.Name = "txtIdModulo";
+            this.txtIdModulo.Size = new System.Drawing.Size(159, 20);
+            this.txtIdModulo.TabIndex = 39;
+            this.txtIdModulo.Tag = "fk_id_modulos";
             // 
             // label4
             // 
@@ -181,16 +193,6 @@ namespace Capa_vista
             this.label1.TabIndex = 44;
             this.label1.Text = "Asignacion de Modulo a Aplicacion\r\n";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(22, 50);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 24);
-            this.button1.TabIndex = 45;
-            this.button1.Text = "?";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // ListModulo
             // 
             this.ListModulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -233,9 +235,9 @@ namespace Capa_vista
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox txtCadenas;
-        private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtIdAplicacion;
-        private System.Windows.Forms.TextBox txtIdPerfil;
+        private System.Windows.Forms.TextBox txtIdModulo;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnAgregar;

@@ -150,7 +150,8 @@ namespace Capa_vista
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            limpiar();
+            //limpiar();
+            actualizardatagriew();
         }
 
         private void button2_Click_1(object sender, EventArgs e)

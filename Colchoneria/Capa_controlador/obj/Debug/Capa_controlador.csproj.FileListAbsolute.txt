@@ -18,3 +18,13 @@ C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofi
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
 C:\Users\marro\OneDrive\Desktop\proyectofinalasis222022-Entrega_final\proyectofinalasis222022-Entrega_final\Codigo\Componentes\Seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.dll
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Capa_controlador.pdb
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\eCryptography.dll
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.dll
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\bin\Debug\Modelo.pdb
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.AssemblyReference.cache
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.csproj.CopyComplete
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.dll
+C:\Users\Alejandro\Desktop\Colchoneria\seguridad\Colchoneria\Capa_controlador\obj\Debug\Capa_controlador.pdb

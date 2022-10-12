@@ -138,7 +138,19 @@ namespace Capa_vista
 
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            limpiar();
+            
+            string texto = txtIdPerfil.Text;
+            if(texto == "")
+            {
+                string message = "Debe Ingresar un ID Perfil";
+                MessageBox.Show(message);
+            }
+            else
+            {
+                actualizardatagriew();
+                limpiar();
+            }
+            
         }
 
         private void btnAll_Click(object sender, EventArgs e)
@@ -194,5 +206,30 @@ namespace Capa_vista
             getId();
         }
 
+        private void listAplicacionPerfil_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string message = "Deseas Eliminar el Registro?";
+            string title = "Eliminar Registro";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            if (result == DialogResult.Yes)
+            {
+                String dato1 = listAplicacionPerfil.CurrentRow.Cells[0].Value.ToString();
+                String dato2 = listAplicacionPerfil.CurrentRow.Cells[2].Value.ToString();
+
+                /*string message2= "Debe "+ dato1 + " "+ dato2 + "";
+                MessageBox.Show(message2);*/
+                int campo1 = int.Parse(dato1);
+                string condicion1 = txtIdPerfil.Tag.ToString();
+                int campo2 = int.Parse(dato2);
+                string condicion2 = txtIdAplicacion.Tag.ToString();
+                cn.eliminarAsiganaciones(table, condicion1, campo1, condicion2, campo2);
+                listAplicacionPerfil.Columns.Clear();
+            }
+            else
+            {
+                limpiar();
+            }
+        }
     }
 }
