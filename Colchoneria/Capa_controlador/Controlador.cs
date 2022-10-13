@@ -125,7 +125,7 @@ namespace Capa_controlador
         {
             for (int i = 0; i < paneles.Length; i++)
             {
-                paneles[i].Visible = false;
+                paneles[i].Enabled = false;
             }
         }
         public void getAccesoApp(int idApp, Button boton)
@@ -140,11 +140,11 @@ namespace Capa_controlador
                     Console.WriteLine(aplicaciones);
                     if (aplicaciones)
                     {
-                        boton.Visible = true;
+                        boton.Enabled = true;
                     }
                     else
                     {
-                        boton.Visible = false;
+                        boton.Enabled = false;
                     }
                 }
             }

@@ -38,8 +38,8 @@ namespace Capa_vista
             this.btnBancos = new System.Windows.Forms.Button();
             this.btnContabilidad = new System.Windows.Forms.Button();
             this.panelSideMenu = new System.Windows.Forms.Panel();
-            this.btnseguridad = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
+            this.btnseguridad = new System.Windows.Forms.Button();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelSideMenu.SuspendLayout();
@@ -71,7 +71,6 @@ namespace Capa_vista
             this.btlogistica.BackColor = System.Drawing.Color.SlateGray;
             this.btlogistica.Cursor = System.Windows.Forms.Cursors.Default;
             this.btlogistica.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btlogistica.Enabled = false;
             this.btlogistica.FlatAppearance.BorderSize = 0;
             this.btlogistica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btlogistica.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -92,7 +91,6 @@ namespace Capa_vista
             this.btncompras.BackColor = System.Drawing.Color.SlateGray;
             this.btncompras.Cursor = System.Windows.Forms.Cursors.Default;
             this.btncompras.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btncompras.Enabled = false;
             this.btncompras.FlatAppearance.BorderSize = 0;
             this.btncompras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncompras.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -112,7 +110,6 @@ namespace Capa_vista
             this.btnProduccion.BackColor = System.Drawing.Color.SlateGray;
             this.btnProduccion.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnProduccion.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnProduccion.Enabled = false;
             this.btnProduccion.FlatAppearance.BorderSize = 0;
             this.btnProduccion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProduccion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -132,7 +129,6 @@ namespace Capa_vista
             this.btnnominas.BackColor = System.Drawing.Color.SlateGray;
             this.btnnominas.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnnominas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnnominas.Enabled = false;
             this.btnnominas.FlatAppearance.BorderSize = 0;
             this.btnnominas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnnominas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -152,7 +148,6 @@ namespace Capa_vista
             this.btnBancos.BackColor = System.Drawing.Color.SlateGray;
             this.btnBancos.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnBancos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBancos.Enabled = false;
             this.btnBancos.FlatAppearance.BorderSize = 0;
             this.btnBancos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBancos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -172,7 +167,6 @@ namespace Capa_vista
             this.btnContabilidad.BackColor = System.Drawing.Color.SlateGray;
             this.btnContabilidad.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnContabilidad.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnContabilidad.Enabled = false;
             this.btnContabilidad.FlatAppearance.BorderSize = 0;
             this.btnContabilidad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnContabilidad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -208,27 +202,6 @@ namespace Capa_vista
             this.panelSideMenu.Size = new System.Drawing.Size(333, 583);
             this.panelSideMenu.TabIndex = 46;
             // 
-            // btnseguridad
-            // 
-            this.btnseguridad.BackColor = System.Drawing.Color.SlateGray;
-            this.btnseguridad.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btnseguridad.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnseguridad.Enabled = false;
-            this.btnseguridad.FlatAppearance.BorderSize = 0;
-            this.btnseguridad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnseguridad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnseguridad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
-            this.btnseguridad.Location = new System.Drawing.Point(0, 395);
-            this.btnseguridad.Margin = new System.Windows.Forms.Padding(4);
-            this.btnseguridad.Name = "btnseguridad";
-            this.btnseguridad.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
-            this.btnseguridad.Size = new System.Drawing.Size(333, 48);
-            this.btnseguridad.TabIndex = 13;
-            this.btnseguridad.Text = "SEGURIDAD";
-            this.btnseguridad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnseguridad.UseVisualStyleBackColor = false;
-            this.btnseguridad.Click += new System.EventHandler(this.btnlogout_Click);
-            // 
             // btnLogout
             // 
             this.btnLogout.BackColor = System.Drawing.Color.SlateGray;
@@ -248,6 +221,26 @@ namespace Capa_vista
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click_1);
+            // 
+            // btnseguridad
+            // 
+            this.btnseguridad.BackColor = System.Drawing.Color.SlateGray;
+            this.btnseguridad.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnseguridad.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnseguridad.FlatAppearance.BorderSize = 0;
+            this.btnseguridad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnseguridad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnseguridad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
+            this.btnseguridad.Location = new System.Drawing.Point(0, 395);
+            this.btnseguridad.Margin = new System.Windows.Forms.Padding(4);
+            this.btnseguridad.Name = "btnseguridad";
+            this.btnseguridad.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
+            this.btnseguridad.Size = new System.Drawing.Size(333, 48);
+            this.btnseguridad.TabIndex = 13;
+            this.btnseguridad.Text = "SEGURIDAD";
+            this.btnseguridad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnseguridad.UseVisualStyleBackColor = false;
+            this.btnseguridad.Click += new System.EventHandler(this.btnlogout_Click);
             // 
             // Menup
             // 

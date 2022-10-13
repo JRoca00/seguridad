@@ -40,8 +40,9 @@ namespace Capa_vista
                 
                 Menup b = new Menup();
                 b.Show();
-                
-                if (cn.getAccesoModulos(1000))
+                this.Hide();
+
+                /*if (cn.getAccesoModulos(1000))
                 {
                     
 
@@ -103,7 +104,7 @@ namespace Capa_vista
 
                     this.Hide();
                     cn.setBtitacora("8000", "Contabilidad");
-                };
+                };*/
             }
         }
 
