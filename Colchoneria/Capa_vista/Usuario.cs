@@ -42,7 +42,7 @@ namespace Capa_vista
                 txtcontraseña.Text = Capa_controlador.Controlador.SetHash(txtcontraseña.Text);
                 TxtPA.Text = Capa_controlador.Controlador.SetHash(TxtPA.Text);
                 cn.ingresar(textbox, table);
-                cn.setBtitacora("101", "Crea Nuevo Usuario");
+                cn.setBtitacora("1001", "Crea Nuevo Usuario");
                 string message = "Registro Guardado";
                 limpiar();
                 MessageBox.Show(message);
@@ -71,7 +71,7 @@ namespace Capa_vista
                 int valor1 = int.Parse(txtBusqueda.Text);
                 string campo = "pk_id_usuario = ";
                 cn.actualizar(textbox, table, campo, valor1);
-                cn.setBtitacora("101", "Actualiza Usuario");
+                cn.setBtitacora("1001", "Actualiza Usuario");
             }
 
         }
@@ -174,7 +174,7 @@ namespace Capa_vista
                     int campo = int.Parse(txtBusqueda.Text);
                     string condicion = "pk_id_usuario = ";
                     cn.eliminar(table, condicion, campo);
-                    cn.setBtitacora("101", "Elimina un Usuario");
+                    cn.setBtitacora("1001", "Elimina un Usuario");
                     string message1 = "Registro eliminado / Estado de usuario deshabilitado";
                     limpiar();
                     MessageBox.Show(message1);

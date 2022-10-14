@@ -34,12 +34,11 @@
     <Reference Include="Capa_controlador">
       <HintPath>..\Capa_controlador\bin\Debug\Capa_controlador.dll</HintPath>
     </Reference>
-    <Reference Include="Capa_vista, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Logistica\Pro_Logistica\Capa_vista\bin\Debug\Capa_vista.dll</HintPath>
-    </Reference>
     <Reference Include="eCryptography, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Eramake.eCryptography.1.1.6\lib\net45\eCryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Modelo">
+      <HintPath>..\Capa_controlador\bin\Debug\Modelo.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,7 +52,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="VistaLogistica, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Logistica\Logistica\VistaLogistica\bin\Debug\VistaLogistica.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Logistica\Logistica\VistaLogistica\bin\Debug\VistaLogistica.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -177,12 +176,6 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
-    </Compile>
     <Compile Include="Menup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -304,9 +297,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menup.resx">
       <DependentUpon>Menup.cs</DependentUpon>

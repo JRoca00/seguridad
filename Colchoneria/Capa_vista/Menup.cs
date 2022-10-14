@@ -52,5 +52,35 @@ namespace Capa_vista
             b.Show();
             this.Close();
         }
+
+        private void btncompras_Click(object sender, EventArgs e)
+        {
+            /*VistaLogistica.Menu b = new VistaLogistica.Menu();
+            b.Show();*/
+        }
+
+        private void btnProduccion_Click(object sender, EventArgs e)
+        {
+            /*VistaLogistica.Menu b = new VistaLogistica.Menu();
+           b.Show();*/
+        }
+
+        private void btnnominas_Click(object sender, EventArgs e)
+        {
+            /*VistaLogistica.Menu b = new VistaLogistica.Menu();
+           b.Show();*/
+        }
+
+        private void btnBancos_Click(object sender, EventArgs e)
+        {
+            /*VistaLogistica.Menu b = new VistaLogistica.Menu();
+           b.Show();*/
+        }
+
+        private void btnContabilidad_Click(object sender, EventArgs e)
+        {
+            /*VistaLogistica.Menu b = new VistaLogistica.Menu();
+           b.Show();*/
+        }
     }
 }

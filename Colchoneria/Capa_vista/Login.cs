@@ -141,6 +141,9 @@ namespace Capa_vista
             
         }
 
-       
+        private void pictureBox4_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

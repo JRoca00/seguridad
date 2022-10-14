@@ -36,7 +36,7 @@ namespace Capa_vista
             string valor1 = txtBusqueda.Text;
             string campo = "username_usuario = ";
             cn.actualizarcontra(textbox, table, campo, valor1);
-            cn.setBtitacora("301", "Modifico Contraseña");
+            cn.setBtitacora("1201", "Modifico Contraseña");
             limpiar();
         }
 

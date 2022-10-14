@@ -104,6 +104,7 @@ namespace Capa_vista
             this.btncompras.Text = "COMPRAS";
             this.btncompras.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btncompras.UseVisualStyleBackColor = false;
+            this.btncompras.Click += new System.EventHandler(this.btncompras_Click);
             // 
             // btnProduccion
             // 
@@ -123,6 +124,7 @@ namespace Capa_vista
             this.btnProduccion.Text = "PRODUCCION";
             this.btnProduccion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnProduccion.UseVisualStyleBackColor = false;
+            this.btnProduccion.Click += new System.EventHandler(this.btnProduccion_Click);
             // 
             // btnnominas
             // 
@@ -142,6 +144,7 @@ namespace Capa_vista
             this.btnnominas.Text = "NOMINAS";
             this.btnnominas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnnominas.UseVisualStyleBackColor = false;
+            this.btnnominas.Click += new System.EventHandler(this.btnnominas_Click);
             // 
             // btnBancos
             // 
@@ -161,6 +164,7 @@ namespace Capa_vista
             this.btnBancos.Text = "BANCOS";
             this.btnBancos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBancos.UseVisualStyleBackColor = false;
+            this.btnBancos.Click += new System.EventHandler(this.btnBancos_Click);
             // 
             // btnContabilidad
             // 
@@ -180,6 +184,7 @@ namespace Capa_vista
             this.btnContabilidad.Text = "CONTABILIDAD";
             this.btnContabilidad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnContabilidad.UseVisualStyleBackColor = false;
+            this.btnContabilidad.Click += new System.EventHandler(this.btnContabilidad_Click);
             // 
             // panelSideMenu
             // 
@@ -217,7 +222,7 @@ namespace Capa_vista
             this.btnLogout.Padding = new System.Windows.Forms.Padding(68, 0, 0, 0);
             this.btnLogout.Size = new System.Drawing.Size(333, 48);
             this.btnLogout.TabIndex = 14;
-            this.btnLogout.Text = "LOGOUT";
+            this.btnLogout.Text = "CERRAR SESIÓN";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click_1);

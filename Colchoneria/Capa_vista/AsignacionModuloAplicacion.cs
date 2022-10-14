@@ -105,7 +105,7 @@ namespace Capa_vista
             actualizardatagriew();
             limpiar();
             MessageBox.Show(message);
-            cn.setBtitacora("201", "Asigno Modulo-Aplicacion");
+            cn.setBtitacora("1101", "Asigno Modulo-Aplicacion");
             //593; 379
             Size = new Size(593, 379);
         }
@@ -183,7 +183,7 @@ namespace Capa_vista
                 int campo2 = int.Parse(dato2);
                 string condicion2 = txtIdAplicacion.Tag.ToString();
                 cn.eliminarAsiganaciones(table, condicion1, campo1, condicion2, campo2);
-                cn.setBtitacora("201", "Elimino Modulo-Aplicacion");
+                cn.setBtitacora("1101", "Elimino Modulo-Aplicacion");
                 listAplicacionPerfil.Columns.Clear();
             }
             else

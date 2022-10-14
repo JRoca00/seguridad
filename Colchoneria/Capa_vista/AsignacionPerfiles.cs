@@ -101,7 +101,7 @@ namespace Capa_vista
             actualizardatagriew();
             limpiar();
             MessageBox.Show(message);
-            cn.setBtitacora("203", "Asigno Perfil-Aplicacion");
+            cn.setBtitacora("1103", "Asigno Perfil-Aplicacion");
             listPerfilesDB.Visible = false;
             //663; 369
             Size = new Size(663, 369);
@@ -190,7 +190,7 @@ namespace Capa_vista
                 string condicion2 = txtIdPerfil.Tag.ToString();
                 cn.eliminarAsiganaciones(table, condicion1, campo1, condicion2, campo2);
                 listPerfilUsuario.Columns.Clear();
-                cn.setBtitacora("203", "Elimino Perfil-Aplicacion");
+                cn.setBtitacora("1103", "Elimino Perfil-Aplicacion");
             }
             else
             {

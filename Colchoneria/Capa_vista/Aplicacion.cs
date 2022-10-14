@@ -68,7 +68,7 @@ namespace Capa_vista
                 checkbox();
             TextBox[] textbox = { idapp, txtNombre, txtDescripcion, txtact };
             cn.ingresar(textbox, table);
-                cn.setBtitacora("102", "Se creo nueva Aplicacion");
+                cn.setBtitacora("1002", "Se creo nueva Aplicacion");
                 string message = "Registro Guardado";
 
             limpiar();
@@ -100,7 +100,7 @@ namespace Capa_vista
                 int valor1 = int.Parse(txtBusacar.Text);
                 string campo = "pk_id_aplicacion = ";
                 cn.actualizar(textbox, table, campo, valor1);
-                cn.setBtitacora("102", "Actualiza Aplicacion");
+                cn.setBtitacora("1002", "Actualiza Aplicacion");
             }
         }
 
@@ -120,7 +120,7 @@ namespace Capa_vista
                 int campo = int.Parse(txtBusacar.Text);
                 string condicion = "pk_id_aplicacion = ";
                 cn.eliminar(table, condicion, campo);
-                cn.setBtitacora("102", "Elimino Aplicacion");
+                cn.setBtitacora("1002", "Elimino Aplicacion");
                 //this.Close();
             }
             else

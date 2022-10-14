@@ -22,20 +22,20 @@ namespace Capa_vista
             Button[] apps = { btnusuarios, btnaplicaciones, btnmodulos, button1, btnmodaplicacion, btnappperfil, btnperfilusuario, btncambiarcontra, btbitacor };
             cn.deshabilitarApps(apps);
 
-            cn.getAccesoApp(101, apps[0]);
-            cn.getAccesoApp(102, apps[1]);
-            cn.getAccesoApp(103, apps[2]);
-            cn.getAccesoApp(104, apps[3]);
+            cn.getAccesoApp(1001, apps[0]);
+            cn.getAccesoApp(1002, apps[1]);
+            cn.getAccesoApp(1003, apps[2]);
+            cn.getAccesoApp(1004, apps[3]);
 
-            cn.getAccesoApp(201, apps[4]);
-            cn.getAccesoApp(202, apps[5]);
-            cn.getAccesoApp(203, apps[6]);
-
-
-            cn.getAccesoApp(301, apps[7]);
+            cn.getAccesoApp(1101, apps[4]);
+            cn.getAccesoApp(1102, apps[5]);
+            cn.getAccesoApp(1103, apps[6]);
 
 
-            cn.getAccesoApp(401, apps[8]);
+            cn.getAccesoApp(1201, apps[7]);
+
+
+            cn.getAccesoApp(1301, apps[8]);
 
 
         }
