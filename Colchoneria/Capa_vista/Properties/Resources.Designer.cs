@@ -163,6 +163,16 @@ namespace Capa_vista.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ic_cancel_97589 {
+            get {
+                object obj = ResourceManager.GetObject("ic-cancel_97589", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Imagen3 {
             get {
                 object obj = ResourceManager.GetObject("Imagen3", resourceCulture);

@@ -388,5 +388,8 @@
   <ItemGroup>
     <None Include="Resources\Perfiles.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic-cancel_97589.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

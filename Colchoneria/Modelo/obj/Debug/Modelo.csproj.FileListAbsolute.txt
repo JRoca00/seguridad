@@ -4,3 +4,9 @@ D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\proyectofinalasis222022-Compon
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\proyectofinalasis222022-Componente_Seguridad\proyectofinalasis222022-Componente_Seguridad\Codigo\Componentes\Seguridad\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\proyectofinalasis222022-Componente_Seguridad\proyectofinalasis222022-Componente_Seguridad\Codigo\Componentes\Seguridad\Modelo\obj\Debug\Modelo.dll
 D:\UMG\8vo Semestre\Analisis sistemas 2\Proy2Repo\proyectofinalasis222022-Componente_Seguridad\proyectofinalasis222022-Componente_Seguridad\Codigo\Componentes\Seguridad\Modelo\obj\Debug\Modelo.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\bin\Debug\Modelo.pdb
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.dll
+C:\Users\marro\OneDrive\Desktop\seguridad\Colchoneria\Modelo\obj\Debug\Modelo.pdb
